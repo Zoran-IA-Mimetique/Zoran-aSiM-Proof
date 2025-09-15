@@ -1,0 +1,61 @@
+{
+  "c2pa": "v1",
+  "created": "2025-09-15T21:13:36.070536Z",
+  "creator": {
+    "name": "Fr\u00e9d\u00e9ric Tabary",
+    "org": "Zoran aSiM"
+  },
+  "license": "MIT",
+  "assets": [
+    {
+      "name": "AI_ACT_mapping.md",
+      "sha256": "f61d102d71edb0af642d32439755e1aca6d7b7521996802742ee095ca42fb9bc",
+      "bytes": 626
+    },
+    {
+      "name": "evidence/accuracy_stats_report.md",
+      "sha256": "328810d48b928f09d086b2ae3281c655c096509c7936d82efdb6fb445f0b9e1b",
+      "bytes": 262
+    },
+    {
+      "name": "evidence/ai_act_risk_register.md",
+      "sha256": "f984a50bb06be6d4e3017427f3c78425ed0dd66eede58ee1d7c4904212571e47",
+      "bytes": 469
+    },
+    {
+      "name": "evidence/data_governance_policy.md",
+      "sha256": "85bed6f7d9ddb1de3792a572922bfcf50aa3ba170fe91147f4f39e787b9f053e",
+      "bytes": 295
+    },
+    {
+      "name": "evidence/energy_impact_assessment.md",
+      "sha256": "3632be977abd209fc819ab1dd4f6365f5cf981c84711c03f68d729b39fcd75d1",
+      "bytes": 273
+    },
+    {
+      "name": "evidence/human_oversight_procedure.md",
+      "sha256": "5467f9bb1c5698cb0280a2b12cd190ee8086a5208408eb23d1f86af389d05df7",
+      "bytes": 281
+    },
+    {
+      "name": "evidence/sbom_and_security_review.md",
+      "sha256": "9c0ee16ae03bb099fec4ed60ddf340dd52ec41e0e58ace15946a562d02b5e75d",
+      "bytes": 252
+    },
+    {
+      "name": "evidence/technical_robustness_report.md",
+      "sha256": "9273fb1fa1985c27adb04bdf14ddd88d05609668dab6443af8eb38c21475f4c3",
+      "bytes": 284
+    },
+    {
+      "name": "evidence/transparency_model_card.md",
+      "sha256": "6a611c70397dfaf896f255aeb08f3930948efc805b171b391d60640d99280656",
+      "bytes": 249
+    },
+    {
+      "name": "run_all_humble_psutil.py",
+      "sha256": "6880c436700eb9d1f24ab1b738d37cc02481d8f85b29a9e7b6b27c7e3c7021c3",
+      "bytes": 1821
+    }
+  ]
+}
