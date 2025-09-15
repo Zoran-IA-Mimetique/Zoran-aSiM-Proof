@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "created": 0,
+    "role": "compliance",
+    "stem": {
+      "name": "stem_injector"
+    }
+  },
+  "result": {
+    "ai_act_items_passed": 0,
+    "ai_act_items_total": 8,
+    "compliance_score": 0.0
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "written": "injector_report_log.json",
+  "role": "report"
+}

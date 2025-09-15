@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InjectorLog",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "created": {
+          "type": "number"
+        },
+        "role": {
+          "type": "string"
+        },
+        "stem": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "created",
+        "role"
+      ]
+    },
+    "result": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "meta",
+    "result"
+  ]
+}

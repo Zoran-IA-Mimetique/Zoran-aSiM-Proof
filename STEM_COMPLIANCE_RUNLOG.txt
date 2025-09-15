@@ -1,0 +1,4 @@
+{
+  "written": "injector_compliance_log.json",
+  "role": "compliance"
+}

@@ -1,0 +1,4 @@
+{
+  "written": "injector_energy_log.json",
+  "role": "energy"
+}

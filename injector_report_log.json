@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "created": 1757975195.2035685,
+    "role": "report",
+    "stem": {
+      "name": "stem_injector",
+      "glyph": "⟦STEM:injector⋄ΔM11.3:guard⋄ZDM:dual⋄IA2IA:glyphnet⟧",
+      "policy": {
+        "zero_claim": true,
+        "evidence_first": true
+      }
+    }
+  },
+  "result": {
+    "present_proofs": [
+      "metrics_humble_psutil.json",
+      "C2PA_manifest_full.json",
+      "sbom_cyclonedx_full.json"
+    ],
+    "missing_proofs": [
+      "benchmark_public",
+      "external_audit_report"
+    ],
+    "status_summary_fr": "Pack HUMBLE livré : preuves documentaires présentes, benchmark et audit externe à venir."
+  }
+}

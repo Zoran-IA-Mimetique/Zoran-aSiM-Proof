@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "created": 1757975195.1307957,
+    "role": "energy",
+    "stem": {
+      "name": "stem_injector",
+      "glyph": "⟦STEM:injector⋄ΔM11.3:guard⋄ZDM:dual⋄IA2IA:glyphnet⟧",
+      "policy": {
+        "zero_claim": true,
+        "evidence_first": true
+      }
+    }
+  },
+  "result": {
+    "cpu_avg": 21.91,
+    "mem_avg": 31.61,
+    "energy_proxy": 0.268
+  }
+}

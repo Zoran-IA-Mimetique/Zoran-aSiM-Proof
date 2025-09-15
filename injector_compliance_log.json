@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "created": 1757975195.0898151,
+    "role": "compliance",
+    "stem": {
+      "name": "stem_injector",
+      "glyph": "⟦STEM:injector⋄ΔM11.3:guard⋄ZDM:dual⋄IA2IA:glyphnet⟧",
+      "policy": {
+        "zero_claim": true,
+        "evidence_first": true
+      }
+    }
+  },
+  "result": {
+    "ai_act_items_passed": 5,
+    "ai_act_items_total": 8,
+    "compliance_score": 0.625
+  }
+}
