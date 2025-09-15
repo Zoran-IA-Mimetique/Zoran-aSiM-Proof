@@ -1,0 +1,12 @@
+{
+  "version": "v18",
+  "generated": "2025-09-15T22:47:43.510275Z",
+  "artifacts": [
+    "README_AUDIT_FINAL.md",
+    "README_CLIENT_FINAL.md",
+    "AUDIT_READY_MANIFEST.json",
+    "SELF_CHECK_FINAL.py",
+    "SELF_CHECK_FINAL_REPORT.json"
+  ],
+  "notes": "Flat pack. No benchmark. Audit-first."
+}

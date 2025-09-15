@@ -1,0 +1,14 @@
+{
+  "generated": 1757976463.6013408,
+  "sha": {
+    "checked": 4,
+    "ok": 4,
+    "missing": [],
+    "mismatch": []
+  },
+  "strict": {
+    "schema_present": false,
+    "files_checked": [],
+    "notes": "Light check only (no jsonschema here)."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "generated": "2025-09-15T22:47:43.510275Z",
+  "files": [
+    {
+      "name": "README_AUDIT_FINAL.md",
+      "sha256": "a70546c5dac592d92b921dc5f69301f183d67d89338b86fb9706e60bc2a249f1",
+      "bytes": 925
+    },
+    {
+      "name": "README_CLIENT_FINAL.md",
+      "sha256": "60f8f087df8f2d8f5f885fb1a87b6e636430d3639c441c4fe70232639f800a02",
+      "bytes": 678
+    },
+    {
+      "name": "RELEASE_SUMMARY.json",
+      "sha256": "6e5047b18974b44fc2fd9f641a61941dc0f1c6485eeea362942ea15d30ab1554",
+      "bytes": 296
+    },
+    {
+      "name": "SELF_CHECK_FINAL.py",
+      "sha256": "efa111f2364aec7ca9e821033d0201b8a17e4852e840693b3501708bf362b88f",
+      "bytes": 2347
+    }
+  ]
+}
