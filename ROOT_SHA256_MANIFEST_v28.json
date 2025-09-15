@@ -1,0 +1,40 @@
+{
+  "generated": "2025-09-15T23:21:46.313157Z",
+  "files": [
+    {
+      "name": "AUDIT_TRAIL_TEMPLATE.json",
+      "sha256": "da1f1dc70aebfc3afde6d202621f3e7a651d974835db7f9ed170fde922f4df97",
+      "bytes": 383
+    },
+    {
+      "name": "CHANGELOG_GLOBAL.md",
+      "sha256": "ef9b0972e7e2d4384e9cbe2f4f5b75591fa8fc26c5df06d5abfe364513cd0ec8",
+      "bytes": 839
+    },
+    {
+      "name": "KPIS_TEMPLATE.csv",
+      "sha256": "808821305f7912506132db3d15bd3e83696e0541e0082ed877c244f38dfb56e0",
+      "bytes": 206
+    },
+    {
+      "name": "README_v28.md",
+      "sha256": "d612a9d5891be4dad938f20887bf84025cba5a19ade19caf3d535c12441658b3",
+      "bytes": 558
+    },
+    {
+      "name": "RISK_REGISTER.md",
+      "sha256": "3a7438f2d4d99ac346c50fa6883fdda6825219af2270be1dbee634db8e069828",
+      "bytes": 377
+    },
+    {
+      "name": "USER_FEEDBACK_TEMPLATE.md",
+      "sha256": "a2c5c0a53cf98854f153d9784e21f6abd9e53c1d9724c566ea7e3411fdffa55c",
+      "bytes": 138
+    },
+    {
+      "name": "VALIDATION_SUMMARY.md",
+      "sha256": "4af354d38d037a957cace8fa8bb480aab2cc2ddaadc0232d18195cc28fd5b610",
+      "bytes": 363
+    }
+  ]
+}

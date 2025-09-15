@@ -1,0 +1,18 @@
+{
+  "pack_version": "v28",
+  "actions": [
+    {
+      "time": "2025-09-15T23:21:46.313157Z",
+      "actor": "CI",
+      "action": "build",
+      "result": "ok"
+    },
+    {
+      "time": "2025-09-15T23:21:46.313157Z",
+      "actor": "Auditor",
+      "action": "self_check",
+      "result": "pending"
+    }
+  ],
+  "notes": "Append entries with time, actor, action, result, evidence"
+}

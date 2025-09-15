@@ -1,0 +1,4 @@
+kpi,target,current,unit,notes
+Reproducibility,100,85,%,Baseline vs Injected reproducibility
+AuditCompletion,100,0,%,External audit not yet done
+DataSourcesCompleted,100,50,%,Half of data sources documented
