@@ -1,0 +1,27 @@
+{
+  "present": [
+    "README_CLIENT.md",
+    "MODEL_CARD.md",
+    "ERRATA.md",
+    "CLAIMS_AUDIT.md",
+    "C2PA_manifest_full.json",
+    "evidence_model_card_full.md",
+    "evidence_data_processing_register.md"
+  ],
+  "missing": [
+    "sbom_cyclonedx_full.json"
+  ],
+  "optional_present": [
+    "metrics_humble_psutil.json",
+    "ablation_results.json",
+    "ABLATION_STATS.csv",
+    "injector_compliance_log.json",
+    "injector_energy_log.json",
+    "injector_report_log.json",
+    "ROOT_SHA256_MANIFEST_v13.json",
+    "ROOT_SHA256_MANIFEST_v12.json",
+    "ROOT_SHA256_MANIFEST_v11.json"
+  ],
+  "optional_missing": [],
+  "injector_validation": "{\n  \"file\": \"injector_compliance_log.json\",\n  \"valid\": true,\n  \"errors\": []\n}"
+}
