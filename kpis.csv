@@ -1,0 +1,6 @@
+KPI,Metric,Target,Ablations Required,Seeds,Stat Test
+Reasoning-MD,score_idx,>=1.8× baseline,"-PolyResonator, -ZDM",13/42/101,Welch t‑test p<0.05
+Stability,rollback_fail_rate,<=50% of baseline,-ΔM11.3,13/42/101,Welch p<0.05
+Energy,watt_hours,<=60% of baseline,-Z5,13/42/101,Welch p<0.05
+Compliance,compliance_score,>=0.65 (AI Act/ISO42001),-EthicChain,13/42/101,N/A
+IA2IA,glyphnet_throughput,>=2× baseline,-GlyphNet,13/42/101,Welch p<0.05
