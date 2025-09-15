@@ -1,0 +1,5 @@
+benchmark,file,codec,size,enc_ms,dec_ms,notes
+glyphnet_vs_codecs,dataset1.txt,glyphnet,1234,1.2,0.8,simulated
+glyphnet_vs_codecs,dataset1.txt,gzip,1111,0.7,0.5,simulated
+multi_ia_agreement,agents_total,baseline,0.70,,,"agreement rate"
+multi_ia_agreement,agents_total,injected,0.82,,,"agreement rate"

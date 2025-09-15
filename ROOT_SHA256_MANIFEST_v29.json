@@ -1,0 +1,40 @@
+{
+  "generated": "2025-09-15T23:23:11.449305Z",
+  "files": [
+    {
+      "name": "BENCH_RESULTS_GLOBAL.csv",
+      "sha256": "280b0ad8ae66bfa9dc633704b7206359e642047e37cb1a601aff54e4aed09f78",
+      "bytes": 300
+    },
+    {
+      "name": "CERTIFICATION_PATH.md",
+      "sha256": "f834a41d7a250adfd834a94b1393c6131ba46bee7a23f0dc76fb053b840d86e1",
+      "bytes": 413
+    },
+    {
+      "name": "COLLABORATION_GUIDE.md",
+      "sha256": "2b005bb2aafa8871fe78091f49921ed0aedc3ed666023fd7e976b0f2175ffb1b",
+      "bytes": 446
+    },
+    {
+      "name": "ETHICAL_CASE_STUDIES.md",
+      "sha256": "bbf8ec11a1b6a5244d5d67f822a5e1718c07afb04c75820046b76a1fb9cf37a5",
+      "bytes": 473
+    },
+    {
+      "name": "README_v29.md",
+      "sha256": "43fd819e4b3873f2eb4395991c85115a9c917d041c41bbf0d1c582b88dd3920a",
+      "bytes": 460
+    },
+    {
+      "name": "SECURITY_INCIDENT_TEMPLATE.md",
+      "sha256": "bd7140d750d1010af7c354c963a873750a688ca0e5504fb9a9354d5805e214b3",
+      "bytes": 164
+    },
+    {
+      "name": "TRAINING_DATA_POLICY.md",
+      "sha256": "b4a83000e2d92364c9ba0dd69169aefba74816abb8dd60dde745559311338095",
+      "bytes": 356
+    }
+  ]
+}
