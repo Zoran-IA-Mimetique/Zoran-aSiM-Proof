@@ -1,0 +1,7 @@
+{
+  "run_all_humble_psutil.py": "Wrote metrics_humble_psutil.json\n",
+  "run_ablation_suite.py": "Wrote ablation_results.json\n",
+  "test_roundtrip_glyphnet.py": "Wrote roundtrip_results.json {'roundtrip_ok': True, 'orig_len': 132, 'enc_len': 76}\n",
+  "orchestration_e2e_test.py": "Wrote orchestration_log.json\n",
+  "adversarial_tests/adversarial_fuzz.py": "Wrote adversarial_tests_summary.json\n"
+}

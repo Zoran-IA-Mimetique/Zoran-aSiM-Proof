@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "time": 1757972644.7885704
+  },
+  "logs": [
+    {
+      "task": 0,
+      "solver": "solver_a",
+      "success": true
+    },
+    {
+      "task": 1,
+      "solver": "solver_a",
+      "success": true
+    },
+    {
+      "task": 2,
+      "solver": "solver_b",
+      "success": true
+    },
+    {
+      "task": 3,
+      "solver": "solver_b",
+      "success": true
+    },
+    {
+      "task": 4,
+      "solver": "solver_a",
+      "success": false
+    },
+    {
+      "task": 5,
+      "solver": "solver_a",
+      "success": true
+    },
+    {
+      "task": 6,
+      "solver": "solver_b",
+      "success": true
+    },
+    {
+      "task": 7,
+      "solver": "solver_a",
+      "success": true
+    },
+    {
+      "task": 8,
+      "solver": "solver_b",
+      "success": true
+    },
+    {
+      "task": 9,
+      "solver": "solver_a",
+      "success": true
+    }
+  ]
+}

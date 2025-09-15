@@ -1,0 +1,11 @@
+Objet : Zoran aSiM — Mise à jour transparente et pack “audit-ready”
+
+Madame/Monsieur,
+
+Suite à notre audit interne, nous publions un pack HUMBLE “evidence-first” (v4) : code exécutable CPU, artefacts (metrics, logs), manifestes C2PA, SBOM, et documents de conformité fondés sur des preuves. Aucun claim de supériorité n’est avancé tant que les expériences publiques reproductibles ne sont pas exécutées.
+
+Nous proposons que vos équipes (ou des prestataires indépendants) évaluent ce pack. Nous joignons un protocole de comparaison et restons disponibles pour toute revue.
+
+Cordialement,
+Frédéric Tabary
+Date : 2025-09-15T21:44:02.465235Z

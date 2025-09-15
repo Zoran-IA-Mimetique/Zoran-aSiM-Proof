@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "time": 1757972644.6653543
+  },
+  "results": [
+    {
+      "variant": "full",
+      "score": 76.39426798457883,
+      "seed": 42
+    },
+    {
+      "variant": "no_deltaM113",
+      "score": 65.25010755222667,
+      "seed": 42
+    },
+    {
+      "variant": "no_zdm",
+      "score": 67.7502931836912,
+      "seed": 42
+    },
+    {
+      "variant": "no_polyresonator",
+      "score": 67.23210738148823,
+      "seed": 42
+    },
+    {
+      "variant": "no_glyphnet",
+      "score": 72.36471214164013,
+      "seed": 42
+    }
+  ]
+}

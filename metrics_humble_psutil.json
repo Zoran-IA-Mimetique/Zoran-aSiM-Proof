@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "time": 1757972644.5795197,
+    "note": "HUMBLE ALLIN v1"
+  },
+  "reasoning": {
+    "baseline": 65.18016983430947,
+    "zoran": 72.03274976395484
+  },
+  "energy": {
+    "method": "psutil",
+    "cpu_avg": 0.0,
+    "duration": 2.0
+  }
+}

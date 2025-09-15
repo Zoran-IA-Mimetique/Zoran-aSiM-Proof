@@ -1,35 +1,37 @@
-
-name: humble-ci
-on:
-  push:
-    branches: [ main, master ]
-  pull_request:
+name: Zoran HUMBLE CI
+on: [push, pull_request]
 jobs:
-  run-humble:
+  run-tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - name: Install dependencies
+      - uses: actions/setup-python@v5
+        with: python-version: '3.11'
+      - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          pip install psutil
-      - name: Run HUMBLE runner (psutil)
-        run: |
-          python run_all_humble_psutil.py || true
-      - name: Upload metrics artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: metrics_humble_psutil.json
-          path: metrics_humble_psutil.json
+          pip install psutil requests
+      - name: Run glyphnet roundtrip test
+        run: python test_roundtrip_glyphnet.py
+      - name: Run orchestration test
+        run: python orchestration_e2e_test.py
+      - name: Run adversarial fuzz
+        run: python adversarial_tests/adversarial_fuzz.py
+      - name: Run runner psutil
+        run: python run_all_humble_psutil.py || true
+      - name: Run ablation suite
+        run: python run_ablation_suite.py || true
       - name: Recompute C2PA manifest
-        run: |
-          python tools/recompute_c2pa.py
-      - name: Upload C2PA manifest artifact
+        run: python tools/recompute_c2pa.py
+      - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: C2PA_manifest_full.json
-          path: C2PA_manifest_full.json
+          name: zoran-artifacts
+          path: |
+            metrics_humble_psutil.json
+            roundtrip_results.json
+            orchestration_log.json
+            ablation_results.json
+            ablation_results.json
+            adversarial_tests_summary.json
+            C2PA_manifest_full.json

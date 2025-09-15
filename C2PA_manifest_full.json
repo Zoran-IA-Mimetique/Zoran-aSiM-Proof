@@ -1,61 +1,175 @@
 {
   "c2pa": "v1",
-  "created": "2025-09-15T21:13:36.070536Z",
+  "created": "2025-09-15T21:44:04.918283Z",
   "creator": {
     "name": "Fr\u00e9d\u00e9ric Tabary",
     "org": "Zoran aSiM"
   },
-  "license": "MIT",
   "assets": [
     {
-      "name": "AI_ACT_mapping.md",
-      "sha256": "f61d102d71edb0af642d32439755e1aca6d7b7521996802742ee095ca42fb9bc",
-      "bytes": 626
+      "name": "README.md",
+      "sha256": "860ca21ef151caf95d3b42bdb83c18e9d9a852e8e280153cd02aafde148fa28f",
+      "bytes": 1181
     },
     {
-      "name": "evidence/accuracy_stats_report.md",
-      "sha256": "328810d48b928f09d086b2ae3281c655c096509c7936d82efdb6fb445f0b9e1b",
-      "bytes": 262
+      "name": "CLAIMS_AUDIT.md",
+      "sha256": "f1439d1c3f3754f1b0c7e4027a8dc166091ea2d7d11f0a80452c85c8871eb516",
+      "bytes": 188
     },
     {
-      "name": "evidence/ai_act_risk_register.md",
-      "sha256": "f984a50bb06be6d4e3017427f3c78425ed0dd66eede58ee1d7c4904212571e47",
-      "bytes": 469
+      "name": "ERRATA.md",
+      "sha256": "57001c05ea16a676d8cc587d3544e9aabce95b6fd92cda1fa545add5105ce85f",
+      "bytes": 233
     },
     {
-      "name": "evidence/data_governance_policy.md",
-      "sha256": "85bed6f7d9ddb1de3792a572922bfcf50aa3ba170fe91147f4f39e787b9f053e",
-      "bytes": 295
+      "name": "WHITEPAPER_HUMBLE_v1.md",
+      "sha256": "6603cb4f39827d6b90dfba40a2dba8f4566825abbdc81e093fd69b8cb0a00d0a",
+      "bytes": 230
     },
     {
-      "name": "evidence/energy_impact_assessment.md",
-      "sha256": "3632be977abd209fc819ab1dd4f6365f5cf981c84711c03f68d729b39fcd75d1",
-      "bytes": 273
-    },
-    {
-      "name": "evidence/human_oversight_procedure.md",
-      "sha256": "5467f9bb1c5698cb0280a2b12cd190ee8086a5208408eb23d1f86af389d05df7",
-      "bytes": 281
-    },
-    {
-      "name": "evidence/sbom_and_security_review.md",
-      "sha256": "9c0ee16ae03bb099fec4ed60ddf340dd52ec41e0e58ace15946a562d02b5e75d",
-      "bytes": 252
-    },
-    {
-      "name": "evidence/technical_robustness_report.md",
-      "sha256": "9273fb1fa1985c27adb04bdf14ddd88d05609668dab6443af8eb38c21475f4c3",
-      "bytes": 284
-    },
-    {
-      "name": "evidence/transparency_model_card.md",
-      "sha256": "6a611c70397dfaf896f255aeb08f3930948efc805b171b391d60640d99280656",
-      "bytes": 249
+      "name": "ZERO_CLAIM_POLICY.md",
+      "sha256": "e42cbfa662487b1ec11802f0f0e36f84884f5402c3c8ab3212eb347d08bf61ac",
+      "bytes": 177
     },
     {
       "name": "run_all_humble_psutil.py",
-      "sha256": "6880c436700eb9d1f24ab1b738d37cc02481d8f85b29a9e7b6b27c7e3c7021c3",
-      "bytes": 1821
+      "sha256": "56fbbb0b373fe64afe3d90f85c410ab108bb06f4d22942f05fba248e3b88ecd0",
+      "bytes": 902
+    },
+    {
+      "name": "run_ablation_suite.py",
+      "sha256": "ae9bede998ed317f63c8e292b2116375d7812e0fe89682c7d011f09c91665c9f",
+      "bytes": 527
+    },
+    {
+      "name": "test_roundtrip_glyphnet.py",
+      "sha256": "7980c42c93b6219070cbdcf5915934d871536b3b2ff15e47924d1108e5ac5aa0",
+      "bytes": 698
+    },
+    {
+      "name": "orchestration_e2e_test.py",
+      "sha256": "dd54f9d12e9d2280dd806a346ef4014db0f7e46d8c3f81a0d5af459bba228aba",
+      "bytes": 441
+    },
+    {
+      "name": "injector_service.py",
+      "sha256": "d1bc3f4b9d0fb76c69e2995dc40c45b1020de561bf8b7739a816197e7ced343a",
+      "bytes": 801
+    },
+    {
+      "name": "validator.py",
+      "sha256": "62b8f91b6d879bc8aad9ccab411ea7772f66db1b120915e3189eb6d11d3866c0",
+      "bytes": 586
+    },
+    {
+      "name": "GOVERNANCE.md",
+      "sha256": "7fb081d9e414fb3f609458af2de372390740d2e59d1214b3e84bda92220e081b",
+      "bytes": 72
+    },
+    {
+      "name": "RELEASE_NOTICE_FOR_CLIENT.md",
+      "sha256": "c73d04a3ec0ee83e5145894d83aaa3e75a5e6569fb86cc7eab1f6de0f5d674c5",
+      "bytes": 100
+    },
+    {
+      "name": "Makefile",
+      "sha256": "67de821593127a9e9315adbe83748d32feb0fc1b170c4352c4f8b1634d2cb5cf",
+      "bytes": 545
+    },
+    {
+      "name": "metrics_humble_psutil.json",
+      "sha256": "4b5c95a9fb99aa97b98f98c61761377b1b43d11b69bbc8b956825fd47329d74c",
+      "bytes": 252
+    },
+    {
+      "name": "ablation_results.json",
+      "sha256": "d7ade686c2b0d4dffe52bdb241769ebef6c4e0ef642ec156a3fb2b83fafff519",
+      "bytes": 542
+    },
+    {
+      "name": "roundtrip_results.json",
+      "sha256": "2ea252feea38146a9e679881b79ac2a9e534d61c8d3d10ba6c66e310cc64613b",
+      "bytes": 62
+    },
+    {
+      "name": "orchestration_log.json",
+      "sha256": "79270f033b29228cd72252c0d87152fe787796a33d4ddaef17492aeab0b630df",
+      "bytes": 867
+    },
+    {
+      "name": "adversarial_tests_summary.json",
+      "sha256": "bc1a1222228bdc4caf3899568688ce812944b0a078db45a8d2113dac123318e8",
+      "bytes": 6982
+    },
+    {
+      "name": "C2PA_manifest_full.json",
+      "sha256": "d0109ace2caf8a05c646d4e162b5f7806e5a85a976916a960dc51dd4c8c68df1",
+      "bytes": 5101
+    },
+    {
+      "name": "RUN_LOGS.txt",
+      "sha256": "2e277816ce0ae499c64f430dee089e1c2a31a1953d84a8e6549856eb24f1ba0f",
+      "bytes": 401
+    },
+    {
+      "name": "adversarial_tests/adversarial_fuzz.py",
+      "sha256": "6cf88d4e556cee4e6ecdab588e87e5a1a78a38e0c54d92c8ce1b91fe87501754",
+      "bytes": 514
+    },
+    {
+      "name": ".github/workflows/humble-ci.yml",
+      "sha256": "65a167e813bd126bcba0a31677cacaae9bd63f254bc657632496f97314b77fd0",
+      "bytes": 1246
+    },
+    {
+      "name": "tools/recompute_c2pa.py",
+      "sha256": "bb9ed5939a2285f30ce95870d9f14d04bc3d2288eed69e4872c01591630ef6ef",
+      "bytes": 886
+    },
+    {
+      "name": "tools/compute_sbom.py",
+      "sha256": "c235fe550b463e2dc2370466db5d186e7bc82bf75d7ae50e1969520130ca20aa",
+      "bytes": 351
+    },
+    {
+      "name": "evidence/ai_act_risk_register.md",
+      "sha256": "9fb6deda3d869c63c313ca77b90b60988b9a416a12f69fa77fe0332851123b63",
+      "bytes": 113
+    },
+    {
+      "name": "evidence/data_governance_policy.md",
+      "sha256": "efce84e7a21901219b62eef75fd9c370dd834d9a98461dfa67f5e7e65ce73152",
+      "bytes": 98
+    },
+    {
+      "name": "evidence/technical_robustness_report.md",
+      "sha256": "737c4d55090cb1b3029488fced842f413299f43653dadfac2773a9786e0424f1",
+      "bytes": 96
+    },
+    {
+      "name": "evidence/transparency_model_card.md",
+      "sha256": "547d6a6837cc47ad522b012498f320148392e003582e8a7ef3641743f00eeb8e",
+      "bytes": 77
+    },
+    {
+      "name": "evidence/human_oversight_procedure.md",
+      "sha256": "22591800419ff5494eeeeec47bc32fbc6ef9f744b9efd6c77d258a4751e09f86",
+      "bytes": 81
+    },
+    {
+      "name": "evidence/accuracy_stats_report.md",
+      "sha256": "5998d19d0b9c5345ba48e2f970ccf5903f92a3feca2289723589d16f244da7d4",
+      "bytes": 81
+    },
+    {
+      "name": "evidence/sbom_and_security_review.md",
+      "sha256": "61033ccf71c17b4542504c7acd600fa6398b113dac739a1f3c46bffb0c02f27e",
+      "bytes": 91
+    },
+    {
+      "name": "evidence/energy_impact_assessment.md",
+      "sha256": "34a94b58acd5d5e0655f229fd95ea021cb95d73247b94d44a585df5e9131ff53",
+      "bytes": 100
     }
   ]
 }

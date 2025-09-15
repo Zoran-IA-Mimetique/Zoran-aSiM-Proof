@@ -1,6 +1,3 @@
-
-# Governance (HUMBLE ONLY)
-
-- Owner: Frédéric Tabary
-- Decision policy: zero-claim, evidence-first
-- Reviews: external reviewer approval for any claim
+# Governance
+Owner: Frédéric Tabary
+Date: 2025-09-15T21:41:09.069358Z
