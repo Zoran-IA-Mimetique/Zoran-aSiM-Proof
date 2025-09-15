@@ -1,0 +1,95 @@
+{
+  "generated": "2025-09-15T22:54:20.015942Z",
+  "files": [
+    {
+      "name": "EURO5_CHECKLIST.md",
+      "sha256": "32c4c89ff08d239bd668b06a41a874875ab5e7af02fe74fa940c57ecfa8b0f00",
+      "bytes": 276
+    },
+    {
+      "name": "EURO5_PROFILE.md",
+      "sha256": "54dbb1302b6df0a4a583534c08f66bc5f5ae74a680f1f7f5945b6776b7f0563c",
+      "bytes": 575
+    },
+    {
+      "name": "GLYPHNET_SPEC.md",
+      "sha256": "45858fcfaa255d28286f3b3d754ef7168c956005f1c9e54153ae2160649e734d",
+      "bytes": 493
+    },
+    {
+      "name": "HYPERGLOTTAL_SPEC.md",
+      "sha256": "21b95f5f0e23c58b05f4326099a427bca9597c0deff0e75e6b781f3079d885f6",
+      "bytes": 345
+    },
+    {
+      "name": "PY_GLYPHNET_BRIDGE.md",
+      "sha256": "fabaad0a0a383b2f2b685041c7f7a98b6b6d94facb9cdd91266c226393d85aa2",
+      "bytes": 146
+    },
+    {
+      "name": "QUANTA_GLOTTAL_SPEC.md",
+      "sha256": "d90d4aa3f339dd698cb2e4a9ca4af7c18ab03db3ec8bf6cda5cef9c8303b09c9",
+      "bytes": 308
+    },
+    {
+      "name": "README_GLYPHNET.md",
+      "sha256": "c0286c9dbff009e86d691f340a4f4c17dedb2e4a89e4e546f81a6bcd4254b77d",
+      "bytes": 283
+    },
+    {
+      "name": "README_ZORAN_CONSTRUCTION.md",
+      "sha256": "6810dd3d4fa24489afb5b3846abb6405424d9eeb42b29c91decf08a29c0fc248",
+      "bytes": 697
+    },
+    {
+      "name": "glyphnet_codec.py",
+      "sha256": "e6587b39bf3dda4720ce947074483888f2c008cdd577cda4a5457e0dc18e7ec3",
+      "bytes": 822
+    },
+    {
+      "name": "glyphnet_schema.json",
+      "sha256": "57fd1011cb9bdc7d37ea096e7762a44ecdcb838b15a3572f70e8d8e925fdd1ad",
+      "bytes": 356
+    },
+    {
+      "name": "hyperglottal_encoder.py",
+      "sha256": "73257d4c928acd05de8121bf60d4a8b6fe309806d9431c4aeef178385eba8c50",
+      "bytes": 343
+    },
+    {
+      "name": "hyperglottal_schema.json",
+      "sha256": "643e9be6d28e44dbc756c7f853706bbebcac75cc1350b5dca97e3b8dd77dad97",
+      "bytes": 473
+    },
+    {
+      "name": "py_glyphnet_bridge.py",
+      "sha256": "c2e4a04799e20f369ed25b0d1c60e451499211f7d306c8264812984731d73a16",
+      "bytes": 432
+    },
+    {
+      "name": "quantaglottal_encoder.py",
+      "sha256": "08ee3aa2c6b46c801dabd9a1b4f8df21ca509954a815a63ae11a6b65170340ba",
+      "bytes": 287
+    },
+    {
+      "name": "quantaglottal_schema.json",
+      "sha256": "003dd0a8c57df66e9a0685506545d2d2c129615401af6ff6d53e4b034eb63d6c",
+      "bytes": 373
+    },
+    {
+      "name": "tests_glyphnet.py",
+      "sha256": "b87deab2d3da5174a2fc9db5165ac1d0b3d2a9e07696cab722902a2e0d55170d",
+      "bytes": 626
+    },
+    {
+      "name": "tests_hyperglottal.py",
+      "sha256": "ffc2e7099ca11312537c47d9c05eaa7a7ce9fc21cf1e01c0555bafeeef7bf2b4",
+      "bytes": 212
+    },
+    {
+      "name": "tests_quanta.py",
+      "sha256": "2a39c52c12597fe84d11e9bee7309647cbffbc30ad9272846fcf2e7f400ad2d6",
+      "bytes": 185
+    }
+  ]
+}

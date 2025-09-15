@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HyperGlottalBlock",
+  "type": "object",
+  "properties": {
+    "version": {
+      "const": "v20"
+    },
+    "role": {
+      "type": "string"
+    },
+    "task": {
+      "type": "string"
+    },
+    "policy": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "version",
+    "role",
+    "task"
+  ]
+}

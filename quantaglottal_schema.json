@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QuantaGlottalTag",
+  "type": "object",
+  "properties": {
+    "chan": {
+      "type": "string",
+      "const": "role"
+    },
+    "role": {
+      "type": "string"
+    },
+    "policy": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "role"
+  ]
+}
