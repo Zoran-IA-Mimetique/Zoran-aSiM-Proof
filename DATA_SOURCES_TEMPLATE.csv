@@ -1,0 +1,5 @@
+name,source_url,license,checksum_sha256,usage_notes
+ARC-AGI,https://github.com/fchollet/ARC,MIT,,Used for reasoning tasks benchmark
+GSM8K,https://github.com/openai/grade-school-math,MIT,,Arithmetic reasoning benchmark
+Sudoku-synth,,CC0,,Generated puzzles for reasoning test
+Maze-synth,,CC0,,Deterministic maze tasks

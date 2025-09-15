@@ -1,0 +1,45 @@
+{
+  "generated": "2025-09-15T23:10:31.311086Z",
+  "files": [
+    {
+      "name": "CHECKLIST_AUDITOR.md",
+      "sha256": "cf9e435a58a914352742e46b4f511dc0b73af9547de6158fd696b7eb273c042e",
+      "bytes": 522
+    },
+    {
+      "name": "DATA_SOURCES_TEMPLATE.csv",
+      "sha256": "cf9e435a58a914352742e46b4f511dc0b73af9547de6158fd696b7eb273c042e",
+      "bytes": 316
+    },
+    {
+      "name": "ERRATA_GLOBAL.md",
+      "sha256": "cf9e435a58a914352742e46b4f511dc0b73af9547de6158fd696b7eb273c042e",
+      "bytes": 379
+    },
+    {
+      "name": "PAPER_TEMPLATE_IMRAD.md",
+      "sha256": "cf9e435a58a914352742e46b4f511dc0b73af9547de6158fd696b7eb273c042e",
+      "bytes": 507
+    },
+    {
+      "name": "README_v25.md",
+      "sha256": "cf9e435a58a914352742e46b4f511dc0b73af9547de6158fd696b7eb273c042e",
+      "bytes": 509
+    },
+    {
+      "name": "RELEASE_CHECKLIST.md",
+      "sha256": "cf9e435a58a914352742e46b4f511dc0b73af9547de6158fd696b7eb273c042e",
+      "bytes": 381
+    },
+    {
+      "name": "ROADMAP.md",
+      "sha256": "cf9e435a58a914352742e46b4f511dc0b73af9547de6158fd696b7eb273c042e",
+      "bytes": 863
+    },
+    {
+      "name": "energy_bench.py",
+      "sha256": "cf9e435a58a914352742e46b4f511dc0b73af9547de6158fd696b7eb273c042e",
+      "bytes": 500
+    }
+  ]
+}
