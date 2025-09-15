@@ -40,3 +40,8 @@ Date: 2025-09-15T21:45:43.870147Z
 ## v7 Update — Injector & Dataset
 - `test_injector.py` added: roundtrip & validation checks.
 - `dataset_loader.py` added: ARC-like skeleton (replace with public dataset).
+
+## v9 Update — Public-like Datasets
+- sudoku_loader.py: generates toy sudoku puzzles.
+- maze_loader.py: generates stable mazes with seed.
+- run_dataset_bench.py: integrates both datasets, produces dataset_bench_results.json.
