@@ -1,4 +1,76 @@
 {
-  "c2pa": "placeholder",
-  "assets": []
+  "c2pa": "v1",
+  "created": "2025-09-15T19:54:17.589839Z",
+  "creator": {
+    "name": "Fr\u00e9d\u00e9ric Tabary",
+    "org": "Zoran aSiM"
+  },
+  "license": "MIT",
+  "assets": [
+    {
+      "name": "AI_ACT_mapping.md",
+      "sha256": "59346bce057cadcae5fd7651754b885c69b79939a36f050014901bd9b5c2fd5f",
+      "bytes": 1245
+    },
+    {
+      "name": "CITATION.cff",
+      "sha256": "a1426338588b31177e18b8074f18c7a26c6031449f3604b0b4bc018a4ff8d0b3",
+      "bytes": 255
+    },
+    {
+      "name": "CODE_OF_CONDUCT.md",
+      "sha256": "c528fe180402c1c7c8eabcd6b36581642826dfd1d0ca7197f9d3dee689d559b9",
+      "bytes": 123
+    },
+    {
+      "name": "CONTRIBUTING.md",
+      "sha256": "333de7e7234f3a05f1d41de4de8b452c0677f246a22398af170212920782c33f",
+      "bytes": 182
+    },
+    {
+      "name": "DEFS.md",
+      "sha256": "2a5fd782bde1c378403c24b75127ec7c5f21548e018cb7b64dabcd1ffa05aa0a",
+      "bytes": 845
+    },
+    {
+      "name": "LICENSE",
+      "sha256": "d8681c826e77219c68b95a58663c835bf7078d9932fc28605fbf5110644a7c2c",
+      "bytes": 131
+    },
+    {
+      "name": "Makefile",
+      "sha256": "3ed9c5864da9e94c8da8029691fa059837b6b6ba78ccf3b437d0e35cde485082",
+      "bytes": 86
+    },
+    {
+      "name": "README.md",
+      "sha256": "dc98e6a87703534c82826f341f6cc44117491b749ef667b4a6d84b6233952ba1",
+      "bytes": 3713
+    },
+    {
+      "name": "ci.yml",
+      "sha256": "329faf9f82f3c5ea4a3767688b4fd42a14f865990f9316f889244bc51375e914",
+      "bytes": 162
+    },
+    {
+      "name": "delta_table.csv",
+      "sha256": "d89dd2060e432ae3285a8d71ee4ad835a7831f8394f3c51904da1875ff3f382b",
+      "bytes": 632
+    },
+    {
+      "name": "kpis.csv",
+      "sha256": "22dac7503c420dd6b22d2745fd7eb1bd0286375c8178959960fc29553f650202",
+      "bytes": 804
+    },
+    {
+      "name": "metrics_template.json",
+      "sha256": "53446b60c31a679eff0dc11873e4d69cfc22db0d0d6a13699fc32e643de9b276",
+      "bytes": 275
+    },
+    {
+      "name": "sbom_cyclonedx.json",
+      "sha256": "8d5d6f38bec9f38398e62f2b2b46e24edf65f78876a8ab62d001e5189c0ecaad",
+      "bytes": 876
+    }
+  ]
 }

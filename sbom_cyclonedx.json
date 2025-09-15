@@ -1,5 +1,53 @@
 {
   "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
   "version": 1,
-  "components": []
+  "metadata": {
+    "timestamp": "2025-09-15T19:54:17.585232Z",
+    "tools": [
+      {
+        "vendor": "Zoran",
+        "name": "ProofKit",
+        "version": "1.0.0"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "python",
+      "version": "3.11",
+      "licenses": [
+        {
+          "license": {
+            "id": "PSF-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "*",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "matplotlib",
+      "version": "*",
+      "licenses": [
+        {
+          "license": {
+            "id": "PSF-2.0"
+          }
+        }
+      ]
+    }
+  ]
 }

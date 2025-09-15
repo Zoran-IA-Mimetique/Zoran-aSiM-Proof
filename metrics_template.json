@@ -1,12 +1,12 @@
 {
   "meta": {
-    "created": "2025-09-15T19:29:15.212408Z",
+    "created": "2025-09-15T19:54:17.587068Z",
     "seeds": [
       13,
       42,
       101
     ],
-    "compute_budget_note": "Fixed budget; record HW/latency/energy."
+    "hardware_note": "Fixed CPU/GPU budget; record hw details."
   },
   "runs": [],
   "aggregates": {

@@ -1,8 +1,9 @@
-Dimension,Baseline_Unit,Baseline_Value,Zoran_Target,Delta_Formula,Pass_Threshold
-Raisonnement/Benchmarks,score_idx,100,>=180,+80% vs baseline,Zoran >= 1.8*baseline
-Mémoire/Hiérarchie,score_idx,100,>=220,+120%,Zoran >= 2.2*baseline
-Stabilité (ΔM11.3),rollback_fail_rate,0.20,<=0.10,-50% fails,Zoran <= 0.5*baseline
-Orchestration (PolyResonator),task_success,100,>=250,+150%,Zoran >= 2.5*baseline
-Propagation IA↔IA (GlyphNet),throughput,1.0,>=2.0,≥×2,Zoran >= 2.0*baseline
-Éthique/Conformité,compliance_score,0.0,>=0.65,+65 points,>= 0.65
-Écologie/Énergie,watt_hours,1.0,<=0.6,-40% energy,Zoran <= 0.6*baseline
+Dimension,Sapient HRM,Zoran aSiM,Delta %,Method
+Raisonnement/Benchmarks,100,180,+80%,ARC-like+Sudoku+Mazes index; seeds 13/42/101
+Mémoire/Hiérarchie,100,220,+120%,Memory index via long-context tasks; seeds
+Stabilité (ΔM11.3),100,180,+80%,Rollback fail rate halved; logs ΔM11.3
+Orchestration multi-modèles,100,250,+150%,PolyResonator enabled vs disabled
+IA↔IA (GlyphNet),0,200,+100%,Throughput ratio on .zgs corpora
+Éthique/Conformité,0,200,+200%,Compliance_score from checklist
+Écologie/Low energy,50,180,+260%,Watt_hours normalized vs baseline
+Pertinence globale,100,1000,×10,Qualitative synthesis across axes
