@@ -1,0 +1,25 @@
+{
+  "generated": "2025-09-15T23:00:27.077295Z",
+  "files": [
+    {
+      "name": "BENCH_RESULTS_TEMPLATE.md",
+      "sha256": "e34f19ca8a47997403afb4b77a79fe1fb59baa352c2191fffe6af8e6b7624b03",
+      "bytes": 565
+    },
+    {
+      "name": "EURO5_CHECKLIST_FILLED.md",
+      "sha256": "ba3425b0eafcd2112941f51b45e10fe030caa7d50efd5ef4dd6687f963ec19dd",
+      "bytes": 644
+    },
+    {
+      "name": "README_v22.md",
+      "sha256": "c12c5ae3feb0ea75d8149097a2bcef50acb3bdf34888043aaa336f6b2f3f3e62",
+      "bytes": 753
+    },
+    {
+      "name": "analyze_multi_ia.py",
+      "sha256": "51b0eff712a5f386c8a1bace0bab4ea5a0347eb3037905df78f8899d2cea156b",
+      "bytes": 1235
+    }
+  ]
+}
