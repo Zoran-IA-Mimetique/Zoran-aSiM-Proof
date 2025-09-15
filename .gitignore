@@ -1,0 +1,18 @@
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs / artifacts
+*.log
+*.json.sig.json
+*.zip
+*.csv
+
+# CI artifacts
+tools/sha_verify_report.json
+energy_log*.json
+metrics*.json
+SELF_CHECK_REPORT.json
+VALIDATION_RESULT.json
+C2PA_manifest_full.json

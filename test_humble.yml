@@ -1,0 +1,73 @@
+
+name: test_humble
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+
+jobs:
+  run-tests-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install psutil jsonschema
+
+      - name: System info (optional)
+        run: |
+          if [ -f system_info.py ]; then python system_info.py; fi
+
+      - name: Energy logger (short run)
+        run: |
+          if [ -f energy_logger.py ]; then python energy_logger.py 6 0.5 energy_log_ci.json || true; fi
+
+      - name: Run HUMBLE runner (psutil)
+        run: |
+          if [ -f run_all_humble_psutil.py ]; then python run_all_humble_psutil.py || true; fi
+
+      - name: Run Ablation suite
+        run: |
+          if [ -f run_ablation_suite.py ]; then python run_ablation_suite.py || true; fi
+
+      - name: Validate injector log (if present)
+        run: |
+          if [ -f validate_injector_log.py ] && [ -f injector_compliance_log.json ]; then             python validate_injector_log.py injector_compliance_log.json;           fi
+
+      - name: Verify SHA manifest (alert on mismatch)
+        run: |
+          python tools/verify_sha.py || echo "::warning ::SHA verification returned non-zero"
+
+      - name: Recompute C2PA manifest (optional)
+        run: |
+          if [ -f tools/recompute_c2pa.py ]; then python tools/recompute_c2pa.py .; fi
+
+      - name: Upload CI artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: humble-artifacts
+          retention-days: 14
+          path: |
+            metrics_humble_psutil.json
+            ablation_results.json
+            ablation_results.csv
+            ABLATION_STATS.csv
+            ABLATION_STATS.md
+            bench_realish_metrics.json
+            bench_realish_metrics.csv
+            energy_log_ci.json
+            system_info.json
+            injector_*_log.json
+            VALIDATION_RESULT.json
+            SELF_CHECK_REPORT.json
+            C2PA_manifest_full.json
+            tools/sha_verify_report.json
+          if-no-files-found: ignore
