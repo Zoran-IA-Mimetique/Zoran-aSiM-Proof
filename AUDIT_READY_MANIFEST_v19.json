@@ -1,0 +1,40 @@
+{
+  "generated": "2025-09-15T22:49:25.753485Z",
+  "files": [
+    {
+      "name": "BENCHMARK_POLICY.md",
+      "sha256": "8f3d1a8bd24154dd0d843cdbc5bb519e2be56ea6f1197a1da34390bea7942f10",
+      "bytes": 260
+    },
+    {
+      "name": "GITHUB_WORKFLOW_release.yml",
+      "sha256": "f50d803c7a3b90ca08968ad8390c05bbd20fc7a11785e5c7237f7ac00d80c022",
+      "bytes": 1075
+    },
+    {
+      "name": "README_CLIENT_SUMMARY.md",
+      "sha256": "db7ddb2ae99896d23801af204d25664635b40d7050f5454676536bf0478956db",
+      "bytes": 433
+    },
+    {
+      "name": "README_DATASETS.md",
+      "sha256": "46c94424b46711e1d128319ceec702c961b63e51753e04103c5e68ccb1b18852",
+      "bytes": 337
+    },
+    {
+      "name": "RELEASE_NOTES_v19.md",
+      "sha256": "11bde20cf55e5c3be2b2282426899a21b347886383451448ae845bf4b3104fcd",
+      "bytes": 224
+    },
+    {
+      "name": "SECURITY_THREAT_MODEL.md",
+      "sha256": "22d6932b43517483f03d7bc71df27467522f8ffc7ab28b25c1c0181b8aa081d5",
+      "bytes": 337
+    },
+    {
+      "name": "SELF_CHECK_FINAL_PLUS.py",
+      "sha256": "81d9ce1b841ab8ae45c0a7bae9f768e57bd5f4015fd0e8ccbbb0dff8479bd876",
+      "bytes": 995
+    }
+  ]
+}

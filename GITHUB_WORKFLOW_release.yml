@@ -1,0 +1,27 @@
+name: release_flat
+on: [workflow_dispatch]
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Generate signed release
+        run: |
+          if [ -f tools/generate_release.py ]; then \
+            python tools/generate_release.py release_flat_v19.zip README_CLIENT_SUMMARY.md README_AUDIT_FINAL.md AUDIT_READY_MANIFEST.json; \
+          else \
+            echo '{"note":"generate_release.py missing"}' > release_manifest.json; zip -r release_flat_v19.zip README_CLIENT_SUMMARY.md README_AUDIT_FINAL.md AUDIT_READY_MANIFEST.json release_manifest.json; \
+          fi
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: release_flat_v19
+          path: |
+            release_flat_v19.zip
+            release_manifest.json
