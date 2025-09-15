@@ -1,0 +1,35 @@
+
+name: humble-ci
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+jobs:
+  run-humble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install psutil
+      - name: Run HUMBLE runner (psutil)
+        run: |
+          python run_all_humble_psutil.py || true
+      - name: Upload metrics artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: metrics_humble_psutil.json
+          path: metrics_humble_psutil.json
+      - name: Recompute C2PA manifest
+        run: |
+          python tools/recompute_c2pa.py
+      - name: Upload C2PA manifest artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: C2PA_manifest_full.json
+          path: C2PA_manifest_full.json
