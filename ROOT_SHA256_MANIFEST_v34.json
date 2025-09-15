@@ -1,0 +1,105 @@
+{
+  "generated": "2025-09-15T23:39:44.430530Z",
+  "files": [
+    {
+      "name": "BENCH_GLYPHNET_REPORT.json",
+      "sha256": "24c7ccdb22b42864b70c0501795dd5d16e97362bc90ea300ac120860f0f067b5",
+      "bytes": 1252
+    },
+    {
+      "name": "DATA_SOURCES.csv",
+      "sha256": "e00b05c746ceee74aa6ea0b8d70a6489e541294d53b5aa73ccd19c22805437f3",
+      "bytes": 506
+    },
+    {
+      "name": "MIMETIC_RUNS_BASELINE.json",
+      "sha256": "34d62997435049c6dbd2a96c71561238a6b25d0d3fe62ee06c693f9ca2ea4471",
+      "bytes": 1157
+    },
+    {
+      "name": "MIMETIC_RUNS_INJECTED.json",
+      "sha256": "604769868aed2fb26578131438dec2a8728f93630d2fc904cc983f6c14750d59",
+      "bytes": 1157
+    },
+    {
+      "name": "MIMETIC_STATS.json",
+      "sha256": "ebc8672d9239237dd3a8d97a510076702d24c892c5f3c1bd651f8c974ad12572",
+      "bytes": 1407
+    },
+    {
+      "name": "MULTI_IA_DEMO_LOG_0.json",
+      "sha256": "8ab3c8e8038c9e3d045562bc54bd4cb04d4783edd00eb69588be8ca4a28f674d",
+      "bytes": 1324
+    },
+    {
+      "name": "MULTI_IA_DEMO_LOG_1.json",
+      "sha256": "0c37de6a933a3a944f8a7a9b3cbfe4c121c3c3182b586c7c101f2bda631fe798",
+      "bytes": 1326
+    },
+    {
+      "name": "MULTI_IA_DEMO_LOG_2.json",
+      "sha256": "44e1dd3dda568ac840fa0a4f0d76de114272faaa98388f38b794f18e371b8654",
+      "bytes": 1324
+    },
+    {
+      "name": "MULTI_IA_STATS.json",
+      "sha256": "79d8338a58cd80e1c351f1adbb035ca09d01fca99480ed264afb821b95d894fa",
+      "bytes": 324
+    },
+    {
+      "name": "README_v34.md",
+      "sha256": "e3b6d7c7c44f52d7684331772a32be645fb78004050bd491055e321a3af38111",
+      "bytes": 706
+    },
+    {
+      "name": "SCIENTIFIC_REPORT_v34.md",
+      "sha256": "5f0ee6e0a6632b832f1435f807dc09dec92fccb37d7bcd5f03725955c892a738",
+      "bytes": 964
+    },
+    {
+      "name": "analyze_multi_ia.py",
+      "sha256": "4b9d4801b9d32b85534d4af1f3bc40c566299ff7ffa33547e8629d73fcec3af0",
+      "bytes": 911
+    },
+    {
+      "name": "bench_glyphnet_vs_codecs.py",
+      "sha256": "c1fbb9f8a894cd4da3568f037ea202078ee307834cbed08706147f3e812100d3",
+      "bytes": 1809
+    },
+    {
+      "name": "dataset1.txt",
+      "sha256": "e8159dc39f2467ae7b6fa7e932f1c951bbd0c1063d30adf8f3f79ddbe48beaac",
+      "bytes": 1036
+    },
+    {
+      "name": "dataset2.md",
+      "sha256": "98f0e33cd1d0a0d3dbf03c181cc561bb3dd3d78c5fc1f150a732487dbd450d8a",
+      "bytes": 1151
+    },
+    {
+      "name": "dataset3.txt",
+      "sha256": "6495c1debac7666d9e5f4a892bb7c57238f62d378fa285d69492c22b3b9f5ce5",
+      "bytes": 1000
+    },
+    {
+      "name": "mimetic_analyzer.py",
+      "sha256": "0d862013441124a58a2cf84d90412646f4710e1c8f78589aeb865be466bca91e",
+      "bytes": 1262
+    },
+    {
+      "name": "mimetic_experiment.py",
+      "sha256": "7af463d08cca49daea3c0ed7e86e4b3afaa9b838a2ac600d5bbbaaf964cfd060",
+      "bytes": 932
+    },
+    {
+      "name": "multi_ia_demo.py",
+      "sha256": "d591bc23544559540d9dc4e3c62833cc5614af8c8160a783413ba7c2817514fc",
+      "bytes": 759
+    },
+    {
+      "name": "report_v34.py",
+      "sha256": "79a038f403252efe3050b36de0de3d95ebe537feec5ae66a49198fa9ff082b6f",
+      "bytes": 1878
+    }
+  ]
+}

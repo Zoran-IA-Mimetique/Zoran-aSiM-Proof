@@ -1,0 +1,5 @@
+name,source_url,license,checksum_sha256,usage_notes
+ARC-AGI,https://github.com/fchollet/ARC,MIT,,"Reasoning tasks (public repo metadata only)"
+GSM8K,https://github.com/openai/grade-school-math,MIT,,"Grade-school math; use allowed samples only"
+WikiText-2,https://blog.einstein.ai/the-wikitext-long-term-dependency-language-modeling-dataset/,Custom,,"For text compression experiments (review licence)"
+Project Gutenberg sample,https://www.gutenberg.org/,Public Domain,,"Only use PD works; list titles used"

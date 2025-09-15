@@ -1,0 +1,74 @@
+[
+  {
+    "seed": 13,
+    "run": 0,
+    "success": 0,
+    "length": 174,
+    "structure_score": 3,
+    "compliance_flags": 0
+  },
+  {
+    "seed": 13,
+    "run": 1,
+    "success": 0,
+    "length": 138,
+    "structure_score": 1,
+    "compliance_flags": 0
+  },
+  {
+    "seed": 13,
+    "run": 2,
+    "success": 1,
+    "length": 130,
+    "structure_score": 3,
+    "compliance_flags": 0
+  },
+  {
+    "seed": 42,
+    "run": 0,
+    "success": 1,
+    "length": 122,
+    "structure_score": 2,
+    "compliance_flags": 0
+  },
+  {
+    "seed": 42,
+    "run": 1,
+    "success": 1,
+    "length": 174,
+    "structure_score": 4,
+    "compliance_flags": 0
+  },
+  {
+    "seed": 42,
+    "run": 2,
+    "success": 0,
+    "length": 122,
+    "structure_score": 1,
+    "compliance_flags": 0
+  },
+  {
+    "seed": 101,
+    "run": 0,
+    "success": 1,
+    "length": 135,
+    "structure_score": 4,
+    "compliance_flags": 1
+  },
+  {
+    "seed": 101,
+    "run": 1,
+    "success": 1,
+    "length": 173,
+    "structure_score": 1,
+    "compliance_flags": 0
+  },
+  {
+    "seed": 101,
+    "run": 2,
+    "success": 0,
+    "length": 175,
+    "structure_score": 1,
+    "compliance_flags": 1
+  }
+]

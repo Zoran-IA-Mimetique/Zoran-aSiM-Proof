@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "created": 1757979584.8736238,
+    "agents": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "logs": [
+    {
+      "agent": "A",
+      "message": "#HG v20\nROLE: auditor\nTASK: check claims\nPOLICY: zero-claim,evidence-first\nEVIDENCE: CLAIMS_AUDIT.md\nEND",
+      "understood": true,
+      "ts": 1757979584.8736117
+    },
+    {
+      "agent": "A",
+      "message": "\u27e6chan:role=audit|policy=zero-claim|evidence=CLAIMS_AUDIT.md\u27e7",
+      "understood": true,
+      "ts": 1757979584.8736196
+    },
+    {
+      "agent": "B",
+      "message": "#HG v20\nROLE: auditor\nTASK: check claims\nPOLICY: zero-claim,evidence-first\nEVIDENCE: CLAIMS_AUDIT.md\nEND",
+      "understood": true,
+      "ts": 1757979584.87362
+    },
+    {
+      "agent": "B",
+      "message": "\u27e6chan:role=audit|policy=zero-claim|evidence=CLAIMS_AUDIT.md\u27e7",
+      "understood": true,
+      "ts": 1757979584.8736205
+    },
+    {
+      "agent": "C",
+      "message": "#HG v20\nROLE: auditor\nTASK: check claims\nPOLICY: zero-claim,evidence-first\nEVIDENCE: CLAIMS_AUDIT.md\nEND",
+      "understood": true,
+      "ts": 1757979584.873621
+    },
+    {
+      "agent": "C",
+      "message": "\u27e6chan:role=audit|policy=zero-claim|evidence=CLAIMS_AUDIT.md\u27e7",
+      "understood": true,
+      "ts": 1757979584.8736234
+    }
+  ]
+}
