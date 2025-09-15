@@ -1,0 +1,8 @@
+Zoran aSiM — HUMBLE ONLY — Notes de version
+
+Date: 2025-09-15T20:39:25.075828Z
+
+- Ajout ERRATA & retours en arrière sur toutes revendications de supériorité.
+- Ajout ZERO_CLAIM_POLICY.md ; COMPARISON_PROTOCOL.md ; PREREG.md ; ROADMAP.md.
+- Runner HUMBLE (CPU) + metrics_humble.json de référence.
+- Conformité evidence-based: score=0.0 tant que `evidence/` est vide.
