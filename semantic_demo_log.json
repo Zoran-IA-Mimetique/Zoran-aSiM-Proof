@@ -1,0 +1,17 @@
+{
+  "generated": 1757980342.8642693,
+  "proofs": {
+    "sample_text.txt": {
+      "sha256": "13ec5ca88c8b315d6ad1b44dda40e90614187c4e02e9abd8013ce70e98eaf066",
+      "bytes": 249
+    },
+    "sample_text_zoranX.txt": {
+      "sha256": "4931ad714faa392f85c3324d00d1cb411b69c2606739100dac56dad219d80b3c",
+      "bytes": 268
+    },
+    "verification_report.json": {
+      "sha256": "05abfe088d8de7f9a54bc59dbdb7d545567645f2fb3df70093514f23f38cef2e",
+      "bytes": 523
+    }
+  }
+}

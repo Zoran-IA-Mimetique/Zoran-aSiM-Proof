@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "created": 1757980342.8314228,
+    "algo": "lexical-watermark",
+    "pairs": "builtin"
+  },
+  "inputs": {
+    "base_len": 249,
+    "key_hash": "af77c156d474079074023e28b1718c2178a12d1fb5bfb25626f7200f4ef84888"
+  },
+  "embed": {
+    "applied": 18,
+    "candidates": 18,
+    "ms": 0.17309188842773438
+  },
+  "detect_correct": {
+    "observed_bits": 18,
+    "matches": 8,
+    "rate": 0.4444444444444444
+  },
+  "detect_wrong": {
+    "observed_bits": 18,
+    "matches": 13,
+    "rate": 0.7222222222222222
+  }
+}

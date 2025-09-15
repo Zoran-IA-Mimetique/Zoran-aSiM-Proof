@@ -1,0 +1,55 @@
+{
+  "generated": "2025-09-15T23:52:22.689694Z",
+  "files": [
+    {
+      "name": "README_SEMCRYPTO_v36.md",
+      "sha256": "563e859345f2e99eb8e9203018b1711506b3bc6fbfef65770a48008ea2c38f13",
+      "bytes": 623
+    },
+    {
+      "name": "SPEC_SEMANTIC_ENCRYPTION.md",
+      "sha256": "e462fe42aa456e4dc56a65832225d9cd5e368fcedd61754362b4e035705e3870",
+      "bytes": 1499
+    },
+    {
+      "name": "sample_text.txt",
+      "sha256": "13ec5ca88c8b315d6ad1b44dda40e90614187c4e02e9abd8013ce70e98eaf066",
+      "bytes": 249
+    },
+    {
+      "name": "sample_text_zoranX.txt",
+      "sha256": "4931ad714faa392f85c3324d00d1cb411b69c2606739100dac56dad219d80b3c",
+      "bytes": 268
+    },
+    {
+      "name": "semantic_crypto.py",
+      "sha256": "146ba34fc45415486863a5ce9243bffb75624ffc0c32c558d1232aef2034a4de",
+      "bytes": 3503
+    },
+    {
+      "name": "semantic_demo.py",
+      "sha256": "f20166845e550ff13061c016c132bd11387cb693ee0547c5cdca854dfd9e7e85",
+      "bytes": 868
+    },
+    {
+      "name": "semantic_demo_log.json",
+      "sha256": "8b8fc80cdc6cca3fbca655a729b7d01887d2308515bc5984cbfb6c02cdb8edf8",
+      "bytes": 476
+    },
+    {
+      "name": "tests_semantic_crypto.py",
+      "sha256": "adcffea4e1f62a367483b36785af8a416d7cc8cf126b9841c49babd0582a70e9",
+      "bytes": 621
+    },
+    {
+      "name": "verification_report.json",
+      "sha256": "05abfe088d8de7f9a54bc59dbdb7d545567645f2fb3df70093514f23f38cef2e",
+      "bytes": 523
+    },
+    {
+      "name": "verify_semantic_crypto.py",
+      "sha256": "946a33eac79b585dac8591c3196f182470ba71598ad7a5cc144526e2d8fab1ca",
+      "bytes": 1315
+    }
+  ]
+}
