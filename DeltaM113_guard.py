@@ -1,32 +1,31 @@
 
-# ΔM11_3_guard.py
-# Minimal educational implementation of rollback guard.
-# Instability is measured as (errors / steps) smoothed; triggers rollback when above threshold.
-
 from dataclasses import dataclass
 
 @dataclass
 class DeltaM113Config:
-    threshold: float = 0.25  # if >25% instability, rollback
+    threshold: float = 0.25
     window: int = 10
 
 class DeltaM113Guard:
     def __init__(self, cfg: DeltaM113Config = DeltaM113Config()):
         self.cfg = cfg
-        self.history = []  # list of 0/1 instabilities
+        self.history = []
+        self.ops = 0
     
     def record(self, unstable: bool):
+        self.ops += 1
         self.history.append(1 if unstable else 0)
         if len(self.history) > self.cfg.window:
             self.history.pop(0)
     
     def instability(self) -> float:
-        if not self.history:
-            return 0.0
-        return sum(self.history) / len(self.history)
+        self.ops += 1
+        return (sum(self.history) / len(self.history)) if self.history else 0.0
     
     def should_rollback(self) -> bool:
+        self.ops += 1
         return self.instability() > self.cfg.threshold
     
     def reset(self):
+        self.ops += 1
         self.history.clear()
