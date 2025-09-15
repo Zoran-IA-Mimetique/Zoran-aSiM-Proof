@@ -1,0 +1,45 @@
+{
+  "generated": "now",
+  "files": [
+    {
+      "name": "INJECTOR_TOTAL_SPEC.md",
+      "sha256": "5138f9d03ef5f84ce6de36750132d35d9258507ab1241347f23d9b1a38a3a32f",
+      "bytes": 1468
+    },
+    {
+      "name": "README_v31.md",
+      "sha256": "f75c04f0ab6f2cb19d7d21e423dc2a261823fa45154d86e4cc573f39b41f69cd",
+      "bytes": 691
+    },
+    {
+      "name": "RELEVANCE_POLICY.md",
+      "sha256": "009d081af44e0997d039936e4d7a6eb9b2874afff35e7b4a28d9ef3872228e77",
+      "bytes": 248
+    },
+    {
+      "name": "RELEVANCE_RESULTS_TEMPLATE.json",
+      "sha256": "c866db4d0b098bfd826e30ea7eb4698dcba9b1210a1ab3dc88e8dc8ba6dd6fb9",
+      "bytes": 111
+    },
+    {
+      "name": "injector_total.py",
+      "sha256": "be1b1efbfc3c1a5d0a1587dcdeb28074bfc27b7d60b545db0c4b2899e94fd822",
+      "bytes": 4660
+    },
+    {
+      "name": "injector_total_log_31.json",
+      "sha256": "4b3c77950b9b45869456914f6db59635f4b18cbde6a08147d1764f8df466fe41",
+      "bytes": 835
+    },
+    {
+      "name": "injector_total_schema.json",
+      "sha256": "1c828e1817c47f41745fe10495e027c02d23edecd4409ae92d7faba9e159bd49",
+      "bytes": 1930
+    },
+    {
+      "name": "injector_total_test.py",
+      "sha256": "20d1bcf7da58617de1893b216fb9c4c944498f3af647c01de8ef602fa42715e6",
+      "bytes": 1325
+    }
+  ]
+}

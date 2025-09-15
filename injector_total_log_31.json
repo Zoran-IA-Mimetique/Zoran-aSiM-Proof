@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "created_iso": "2025-09-15T23:30:44.062863Z",
+    "seed": 31,
+    "version": "v31"
+  },
+  "input": {
+    "role": "report",
+    "context_len": 17,
+    "content_len": 45
+  },
+  "security": {
+    "safe": true,
+    "reasons": []
+  },
+  "relevance": {
+    "quality": 0.644,
+    "coherence": 0.16,
+    "utility": 1.0,
+    "objectivity": 0.336
+  },
+  "role": {
+    "report": {
+      "present": [
+        "metrics_humble_psutil.json",
+        "C2PA_manifest_full.json"
+      ],
+      "missing": [
+        "external_audit_report"
+      ],
+      "summary_fr": "Pack HUMBLE: preuves présentes; audit externe à venir."
+    }
+  },
+  "decision": {
+    "accepted": false,
+    "reasons": [
+      "coherence<0.5",
+      "objectivity<0.5"
+    ]
+  },
+  "signature": "2af001908055c113ad82c86bd8a1bc45af648ff9155668768f2c7012421500e0"
+}
