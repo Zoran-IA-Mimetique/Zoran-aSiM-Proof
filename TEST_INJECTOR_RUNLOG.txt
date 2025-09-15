@@ -1,0 +1,4 @@
+{
+  "stdout": "{\n  \"meta\": {\n    \"created\": 1757973594.9125926\n  },\n  \"results\": [\n    {\n      \"input\": \"safe content with glyphs \\u27e6\\u0394M11.3:rollback\\u27e7\",\n      \"roundtrip_ok\": true,\n      \"validate_ok\": false,\n      \"reason\": \"non-ascii/control char\"\n    },\n    {\n      \"input\": \"rm -rf /\",\n      \"roundtrip_ok\": true,\n      \"validate_ok\": false,\n      \"reason\": \"forbidden: rm\\\\s+-rf\"\n    },\n    {\n      \"input\": \"import os; os.system('echo hack')\",\n      \"roundtrip_ok\": true,\n      \"validate_ok\": false,\n      \"reason\": \"forbidden: import\\\\s+os\"\n    },\n    {\n      \"input\": \"normal ASCII text\",\n      \"roundtrip_ok\": true,\n      \"validate_ok\": true,\n      \"reason\": \"ok\"\n    }\n  ]\n}\n",
+  "stderr": ""
+}

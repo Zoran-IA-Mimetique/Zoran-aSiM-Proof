@@ -36,3 +36,7 @@ Date: 2025-09-15T21:45:43.870147Z
 
 ---
 © 2025 — MIT License (see LICENSE)
+
+## v7 Update — Injector & Dataset
+- `test_injector.py` added: roundtrip & validation checks.
+- `dataset_loader.py` added: ARC-like skeleton (replace with public dataset).

@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "created": 1757973594.9125926
+  },
+  "results": [
+    {
+      "input": "safe content with glyphs \u27e6\u0394M11.3:rollback\u27e7",
+      "roundtrip_ok": true,
+      "validate_ok": false,
+      "reason": "non-ascii/control char"
+    },
+    {
+      "input": "rm -rf /",
+      "roundtrip_ok": true,
+      "validate_ok": false,
+      "reason": "forbidden: rm\\s+-rf"
+    },
+    {
+      "input": "import os; os.system('echo hack')",
+      "roundtrip_ok": true,
+      "validate_ok": false,
+      "reason": "forbidden: import\\s+os"
+    },
+    {
+      "input": "normal ASCII text",
+      "roundtrip_ok": true,
+      "validate_ok": true,
+      "reason": "ok"
+    }
+  ]
+}
