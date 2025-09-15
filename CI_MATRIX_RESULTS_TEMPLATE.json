@@ -1,0 +1,27 @@
+{
+  "os": [
+    "ubuntu-latest",
+    "windows-latest"
+  ],
+  "python_version": [
+    "3.11"
+  ],
+  "jobs": [
+    {
+      "name": "injectors_strict",
+      "status": "ok/fail",
+      "artifacts": [
+        "STRICT_TEST_REPORT.json",
+        "VALIDATE_STRICT_RESULT.json"
+      ]
+    },
+    {
+      "name": "bench_runner",
+      "status": "ok/fail",
+      "artifacts": [
+        "BENCH_RUNNER_ALL_RESULTS.json"
+      ]
+    }
+  ],
+  "timestamp": "2025-09-15T23:12:32.524765Z"
+}

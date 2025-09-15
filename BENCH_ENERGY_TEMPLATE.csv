@@ -1,0 +1,3 @@
+task,cpu_avg,mem_avg,energy_proxy,wattmeter_wh,notes
+injector_run,25.3,42.1,0.34,,"proxy only, wattmeter pending"
+bench_glyphnet,30.1,48.2,0.39,,"larger corpus run"

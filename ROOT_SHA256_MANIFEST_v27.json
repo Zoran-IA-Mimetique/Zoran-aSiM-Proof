@@ -1,0 +1,45 @@
+{
+  "generated": "2025-09-15T23:12:32.524765Z",
+  "files": [
+    {
+      "name": "BENCH_ENERGY_TEMPLATE.csv",
+      "sha256": "5b4e44c9074c6b4e8854752865ba176fb422b4398e08195ce10d70869f89c3f2",
+      "bytes": 165
+    },
+    {
+      "name": "CI_MATRIX_RESULTS_TEMPLATE.json",
+      "sha256": "4cdd5f0a762a315ec8c94a305545d702be999689e187264aa9404ee6bd1ead92",
+      "bytes": 474
+    },
+    {
+      "name": "DATA_PROVENANCE_POLICY.md",
+      "sha256": "489238678af9547d6631ba2c62c0f10a328f9b0449c4e93510ad80c3f9423025",
+      "bytes": 328
+    },
+    {
+      "name": "ISSUES_REGISTER.md",
+      "sha256": "0f37ab866531f9fb80909277354d85933be93a26c394926e63065f60db3a4ca7",
+      "bytes": 245
+    },
+    {
+      "name": "LICENSE_COMPLIANCE_CHECKLIST.md",
+      "sha256": "d63d108f19055fc454fa8ef1a8d4e4fe582eea78bc263543022668fce708a7cd",
+      "bytes": 355
+    },
+    {
+      "name": "PUBLISHING_GUIDE.md",
+      "sha256": "ce7c906bf3c8f662ab4a55cb6970401ebd777d6383bfad61126def7a49e635c1",
+      "bytes": 422
+    },
+    {
+      "name": "README_v27.md",
+      "sha256": "6cefa10244808f072d07a801e3e4156bb44bb99e49e873d01c7f177fb72cc169",
+      "bytes": 553
+    },
+    {
+      "name": "SCIENTIFIC_REVIEW_TEMPLATE.md",
+      "sha256": "2487765c36999b4d6420091504fceea5a2002a417ecde37e79ffd09a6c64a3aa",
+      "bytes": 412
+    }
+  ]
+}
