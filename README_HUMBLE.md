@@ -1,36 +1,28 @@
+# 🦋 Zoran aSiM — HUMBLE ONLY (Evidence‑Based, Flat)
 
-# 🦋 Zoran aSiM — Research Prototype Kit (HUMBLE v1, flat)
+**Positionnement** : Prototype de recherche **falsifiable**. Aucune revendication de supériorité.
+**Objectif** : Transparence, reproductibilité minimale (CPU), et preuves **externes** via `./evidence/`.
 
-**Positionnement honnête** : ceci est un **prototype de recherche**, pas une preuve de supériorité.
-- Pas de claims marketing (“100 ans”, “supériorité”) — **retirés**.
-- Objectif : **transparence, reproductibilité, falsifiabilité**.
-
-## Ce que contient ce kit
-- **Code exécutable (CPU)** minimal pour tester des idées (ΔM11.3, ZDM, GlyphNet, PolyResonator).
-- **Mesures réelles** de temps (proxy énergie) + **metrics.json**.
-- **Conformité** en mode *evidence-based* : chaque item AI Act/ISO nécessite un **fichier de preuve** dans `./evidence/`.
-- **Preregistrations** & protocole (PREREG.md) pour éviter le p-hacking.
-- **ROADMAP.md** : étapes pour passer d’un POC honnête à une démo sérieuse.
+## Contenu
+- `PREREG.md` — hypothèses, méthodes, critères d'arrêt (preregistration)
+- `ROADMAP.md` — étapes vers une démo sérieuse (datasets publics, énergie matérielle, baselines)
+- `run_all_humble.py` — exécutable CPU; génère `metrics_humble.json`
+- `metrics_humble.json` — exemple **référence** (conformité = 0.0 par défaut)
+- `evidence/` — dépôt des **preuves** (vide par défaut, `.keep`)
+- `AI_ACT_mapping.md` — **checklist vide** (marqueurs à remplir via preuves)
+- `C2PA_manifest.json` — **manifest minimal** (aucune prétention; SHA ajouté si utile)
+- `sbom_cyclonedx.json` — **SBOM minimal** (non-exhaustif, à enrichir)
+- `LICENSE` — MIT
+- `CITATION.cff` — citation du dépôt
 
 ## Exécution (CPU)
 ```bash
 python run_all_humble.py
 ```
-→ Produit `metrics_humble.json` avec : raisonnement, stabilité, glyphnet (corpus mixte **non répétitif**), conformité (score basé sur preuves présentes), pertinence_composite **désactivée par défaut**.
+→ Produit `metrics_humble.json` : raisonnement (ARC-like), labyrinthes, Sudoku, timings (proxy énergie), stabilité (ΔM11.3 simplifié), glyphnet (corpus non répétitif), conformité **evidence-based**.
 
-## Conformité (evidence-based)
-- **AI Act / ISO 42001** : un item ne peut être “PASS” que s’il existe un fichier de preuve dans `./evidence/` (ex. `evidence/ai_act_risk_register.md`).
-- Par défaut, **score = 0.0** (aucune preuve). **On ne badge pas.**
+## Conformité
+- Score = nb **preuves** présentes dans `./evidence/` / total items.
+- Par défaut : **0.0** (aucune preuve → aucun badge).
 
-## Note sur GlyphNet
-- Compression évaluée sur un **corpus mixte** peu répétitif (phrases aléatoires + lorem). Les ratios attendus sont modestes (~1.0–1.5). Pas de “×50” ici.
-- GlyphNet n’est **pas** présenté comme percée — juste un **codec IA↔IA expérimental**.
-
-## Limites reconnues
-- Benchmarks simples → **à étendre** avec datasets publics référencés.
-- Énergie = proxy temps → **à remplacer** par mesures matérielles.
-- Pas de baseline Sapient HRM → **à implémenter** (ou protocole de réplication).
-
----
-
-© 2025-09-15 — Zoran aSiM (Prototype de recherche, HUMBLE v1)
+© 2025-09-15 — Zoran aSiM — HUMBLE ONLY

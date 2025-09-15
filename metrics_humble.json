@@ -1,11 +1,11 @@
 {
   "meta": {
-    "created": "2025-09-15T20:21:25.136457Z",
-    "note": "Reference output (humble runner, compliance=0.0)"
+    "created": "2025-09-15T20:27:22.228168Z",
+    "note": "HUMBLE ONLY reference"
   },
   "reasoning": {
-    "baseline": 83.3,
-    "zoran": 91.6,
+    "baseline": 80.0,
+    "zoran": 90.0,
     "n": 72,
     "energy_proxy": 1.05
   },

@@ -1,9 +1,7 @@
+# Roadmap — HUMBLE ONLY
 
-# Roadmap vers Démonstration Sérieuse
-
-1) Datasets publics référencés (liens, licences) pour ARC-like/Sudoku/Mazes.
-2) Instrumentation énergie matérielle (ou psutil + incertitudes).
-3) Implémentation baseline Sapient HRM (ou protocole de réplication).
-4) Ablations automatiques avec CI (−ΔM11.3, −ZDM, −PolyResonator, −GlyphNet).
-5) Panel externe pour définir des pondérations de pertinence (ou PCA).
-6) Revue ouverte (issues PR) + dépôt Zenodo avec DOI.
+1) Référencer datasets publics (liens + licences).
+2) Mesurer énergie matérielle (wattmètre) ou psutil (+ incertitudes).
+3) Implémenter une baseline externe (Sapient‑like HRM minimal) pour comparaison honnête.
+4) CI avec ablations auto (−ΔM11.3, −orchestration, −glyphnet) et publication des metrics.
+5) Panel externe / PCA pour toute métrique composite (si réintroduite).
