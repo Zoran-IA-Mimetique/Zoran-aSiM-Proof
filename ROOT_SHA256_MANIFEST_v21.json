@@ -1,0 +1,25 @@
+{
+  "generated": "2025-09-15T22:58:05.723024Z",
+  "files": [
+    {
+      "name": "EURO5_MAPPING.md",
+      "sha256": "92dc2bf676e1cde0bf3d6775f7aca8fa33536056587309d39372f9699f0b3955",
+      "bytes": 891
+    },
+    {
+      "name": "README_v21.md",
+      "sha256": "92dc2bf676e1cde0bf3d6775f7aca8fa33536056587309d39372f9699f0b3955",
+      "bytes": 903
+    },
+    {
+      "name": "bench_glyphnet_vs_codecs.py",
+      "sha256": "92dc2bf676e1cde0bf3d6775f7aca8fa33536056587309d39372f9699f0b3955",
+      "bytes": 1946
+    },
+    {
+      "name": "multi_ia_demo.py",
+      "sha256": "92dc2bf676e1cde0bf3d6775f7aca8fa33536056587309d39372f9699f0b3955",
+      "bytes": 981
+    }
+  ]
+}
