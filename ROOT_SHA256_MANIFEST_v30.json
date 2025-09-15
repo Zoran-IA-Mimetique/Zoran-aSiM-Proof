@@ -1,0 +1,45 @@
+{
+  "generated": "2025-09-15T23:25:12.548541Z",
+  "files": [
+    {
+      "name": "AI_ACT_GAP_ANALYSIS.md",
+      "sha256": "2ebaa09fdcd48e9c07c128e700a37b83801711278f5eed7715452ce57cd3b06a",
+      "bytes": 578
+    },
+    {
+      "name": "BENCH_DASHBOARD_TEMPLATE.md",
+      "sha256": "edf2f706cac82e064a436849506737d5e5b67121e42f32966d407a98d9880387",
+      "bytes": 435
+    },
+    {
+      "name": "ETHICS_BOARD_MINUTES_TEMPLATE.md",
+      "sha256": "dfbdf3b28c9e69b743e1a861496a01f7d1dbe5880ff58bf32bc447947005a1ea",
+      "bytes": 227
+    },
+    {
+      "name": "GOVERNANCE_MATRIX.md",
+      "sha256": "6f5ce0afd93ab15e2d2102b62af5e315b96d86f11a59d924a735773614929e55",
+      "bytes": 484
+    },
+    {
+      "name": "README_v30.md",
+      "sha256": "7dddff9b8bdbaf27a43288dbdb9fdc00bdbe4300ce21787d71052fe26f93b31e",
+      "bytes": 471
+    },
+    {
+      "name": "SECURITY_AUDIT_TEMPLATE.md",
+      "sha256": "92d034a4c85f20bb9f7a386468101b1149aa6181b9f29351bea6cffe43662402",
+      "bytes": 193
+    },
+    {
+      "name": "USER_STUDY_TEMPLATE.md",
+      "sha256": "e6ad31ee458fbee87d207a134d731adc50e65ce9aabadfc19f31e5d7840f3aac",
+      "bytes": 203
+    },
+    {
+      "name": "VALIDATION_SUMMARY_v30.md",
+      "sha256": "ef7e335982944421d3daeddb8532e34fd8151f356a952bdc83d4744c0113070d",
+      "bytes": 318
+    }
+  ]
+}
