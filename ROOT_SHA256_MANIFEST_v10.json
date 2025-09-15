@@ -1,0 +1,85 @@
+{
+  "generated": "2025-09-15T22:19:37.719615Z",
+  "files": [
+    {
+      "name": "ABLATION_STATS.csv",
+      "sha256": "d62c5eb7826113f316c8f28bd3dcb9f508e388592dd2566541df885c2063c3cf",
+      "bytes": 455
+    },
+    {
+      "name": "ABLATION_STATS.md",
+      "sha256": "8849d7d16eef67091b200b2bdfcc91759396f1587bc509d5f634b0c6c8574651",
+      "bytes": 785
+    },
+    {
+      "name": "C2PA_manifest_full.json",
+      "sha256": "c11f5d46673a694119d4aa66987cfa59ce42b6bf2ec569b7d2a8b851dda219f8",
+      "bytes": 5385
+    },
+    {
+      "name": "CLAIMS_AUDIT.md",
+      "sha256": "f1439d1c3f3754f1b0c7e4027a8dc166091ea2d7d11f0a80452c85c8871eb516",
+      "bytes": 188
+    },
+    {
+      "name": "ERRATA.md",
+      "sha256": "57001c05ea16a676d8cc587d3544e9aabce95b6fd92cda1fa545add5105ce85f",
+      "bytes": 233
+    },
+    {
+      "name": "MODEL_CARD.md",
+      "sha256": "2018d91605214c9cfe84116661cdd1396bd430aeda2ff5939f78ffce3211a7c7",
+      "bytes": 689
+    },
+    {
+      "name": "README_CLIENT.md",
+      "sha256": "693b2d064a821d41ee9a9a8bff4a6bed3a0200c7fdf1ee3b1aaf8b1acbc88243",
+      "bytes": 2049
+    },
+    {
+      "name": "README_CLIENT_OVERVIEW.md",
+      "sha256": "b55f3b3c897ec851b8b32acfe532c4bf2aa17c80f15821baac5c42ee2f987ce3",
+      "bytes": 1428
+    },
+    {
+      "name": "VALIDATION_STATUS_v6.md",
+      "sha256": "1eb960b3065321ccd54484b05e7ce1ed595d1d1cffe1ee5e81b332f650960a8e",
+      "bytes": 707
+    },
+    {
+      "name": "WHITEPAPER_HUMBLE_v1.md",
+      "sha256": "6603cb4f39827d6b90dfba40a2dba8f4566825abbdc81e093fd69b8cb0a00d0a",
+      "bytes": 230
+    },
+    {
+      "name": "ablation_results.csv",
+      "sha256": "68633c7dc34d0236464193541cdb5c463da3cb8cec951be28ae05d2b31e561a3",
+      "bytes": 1200
+    },
+    {
+      "name": "ablation_results.json",
+      "sha256": "879f2cad79fd22d0c4ddbe24548ecbeb06caa58c1d09cf70e7aceffaab4ed5f5",
+      "bytes": 5184
+    },
+    {
+      "name": "evidence_data_processing_register.md",
+      "sha256": "520ee01be2d9d3697b0190d456d55d0c6165aee3306626a84cb6db90f8827285",
+      "bytes": 94
+    },
+    {
+      "name": "evidence_energy_psutil_log_example.json",
+      "sha256": "0b58395c85bae1240cfe3e37dacc7d412cd2fb5c1eaff3f7ae34f0c98caaf643",
+      "bytes": 1315
+    },
+    {
+      "name": "evidence_model_card_full.md",
+      "sha256": "0842e0394e931c59994ac8b65e56e2b0d57044385e1eecbef0374ea4939dee35",
+      "bytes": 159
+    },
+    {
+      "name": "metrics_humble_psutil.json",
+      "sha256": "4b5c95a9fb99aa97b98f98c61761377b1b43d11b69bbc8b956825fd47329d74c",
+      "bytes": 252
+    }
+  ]
+}
