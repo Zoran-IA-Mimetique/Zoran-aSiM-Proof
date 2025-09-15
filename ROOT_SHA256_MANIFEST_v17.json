@@ -1,0 +1,35 @@
+{
+  "generated": "2025-09-15T22:43:28.841776Z",
+  "files": [
+    {
+      "name": ".github/workflows/ci_matrix_strict.yml",
+      "sha256": "efc01b5519dbf74555705b3f3b9dae5e9f0aaffee1cf2f9ef295cb82feddc747",
+      "bytes": 995
+    },
+    {
+      "name": "README_PRODUCTION_HARDENING.md",
+      "sha256": "d55ec8cdf9e05a5e4548bfd546d6882d8b69115cf5da8865ae7fd7b9aaba5296",
+      "bytes": 761
+    },
+    {
+      "name": "requirements.txt",
+      "sha256": "7529cb5bc61661f10247697519666a92a04090ab1dd934f91ff820c0ecf34ab4",
+      "bytes": 65
+    },
+    {
+      "name": "tools/generate_release.py",
+      "sha256": "143643c016cf531583a6e027b83d11c03d2a2586daf557d96c78be444e061fbb",
+      "bytes": 1459
+    },
+    {
+      "name": "tools/sign_c2pa_stub.py",
+      "sha256": "9d80b49a235db058ce8de9e6a77c10c01f1ccf0ec18439022d0cd299b485f5ca",
+      "bytes": 1172
+    },
+    {
+      "name": "tools/sign_kms_wrapper.py",
+      "sha256": "64cadb2caf8a51c03a832f1afc089ffe5ea08e708e6f9e15a587988b99dffc14",
+      "bytes": 1953
+    }
+  ]
+}
