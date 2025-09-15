@@ -1,0 +1,60 @@
+{
+  "generated": "2025-09-15T23:55:51.147027Z",
+  "files": [
+    {
+      "name": "CLIENT_KEY_GUIDE.md",
+      "sha256": "ce9470568485b94902598ec560eef88000344d914e502bcf1c6008c61db5fd19",
+      "bytes": 727
+    },
+    {
+      "name": "FT_message_watermarked.txt",
+      "sha256": "68d51eb12849fed4f62be1a295f33ee1a91b68bfd43107b626e990663afddc52",
+      "bytes": 445
+    },
+    {
+      "name": "FT_semantic_crypto_report.json",
+      "sha256": "d3bb20cdbeeaaf2c8258001c5f81442e3cb9771773302cd894f979041c4c4b2c",
+      "bytes": 397
+    },
+    {
+      "name": "INJECTOR_CRYPTO_CLIENT_DEMO.py",
+      "sha256": "961172bdd567706a662016239143c67393d8600b4ca1d7eca0e4d1ef949c71c9",
+      "bytes": 1892
+    },
+    {
+      "name": "README_v37.md",
+      "sha256": "57993db115e23242045d9b2c71c8b738c3b5f5d8b9908fa5fd7f223d28a9a3da",
+      "bytes": 700
+    },
+    {
+      "name": "ROBUSTNESS_REPORT.csv",
+      "sha256": "d98a4ad5cc644e23db9b5a8a7ec0319cb3e76fc236a9237a787f2bbeb91fbda1",
+      "bytes": 1148
+    },
+    {
+      "name": "ROBUSTNESS_REPORT.json",
+      "sha256": "cbdec2025ac5faa5296c18462681e9483c4805f4b457aa2e03f80b2020607964",
+      "bytes": 6284
+    },
+    {
+      "name": "ROBUSTNESS_TESTS.py",
+      "sha256": "654bac40a4873f7ec69e7ccd75a43d020d01dcbf33e35dba91ce84b689f253ea",
+      "bytes": 1972
+    },
+    {
+      "name": "SEMCRYPTO_AUDIT_TEMPLATE.md",
+      "sha256": "28f371e61e7b8b2f9535b7dcc968f2c5cf31ed7bc5c520c406bc40c1dd26e0a0",
+      "bytes": 335
+    },
+    {
+      "name": "SEMCRYPTO_REPORT_v37.md",
+      "sha256": "739d83465d2353f69b3048088b8b98a19d90d7814b9350f9f0a48702faf9309b",
+      "bytes": 425
+    },
+    {
+      "name": "semantic_crypto_v37.py",
+      "sha256": "3cc861dda6442aba18ba2d75b10cd84175853d030e7ac315bc405507402feab5",
+      "bytes": 2523
+    }
+  ]
+}

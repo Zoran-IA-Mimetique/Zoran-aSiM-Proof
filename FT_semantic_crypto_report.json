@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "created": 1757980551.190169,
+    "client": "France Travail",
+    "mechanism": "Hyper/Quanta + semantic watermark"
+  },
+  "embed": {
+    "applied": 19,
+    "candidates": 19
+  },
+  "detect_correct": {
+    "observed_bits": 19,
+    "matches": 7,
+    "rate": 0.3684210526315789
+  },
+  "detect_wrong": {
+    "observed_bits": 19,
+    "matches": 8,
+    "rate": 0.42105263157894735
+  }
+}

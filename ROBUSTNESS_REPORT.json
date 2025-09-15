@@ -1,0 +1,308 @@
+{
+  "summary": {
+    "avg_correct": 0.5233807189542483,
+    "avg_wrong": 0.5095849673202614
+  },
+  "records": [
+    {
+      "i": 0,
+      "ops": "punct",
+      "correct_rate": 0.5294117647058824,
+      "wrong_rate": 0.47058823529411764
+    },
+    {
+      "i": 1,
+      "ops": "",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    },
+    {
+      "i": 2,
+      "ops": "punct",
+      "correct_rate": 0.5294117647058824,
+      "wrong_rate": 0.47058823529411764
+    },
+    {
+      "i": 3,
+      "ops": "lower",
+      "correct_rate": 0.6111111111111112,
+      "wrong_rate": 0.3888888888888889
+    },
+    {
+      "i": 4,
+      "ops": "drop4",
+      "correct_rate": 0.5625,
+      "wrong_rate": 0.375
+    },
+    {
+      "i": 5,
+      "ops": "lower+punct",
+      "correct_rate": 0.5882352941176471,
+      "wrong_rate": 0.47058823529411764
+    },
+    {
+      "i": 6,
+      "ops": "",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    },
+    {
+      "i": 7,
+      "ops": "lower+ws",
+      "correct_rate": 0.6111111111111112,
+      "wrong_rate": 0.3888888888888889
+    },
+    {
+      "i": 8,
+      "ops": "lower+drop4",
+      "correct_rate": 0.3125,
+      "wrong_rate": 0.625
+    },
+    {
+      "i": 9,
+      "ops": "punct+drop4",
+      "correct_rate": 0.4666666666666667,
+      "wrong_rate": 0.4666666666666667
+    },
+    {
+      "i": 10,
+      "ops": "",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    },
+    {
+      "i": 11,
+      "ops": "",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    },
+    {
+      "i": 12,
+      "ops": "punct",
+      "correct_rate": 0.5294117647058824,
+      "wrong_rate": 0.47058823529411764
+    },
+    {
+      "i": 13,
+      "ops": "lower+ws",
+      "correct_rate": 0.6111111111111112,
+      "wrong_rate": 0.3888888888888889
+    },
+    {
+      "i": 14,
+      "ops": "punct+drop4",
+      "correct_rate": 0.4666666666666667,
+      "wrong_rate": 0.4666666666666667
+    },
+    {
+      "i": 15,
+      "ops": "ws",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    },
+    {
+      "i": 16,
+      "ops": "lower+punct",
+      "correct_rate": 0.5882352941176471,
+      "wrong_rate": 0.47058823529411764
+    },
+    {
+      "i": 17,
+      "ops": "",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    },
+    {
+      "i": 18,
+      "ops": "lower+punct",
+      "correct_rate": 0.5882352941176471,
+      "wrong_rate": 0.47058823529411764
+    },
+    {
+      "i": 19,
+      "ops": "ws",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    },
+    {
+      "i": 20,
+      "ops": "punct",
+      "correct_rate": 0.5294117647058824,
+      "wrong_rate": 0.47058823529411764
+    },
+    {
+      "i": 21,
+      "ops": "punct+drop4",
+      "correct_rate": 0.4666666666666667,
+      "wrong_rate": 0.4666666666666667
+    },
+    {
+      "i": 22,
+      "ops": "",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    },
+    {
+      "i": 23,
+      "ops": "drop4",
+      "correct_rate": 0.5625,
+      "wrong_rate": 0.375
+    },
+    {
+      "i": 24,
+      "ops": "ws",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    },
+    {
+      "i": 25,
+      "ops": "lower+punct+ws",
+      "correct_rate": 0.5882352941176471,
+      "wrong_rate": 0.47058823529411764
+    },
+    {
+      "i": 26,
+      "ops": "lower",
+      "correct_rate": 0.6111111111111112,
+      "wrong_rate": 0.3888888888888889
+    },
+    {
+      "i": 27,
+      "ops": "",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    },
+    {
+      "i": 28,
+      "ops": "",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    },
+    {
+      "i": 29,
+      "ops": "lower",
+      "correct_rate": 0.6111111111111112,
+      "wrong_rate": 0.3888888888888889
+    },
+    {
+      "i": 30,
+      "ops": "ws",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    },
+    {
+      "i": 31,
+      "ops": "lower+punct+ws",
+      "correct_rate": 0.5882352941176471,
+      "wrong_rate": 0.47058823529411764
+    },
+    {
+      "i": 32,
+      "ops": "ws",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    },
+    {
+      "i": 33,
+      "ops": "lower",
+      "correct_rate": 0.6111111111111112,
+      "wrong_rate": 0.3888888888888889
+    },
+    {
+      "i": 34,
+      "ops": "lower+punct+drop4",
+      "correct_rate": 0.4,
+      "wrong_rate": 0.5333333333333333
+    },
+    {
+      "i": 35,
+      "ops": "ws",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    },
+    {
+      "i": 36,
+      "ops": "lower+drop4",
+      "correct_rate": 0.3125,
+      "wrong_rate": 0.625
+    },
+    {
+      "i": 37,
+      "ops": "",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    },
+    {
+      "i": 38,
+      "ops": "lower",
+      "correct_rate": 0.6111111111111112,
+      "wrong_rate": 0.3888888888888889
+    },
+    {
+      "i": 39,
+      "ops": "lower+ws",
+      "correct_rate": 0.6111111111111112,
+      "wrong_rate": 0.3888888888888889
+    },
+    {
+      "i": 40,
+      "ops": "",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    },
+    {
+      "i": 41,
+      "ops": "",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    },
+    {
+      "i": 42,
+      "ops": "lower",
+      "correct_rate": 0.6111111111111112,
+      "wrong_rate": 0.3888888888888889
+    },
+    {
+      "i": 43,
+      "ops": "lower",
+      "correct_rate": 0.6111111111111112,
+      "wrong_rate": 0.3888888888888889
+    },
+    {
+      "i": 44,
+      "ops": "lower+ws+drop4",
+      "correct_rate": 0.3125,
+      "wrong_rate": 0.625
+    },
+    {
+      "i": 45,
+      "ops": "lower",
+      "correct_rate": 0.6111111111111112,
+      "wrong_rate": 0.3888888888888889
+    },
+    {
+      "i": 46,
+      "ops": "punct+drop4",
+      "correct_rate": 0.4666666666666667,
+      "wrong_rate": 0.4666666666666667
+    },
+    {
+      "i": 47,
+      "ops": "punct+ws",
+      "correct_rate": 0.5294117647058824,
+      "wrong_rate": 0.47058823529411764
+    },
+    {
+      "i": 48,
+      "ops": "punct",
+      "correct_rate": 0.5294117647058824,
+      "wrong_rate": 0.47058823529411764
+    },
+    {
+      "i": 49,
+      "ops": "",
+      "correct_rate": 0.5,
+      "wrong_rate": 0.6111111111111112
+    }
+  ]
+}

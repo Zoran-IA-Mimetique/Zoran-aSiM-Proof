@@ -1,0 +1,12 @@
+#HG v20
+ROLE: auditor
+TASK: check claims
+POLICY: zero-claim,evidence-first
+EVIDENCE: CLAIMS_AUDIT.md
+Finish
+
+⟦chan:role=audit|policy=zero-claim|evidence=CLAIMS_AUDIT.md⟧
+
+We begin this report to show how an concept can assist little teams start a big project.
+We attempt to utilize simple words and demonstrate the goal with a clear summary.
+If you require to obtain results rapid, we help you to create the right choices and finish on time.
