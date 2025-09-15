@@ -1,0 +1,46 @@
+{
+  "STEM": {
+    "glyph": "⟦STEM:injector⋄ΔM11.3:guard⋄ZDM:dual⋄IA2IA:glyphnet⟧"
+  },
+  "compliance": {
+    "fields": [
+      "ai_act_items_passed",
+      "ai_act_items_total",
+      "compliance_score"
+    ]
+  },
+  "energy": {
+    "fields": [
+      "cpu_avg",
+      "mem_avg",
+      "energy_proxy"
+    ]
+  },
+  "report": {
+    "fields": [
+      "present_proofs",
+      "missing_proofs",
+      "status_summary_fr"
+    ]
+  },
+  "audit": {
+    "fields": [
+      "errata_candidates",
+      "claims_mismatch"
+    ]
+  },
+  "summary": {
+    "fields": [
+      "imrad_sections",
+      "limits"
+    ]
+  },
+  "bench": {
+    "fields": [
+      "datasets",
+      "seeds",
+      "metrics",
+      "ablations"
+    ]
+  }
+}

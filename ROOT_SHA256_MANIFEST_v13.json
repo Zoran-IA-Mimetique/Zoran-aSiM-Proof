@@ -1,11 +1,6 @@
 {
-  "c2pa": "v1",
-  "created": "2025-09-15T22:28:42.283187Z",
-  "creator": {
-    "name": "Fr\u00e9d\u00e9ric Tabary",
-    "org": "Zoran aSiM"
-  },
-  "assets": [
+  "generated": "2025-09-15T22:28:42.283187Z",
+  "files": [
     {
       "name": "ABLATION_STATS.csv",
       "sha256": "d62c5eb7826113f316c8f28bd3dcb9f508e388592dd2566541df885c2063c3cf",
@@ -28,8 +23,8 @@
     },
     {
       "name": "C2PA_manifest_full.json",
-      "sha256": "c11f5d46673a694119d4aa66987cfa59ce42b6bf2ec569b7d2a8b851dda219f8",
-      "bytes": 5385
+      "sha256": "1990435e845f5807136c3bfe4aef59c4cf6dc4bc536c5f1549ee9235339413ea",
+      "bytes": 14125
     },
     {
       "name": "CHANGELOG.md",
@@ -215,6 +210,11 @@
       "name": "VALIDATION_STATUS_v12.md",
       "sha256": "0c93afa4938f8effe35fb5e8d11bbf68b847ee375e62679a26805c6e0568c271",
       "bytes": 305
+    },
+    {
+      "name": "VALIDATION_STATUS_v13.md",
+      "sha256": "133ec9a4115425eca1daad552f46ebf7789804fab33e046c05bc0527e716f3fb",
+      "bytes": 268
     },
     {
       "name": "VALIDATION_STATUS_v4.md",
