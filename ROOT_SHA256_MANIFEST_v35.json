@@ -1,0 +1,25 @@
+{
+  "generated": "2025-09-15T23:48:59.751802Z",
+  "files": [
+    {
+      "name": "INJECTOR_CRYPTO_POLICY.md",
+      "sha256": "d6c4377907154ba81c0db0ff26da820612fef3968628fd502fce04bb2e022659",
+      "bytes": 1365
+    },
+    {
+      "name": "README_v35.md",
+      "sha256": "69ba9405147f1dc9acbcd41d5055b0003f08ade08cb1bcb982d6c41b34eeed6f",
+      "bytes": 710
+    },
+    {
+      "name": "VALIDATION_STATUS_MASTER.md",
+      "sha256": "8b2e08d6b0ab3d45eb377a23de2fe0f5a26b28e977339a222d860a6ff657d26c",
+      "bytes": 1275
+    },
+    {
+      "name": "ZORAN_POSITIONING.md",
+      "sha256": "904dee48287cd0eae58a0d4793edbb800605f83349f79dc1564c05de69d382d5",
+      "bytes": 1606
+    }
+  ]
+}
