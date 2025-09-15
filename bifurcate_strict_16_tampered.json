@@ -1,0 +1,68 @@
+{
+  "provenance": {
+    "created_at": 1757975980.9326868,
+    "created_iso": "2025-09-15T22:39:40.932689Z",
+    "seed": 16,
+    "context": "strict_demo_ctx",
+    "stem": {
+      "name": "stem_injector",
+      "glyph": "\u27e6STEM:injector\u22c4\u0394M11.3:guard\u22c4ZDM:dual\u22c4IA2IA:glyphnet\u27e7",
+      "meta_policy": {
+        "zero_claim": true,
+        "evidence_first": true,
+        "version": "v16"
+      }
+    }
+  },
+  "runs": [
+    {
+      "role_id": "cd205690-c9cc-5441-ad9e-e8b85f4fd77f",
+      "role": "compliance",
+      "generated_at": 1757975980.932792,
+      "generated_iso": "2025-09-15T22:39:40.932792Z",
+      "payload": {
+        "role": "compliance",
+        "desc": "Map evidence to regulatory checklist",
+        "values": {
+          "ai_act_items_passed": 1,
+          "ai_act_items_total": 999,
+          "compliance_score": 0.858
+        }
+      },
+      "signature": "eb91cf57c375ec3027d7d88aa7725857b10f7f2390f9e2d5a4292bcaa7d75d4f"
+    },
+    {
+      "role_id": "dc5dd1de-aff6-5b7d-b264-aa0e7939a4b8",
+      "role": "energy",
+      "generated_at": 1757975980.9328816,
+      "generated_iso": "2025-09-15T22:39:40.932882Z",
+      "payload": {
+        "role": "energy",
+        "desc": "Summarize psutil logs and compute energy proxy",
+        "values": {
+          "cpu_avg": 0.385,
+          "mem_avg": 0.307,
+          "energy_proxy": 0.57
+        }
+      },
+      "signature": "c7079a41e4840d77322acc55ea1da7d1a62cd78a0397005e30cc119d10e6042f"
+    },
+    {
+      "role_id": "abef860e-13d5-573a-92d5-28d9879bca49",
+      "role": "report",
+      "generated_at": 1757975980.932928,
+      "generated_iso": "2025-09-15T22:39:40.932928Z",
+      "payload": {
+        "role": "report",
+        "desc": "Produce client-facing French status",
+        "values": {
+          "present_proofs": "auto:211d3a2ba12a",
+          "missing_proofs": "auto:cae143c21e60",
+          "status_summary_fr": "auto:02fd84b46d28"
+        }
+      },
+      "signature": "4dc0aac171548db44bf26f4056f623b87305bcbdc0e7274fae4f27ca95278b57"
+    }
+  ],
+  "signature": "8e1f9abbc147c75ef5a8e3c2fa136f94eff4a022282e2697c98c05a64b55751b"
+}

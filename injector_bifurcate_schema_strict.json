@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InjectorBifurcateOutputStrict",
+  "type": "object",
+  "properties": {
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "created_at": {
+          "type": "number"
+        },
+        "created_iso": {
+          "type": "string"
+        },
+        "seed": {
+          "type": "integer"
+        },
+        "context": {
+          "type": "string"
+        },
+        "stem": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "glyph": {
+              "type": "string"
+            },
+            "meta_policy": {
+              "type": "object"
+            }
+          },
+          "required": [
+            "name",
+            "glyph"
+          ]
+        }
+      },
+      "required": [
+        "created_at",
+        "created_iso",
+        "seed",
+        "context",
+        "stem"
+      ]
+    },
+    "runs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role_id": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          },
+          "generated_at": {
+            "type": "number"
+          },
+          "generated_iso": {
+            "type": "string"
+          },
+          "payload": {
+            "type": "object",
+            "properties": {
+              "role": {
+                "type": "string"
+              },
+              "desc": {
+                "type": "string"
+              },
+              "values": {
+                "type": "object"
+              }
+            },
+            "required": [
+              "role",
+              "values"
+            ]
+          },
+          "signature": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "role_id",
+          "role",
+          "generated_iso",
+          "payload",
+          "signature"
+        ]
+      },
+      "minItems": 1
+    },
+    "signature": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "provenance",
+    "runs",
+    "signature"
+  ]
+}

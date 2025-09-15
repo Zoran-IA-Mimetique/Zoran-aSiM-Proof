@@ -1,0 +1,60 @@
+{
+  "generated": "2025-09-15T22:39:38.574132Z",
+  "files": [
+    {
+      "name": ".github/workflows/injectors_strict.yml",
+      "sha256": "2b16e85477f71b470ba3de532d6bc288cf1214a65f4452d93044fee426d8f200",
+      "bytes": 864
+    },
+    {
+      "name": "INJECTOR_SPEC.md",
+      "sha256": "17f213c860cf21ca4e92773f184ce1b08515203e2289323a0f03b34473ec0539",
+      "bytes": 562
+    },
+    {
+      "name": "README_STRICT_INJECTORS.md",
+      "sha256": "4c27843fef911b8ed2ea02c3458446104c8c49d9e1c86ffb55bea2ec0c720480",
+      "bytes": 573
+    },
+    {
+      "name": "STRICT_TEST_REPORT.json",
+      "sha256": "08601c090ae3bf0661ca683a73aa253890ef5897b1729b060530fddc7e3ba21e",
+      "bytes": 132
+    },
+    {
+      "name": "VALIDATE_STRICT_RESULT.json",
+      "sha256": "5270bdf411f012fd3ed1d535e46d447b207cd922ad465d5f1acdae46fc325035",
+      "bytes": 73
+    },
+    {
+      "name": "bifurcate_strict_16.json",
+      "sha256": "2722683755206e80d295a87c212895aad894783f4b8c94372d9fc5305eae3cfa",
+      "bytes": 2117
+    },
+    {
+      "name": "bifurcate_strict_16_tampered.json",
+      "sha256": "c19c42debcb517c7353fff6b3754305bdad629db81418e63c1f7849174854cc6",
+      "bytes": 2138
+    },
+    {
+      "name": "injector_bifurcate_schema_strict.json",
+      "sha256": "a41b418b7b07f6d4801d011965ab2bd1e4f98a5da559f5da5ce0742999cdfb38",
+      "bytes": 2136
+    },
+    {
+      "name": "injector_bifurcate_strict.py",
+      "sha256": "f474ac7698e4e72a1b78f5910d9ec3326237bde1c6a888eb37d03c6acaec0fdf",
+      "bytes": 3394
+    },
+    {
+      "name": "tests_injectors_strict.py",
+      "sha256": "345a28de18bb8088060ab5a4740eef572056858a581c947e1f76d27cc174f9ce",
+      "bytes": 1943
+    },
+    {
+      "name": "validate_bifurcate_strict.py",
+      "sha256": "f1599d6ab6c8bb6804b972eade4f5e078b8379fb893adc642ee7f2b78f752aed",
+      "bytes": 777
+    }
+  ]
+}
