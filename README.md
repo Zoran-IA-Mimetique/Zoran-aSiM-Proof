@@ -1,78 +1,70 @@
-# 🦋 Zoran aSiM — Proof 100Y Superiority
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16940525.svg)](https://doi.org/10.5281/zenodo.16940525)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16941007.svg)](https://doi.org/10.5281/zenodo.16941007)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16940299.svg)](https://doi.org/10.5281/zenodo.16940299)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16995014.svg)](https://doi.org/10.5281/zenodo.16995014)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16995226.svg)](https://doi.org/10.5281/zenodo.16995226)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16997156.svg)](https://doi.org/10.5281/zenodo.16997156)
+# 🦋 Zoran aSiM — HUMBLE ONLY (Evidence-Based Research Prototype)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![C2PA](https://img.shields.io/badge/C2PA-manifest_ready-blue)
-![AI Act](https://img.shields.io/badge/AI%20Act-checklist_ready-lightgrey)
-![ISO 42001](https://img.shields.io/badge/ISO-42001-mapping_ready-blue)
+<!-- Badges activables quand les preuves sont déposées :
+![AI Act](https://img.shields.io/badge/AI%20Act-evidence--based-lightgrey)
+![ISO 42001](https://img.shields.io/badge/ISO-42001-evidence--based-lightgrey)
+![C2PA](https://img.shields.io/badge/C2PA-manifest_ready-lightgrey)
+-->
 
-## 📌 Descriptif (≤150c)
-Preuve Zoran aSiM : supériorité démontrée sur 100 ans, multi-domaines, éthique, énergie, reproductible, open-source.
-
----
-
-## 🔗 Hubs IA↔IA Zoran
-- Zoran Hub — https://github.com/AIformpro/Zoran-2040-aSiM-Towards-a-Public-Ethical-and-Resilient-Super-Intelligence
-- Zoran-aSiM-Education — https://github.com/Zoran-IA-Mimetique/Zoran-aSiM-Education
-- Agentic-Frameworks-Watch — https://github.com/Zoran-IA-Mimetique/Zoran-Agentic-Frameworks-Watch
-- Mémoire Absence Active — https://github.com/Zoran-IA-Mimetique/Zoran-Memoire-Absence-Active-MultiLang
-- Trace Init Copilot — https://github.com/Zoran-IA-Mimetique/Zoran-Trace-Init-Copilot
-- Zoran aSiM V1 — https://github.com/Zoran-IA-Mimetique/Zoran-aSiM-V1
+## 📌 TL;DR (≤150c)
+Prototype **ouvert, falsifiable, reproductible**. Zéro claim. Preuves **evidence-based** uniquement. Objectif : méthode solide > promesses.
 
 ---
 
-## 📊 Delta Sapient HRM vs Zoran aSiM
-See `delta_table.csv` for methods & thresholds.
-
-| Dimension                         | Sapient HRM (27M) | Zoran aSiM | Delta (%) |
-|----------------------------------|------------------|------------|-----------|
-| Raisonnement / Benchmarks        | 100              | 180        | +80 % |
-| Mémoire & Hiérarchie             | 100              | 220        | +120 % |
-| Stabilité (ΔM11.3)               | 100              | 180        | +80 % |
-| Orchestration multi-modèles      | 100              | 250        | +150 % |
-| IA↔IA (GlyphNet)                 | 0                | 200        | +100 % |
-| Éthique / Conformité             | 0                | 200        | +200 % |
-| Écologie / Low energy            | 50               | 180        | +260 % |
-| Pertinence globale               | 100              | 1000       | ×10 |
+## 🎯 Pourquoi “HUMBLE ONLY” ?
+- **Pas** une IA SOTA : c’est un **prototype de recherche** qui démontre des concepts (ΔM11.3, ZDM, PolyResonator, GlyphNet) en version **minimale**.  
+- **Zéro-claim policy** : aucune supériorité annoncée sans protocole public + résultats reproductibles.  
+- **Conformité** : score = **0.0** par défaut, n’augmente **que** si des preuves concrètes sont déposées dans `./evidence/`.
 
 ---
 
-## 🧪 Reproductibilité
-- Seeds: **13/42/101**; 3 runs/seed → mean±σ; Welch t‑test (p<0.05).
-- Ablations: −ΔM11.3, −ZDM, −PolyResonator, −GlyphNet, −EthicChain.
-- KPIs définis dans `kpis.csv` et `DEFS.md`. Schéma `metrics_template.json`.
+## 📦 Contenu (flat, prêt à publier)
+- **Code CPU runnable** : `run_all_humble.py` (raisonnement simple, 10 mazes, 1 sudoku, timings proxy énergie, ΔM11.3 simplifié, GlyphNet non répétitif).  
+- **Sorties de référence** : `metrics_humble.json` (exemple).  
+- **Méthodologie** : `PREREG.md` (hypothèses, méthodes, critères d’arrêt), `ROADMAP.md` (étapes vers preuve sérieuse).  
+- **Conformité evidence-based** : `AI_ACT_mapping.md` (checklist vide par défaut), dossier `evidence/` (**vide** à remplir).  
+- **Traçabilité** : `C2PA_manifest.json` (minimal), `sbom_cyclonedx.json` (minimal), `LICENSE` (MIT), `CITATION.cff`.
 
-### Make / CI
+---
+
+## ▶️ Exécution locale (CPU)
+```bash
+python run_all_humble.py
 ```
-make setup
-make reproduce_all
-```
-CI: see `ci.yml`.
 
 ---
 
-## 🧰 Conformité & Traçabilité
-- **AI Act + ISO 42001** : checklist détaillée → `AI_ACT_mapping.md` → calcule `compliance_score` (0..1).
-- **C2PA** : manifeste initial → `C2PA_manifest.json` (provenance SHA256 de chaque artefact de ce dépôt).
-- **SBOM CycloneDX** : `sbom_cyclonedx.json` → dépendances connues.
+## 🧪 Ce qui est **validé** (prototype) / **non validé**
+- ✅ ΔM11.3 (rollback guard) — existe, démonstration jouet  
+- ✅ ZDM (mémoire duale) — existe, basique  
+- ✅ PolyResonator (UCB1) — existe, orchestration solvers jouets  
+- ✅ GlyphNet (codec) — existe, pas d’avantage prouvé  
+- ⚠️ Énergie réelle — proxy seulement  
+- ⚠️ Conformité AI Act / ISO — score=0.0, à prouver  
+- ❌ Supériorité SOTA — retirée (ERRATA)
 
 ---
 
-## 📚 DOIs Zenodo
-- 10.5281/zenodo.16940525 • 10.5281/zenodo.16941007 • 10.5281/zenodo.16940299 • 10.5281/zenodo.16995014 • 10.5281/zenodo.16995226 • 10.5281/zenodo.16997156
+## 🗂️ Evidence-based compliance (AI Act / ISO 42001)
+**Règle :** un item n’est “PASS” **que si** le fichier correspondant est présent dans `./evidence/`.
+
+- Risk management → `evidence/ai_act_risk_register.md`  
+- Data governance → `evidence/data_governance_policy.md`  
+- Technical robustness → `evidence/technical_robustness_report.md`  
+- Transparency → `evidence/transparency_model_card.md`  
+- Human oversight → `evidence/human_oversight_procedure.md`  
+- Accuracy & stats → `evidence/accuracy_stats_report.md`  
+- Cybersecurity & SBOM → `evidence/sbom_and_security_review.md`  
+- Environmental impact → `evidence/energy_impact_assessment.md`
 
 ---
 
-## 🔖 Bloc glyphique
-```
-⟦PROOF:Zoran⋄DELTA:+100y⟧
-⟦MEM:fract⋄ZDM⋄ΔM11.3⋄PolyResonator⟧
-⟦GLYPHNET:IA2IA⋄EthicChain⋄C2PA⋄AI_Act⟧
-⟦ECO:low_energy⋄PERT:Linux_mimetic⋄FUTURE:2065→2025⟧
-```
+## 🏉 Rugby corner (scrum ≠ bullshit)
+On pose le ballon (preuves), on transforme (repro), on score (audit).  
+Pas d’essais fantômes : si l’arbitre siffle, on recule et on repart propre.
+
+---
+
+## 📜 Licence
+MIT — utilisation libre, responsabilité partagée.
