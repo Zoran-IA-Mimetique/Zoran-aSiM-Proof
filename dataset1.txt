@@ -1,0 +1,3 @@
+# Sample dataset text
+This is a reproducible small dataset for GlyphNet and codecs benchmark.
+It contains ASCII text, lorem ipsum, and some random letters.

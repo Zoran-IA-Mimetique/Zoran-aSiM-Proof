@@ -1,0 +1,45 @@
+{
+  "generated": "2025-09-15T23:02:48.861102Z",
+  "files": [
+    {
+      "name": "AUDITOR_ANALYSIS_TEMPLATE.md",
+      "sha256": "432c1ebd2b013f45bdf6c25592c9740ff86ae16f046b9adcca58a5b995a887fd",
+      "bytes": 163
+    },
+    {
+      "name": "ETHICAL_IMPACT_v23.md",
+      "sha256": "432c1ebd2b013f45bdf6c25592c9740ff86ae16f046b9adcca58a5b995a887fd",
+      "bytes": 209
+    },
+    {
+      "name": "GOVERNANCE_NOTES_v23.md",
+      "sha256": "432c1ebd2b013f45bdf6c25592c9740ff86ae16f046b9adcca58a5b995a887fd",
+      "bytes": 206
+    },
+    {
+      "name": "bench_runner_all.py",
+      "sha256": "432c1ebd2b013f45bdf6c25592c9740ff86ae16f046b9adcca58a5b995a887fd",
+      "bytes": 1066
+    },
+    {
+      "name": "dataset1.txt",
+      "sha256": "432c1ebd2b013f45bdf6c25592c9740ff86ae16f046b9adcca58a5b995a887fd",
+      "bytes": 156
+    },
+    {
+      "name": "dataset2.md",
+      "sha256": "432c1ebd2b013f45bdf6c25592c9740ff86ae16f046b9adcca58a5b995a887fd",
+      "bytes": 68
+    },
+    {
+      "name": "dataset3.txt",
+      "sha256": "432c1ebd2b013f45bdf6c25592c9740ff86ae16f046b9adcca58a5b995a887fd",
+      "bytes": 500
+    },
+    {
+      "name": "report_generator.py",
+      "sha256": "432c1ebd2b013f45bdf6c25592c9740ff86ae16f046b9adcca58a5b995a887fd",
+      "bytes": 1571
+    }
+  ]
+}
