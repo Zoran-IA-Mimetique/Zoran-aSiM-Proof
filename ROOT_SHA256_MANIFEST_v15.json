@@ -1,0 +1,45 @@
+{
+  "generated": "2025-09-15T22:36:38.806482Z",
+  "files": [
+    {
+      "name": "BIFURCATE_RUNLOG.txt",
+      "sha256": "791ae2f1c0d3f893651e3ee2a8b43cce3d41a672fa499a0027bfb2a7933e2e5c",
+      "bytes": 218
+    },
+    {
+      "name": "README_BIFURCATE.md",
+      "sha256": "5294e97d3667eb2b000eb427245f04c6e063c9845675987226a79e5ebd1f5c81",
+      "bytes": 966
+    },
+    {
+      "name": "VALIDATION_STATUS_v15.md",
+      "sha256": "65dab0e15ac53368b4b42fe65c5630416699ac3be1600723b123cda7bfa0af1e",
+      "bytes": 211
+    },
+    {
+      "name": "bifurcate_42.json",
+      "sha256": "164d2797c4f218a85b6ebd41f6b14dded3ccc765acff707df81b6591064305f2",
+      "bytes": 2047
+    },
+    {
+      "name": "injector_bifurcate.py",
+      "sha256": "f9a284b9fd3d9e519677c4707740f10f9f66e44f157861eafbaf6c22a242c2fd",
+      "bytes": 4685
+    },
+    {
+      "name": "injector_bifurcate_demo.sh",
+      "sha256": "211810a9c06ddc924d295f1fd629119f6070dcd62f442741b2bfe2fabb5d4f9a",
+      "bytes": 168
+    },
+    {
+      "name": "injector_bifurcate_schema.json",
+      "sha256": "1da45f9953249525f6ef5c150113b9b70102b38a9e8048e2c6b2d752b1b8ee77",
+      "bytes": 403
+    },
+    {
+      "name": "validate_bifurcate.py",
+      "sha256": "7b4024b3e9fcfb1658f27172eee8d5b2ba780b8b5d28d90dcfa66583432ca12b",
+      "bytes": 1132
+    }
+  ]
+}

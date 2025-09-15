@@ -1,0 +1,67 @@
+{
+  "provenance": {
+    "created_at": 1757975798.9162786,
+    "created_iso": "2025-09-15T22:36:38.916280Z",
+    "stem": {
+      "name": "stem_injector",
+      "glyph": "⟦STEM:injector⋄ΔM11.3:guard⋄ZDM:dual⋄IA2IA:glyphnet⟧",
+      "meta_policy": {
+        "zero_claim": true,
+        "evidence_first": true
+      }
+    },
+    "context": "demo_ctx",
+    "seed": 42
+  },
+  "runs": [
+    {
+      "role_id": "32716158-6cf7-5b1f-9def-c10c26774316",
+      "role": "compliance",
+      "payload": {
+        "role": "compliance",
+        "desc": "Map evidence to regulatory checklist",
+        "values": {
+          "ai_act_items_passed": 7,
+          "ai_act_items_total": 7,
+          "compliance_score": 0.589
+        }
+      },
+      "generated_at": 1757975798.9163907,
+      "generated_iso": "2025-09-15T22:36:38.916391Z",
+      "signature": "2f2921afeb5af76dd71021c35df79d0d937329cd33ba964be1979a7ac6926ac3"
+    },
+    {
+      "role_id": "9a8a4ca4-0519-5eaf-a747-61b0f24369b2",
+      "role": "energy",
+      "payload": {
+        "role": "energy",
+        "desc": "Summarize psutil logs and compute energy proxy",
+        "values": {
+          "cpu_avg": 0.1,
+          "mem_avg": 0.119,
+          "energy_proxy": 0.14
+        }
+      },
+      "generated_at": 1757975798.916496,
+      "generated_iso": "2025-09-15T22:36:38.916496Z",
+      "signature": "7671a90ef3c7ba4aff0cb87cb708c11ca3521f1cb61ed451cd9bbcae71483511"
+    },
+    {
+      "role_id": "611e67c2-061a-5d69-a356-71f9ed43b182",
+      "role": "report",
+      "payload": {
+        "role": "report",
+        "desc": "Produce client-facing French status",
+        "values": {
+          "present_proofs": 7,
+          "missing_proofs": 1,
+          "status_summary_fr": "auto:9b009757ccfa"
+        }
+      },
+      "generated_at": 1757975798.9165678,
+      "generated_iso": "2025-09-15T22:36:38.916568Z",
+      "signature": "0b384a79480832623ffbd1068c5d13d63edf081d7875716e7d79b2676cfec318"
+    }
+  ],
+  "signature": "c0b89bd7c825a877b6ddbf353326a49eef849e79cad3ca007c520c5a9425ea48"
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InjectorBifurcateOutput",
+  "type": "object",
+  "properties": {
+    "provenance": {
+      "type": "object"
+    },
+    "runs": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "signature": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "provenance",
+    "runs",
+    "signature"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "written": "bifurcate_42.json",
+  "roles": [
+    "compliance",
+    "energy",
+    "report"
+  ]
+}
+
+
+VALIDATE:
+{
+  "file": "bifurcate_42.json",
+  "valid_signature": true,
+  "reason": "ok"
+}
+{
+  "structure_ok": true
+}
