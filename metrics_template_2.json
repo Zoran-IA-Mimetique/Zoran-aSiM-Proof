@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "created": "2025-09-15T19:54:17.587068Z",
+    "seeds": [
+      13,
+      42,
+      101
+    ],
+    "hardware_note": "Fixed CPU/GPU budget; record hw details."
+  },
+  "runs": [],
+  "aggregates": {
+    "baseline": {},
+    "zoran": {},
+    "ablations": {}
+  }
+}

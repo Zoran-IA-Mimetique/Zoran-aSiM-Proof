@@ -1,0 +1,8 @@
+KPI,Metric,Definition,Target,Dataset/Protocol
+Reasoning-MD,score_idx,% success over ARC-like(200)+Sudoku(100)+Mazes(100),>=1.8x baseline,Seeds 13/42/101; Welch p<0.05
+Memory-Hierarchy,score_idx,% success on long-context tasks,>=2.2x baseline,Fixed budget; seeds 13/42/101
+Stability,rollback_fail_rate,fraction of steps triggering ΔM11.3 rollback,<=0.5x baseline,Log-based; Welch p<0.05
+Orchestration,task_success,% success on RAG/tool-use with PolyResonator,>=2.5x baseline,Ablation -PolyResonator
+IA2IA,glyphnet_throughput,tokens/hour ratio vs baseline,>=2.0x,Corpus .zgs; controlled hw
+Compliance,compliance_score,#PASS/#TOTAL from AI Act + ISO 42001,>=0.65,Checklist in AI_ACT_mapping.md
+Energy,watt_hours,energy consumed to reach target acc,<=0.6x,Fixed hw; wall-clock proxy if meter absent

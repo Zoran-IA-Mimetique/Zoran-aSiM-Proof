@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "created": 1757966762.067742,
+    "note": "v2 with timings/ops/composite pertinence"
+  },
+  "reasoning": {
+    "score_idx": {
+      "baseline": 84.50704225352112,
+      "zoran": 85.91549295774648,
+      "n": 71
+    },
+    "energy": {
+      "baseline": 1.0,
+      "zoran": 415.24594154649475
+    },
+    "ops": {
+      "maze_ops": 43,
+      "sudoku_ops": 1521
+    },
+    "timings": {
+      "maze": 0.00026647100003174273,
+      "sudoku": 0.04324735999989571,
+      "arc_z": 9.405200034962036e-05,
+      "arc_base": 0.00010501699989617919
+    }
+  },
+  "stability": {
+    "baseline": 0.3,
+    "zoran": 0.08333333333333333,
+    "ops": 180
+  },
+  "glyphnet": {
+    "baseline": 1.0,
+    "zoran": 50.0,
+    "timings": {
+      "enc": 0.00020173800021439092,
+      "dec": 5.0444999942556024e-05
+    }
+  },
+  "compliance": {
+    "baseline": 0.0,
+    "zoran": 1.0
+  },
+  "pertinence_composite": 10.751111111291483
+}

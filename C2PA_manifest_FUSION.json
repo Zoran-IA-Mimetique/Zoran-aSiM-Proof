@@ -1,0 +1,271 @@
+{
+  "c2pa": "v1",
+  "created": "2025-09-15T20:16:32.368723Z",
+  "creator": {
+    "name": "Fr\u00e9d\u00e9ric Tabary",
+    "org": "Zoran aSiM"
+  },
+  "license": "MIT",
+  "assets": [
+    {
+      "name": "AI_ACT_mapping.md",
+      "sha256": "59346bce057cadcae5fd7651754b885c69b79939a36f050014901bd9b5c2fd5f",
+      "bytes": 1245
+    },
+    {
+      "name": "AI_ACT_mapping_2.md",
+      "sha256": "59346bce057cadcae5fd7651754b885c69b79939a36f050014901bd9b5c2fd5f",
+      "bytes": 1245
+    },
+    {
+      "name": "ALL_IN_ONE_MANIFEST_SHA256.json",
+      "sha256": "90337d954d35f2dbd48756afecb98c856ef34a82155334a37cd17fee663e226a",
+      "bytes": 3480
+    },
+    {
+      "name": "C2PA_manifest.json",
+      "sha256": "0dcc6f243a3640ad0e27d87866653ba5b831d51e7d2c2dfa36d1b0eaac58010a",
+      "bytes": 2090
+    },
+    {
+      "name": "C2PA_manifest_2.json",
+      "sha256": "0dcc6f243a3640ad0e27d87866653ba5b831d51e7d2c2dfa36d1b0eaac58010a",
+      "bytes": 2090
+    },
+    {
+      "name": "CITATION.cff",
+      "sha256": "a1426338588b31177e18b8074f18c7a26c6031449f3604b0b4bc018a4ff8d0b3",
+      "bytes": 255
+    },
+    {
+      "name": "CITATION_2.cff",
+      "sha256": "a1426338588b31177e18b8074f18c7a26c6031449f3604b0b4bc018a4ff8d0b3",
+      "bytes": 255
+    },
+    {
+      "name": "CODE_OF_CONDUCT.md",
+      "sha256": "c528fe180402c1c7c8eabcd6b36581642826dfd1d0ca7197f9d3dee689d559b9",
+      "bytes": 123
+    },
+    {
+      "name": "CODE_OF_CONDUCT_2.md",
+      "sha256": "c528fe180402c1c7c8eabcd6b36581642826dfd1d0ca7197f9d3dee689d559b9",
+      "bytes": 123
+    },
+    {
+      "name": "CONTRIBUTING.md",
+      "sha256": "333de7e7234f3a05f1d41de4de8b452c0677f246a22398af170212920782c33f",
+      "bytes": 182
+    },
+    {
+      "name": "CONTRIBUTING_2.md",
+      "sha256": "333de7e7234f3a05f1d41de4de8b452c0677f246a22398af170212920782c33f",
+      "bytes": 182
+    },
+    {
+      "name": "DEFS.md",
+      "sha256": "2a5fd782bde1c378403c24b75127ec7c5f21548e018cb7b64dabcd1ffa05aa0a",
+      "bytes": 845
+    },
+    {
+      "name": "DEFS_2.md",
+      "sha256": "2a5fd782bde1c378403c24b75127ec7c5f21548e018cb7b64dabcd1ffa05aa0a",
+      "bytes": 845
+    },
+    {
+      "name": "DeltaM113_guard.py",
+      "sha256": "b93a65de96051cd74ca10f7a925d3ccf244332ee120165beb25ce57352fb2e97",
+      "bytes": 814
+    },
+    {
+      "name": "DeltaM113_guard_2.py",
+      "sha256": "b93a65de96051cd74ca10f7a925d3ccf244332ee120165beb25ce57352fb2e97",
+      "bytes": 814
+    },
+    {
+      "name": "LICENSE",
+      "sha256": "d8681c826e77219c68b95a58663c835bf7078d9932fc28605fbf5110644a7c2c",
+      "bytes": 131
+    },
+    {
+      "name": "LICENSE_2",
+      "sha256": "d8681c826e77219c68b95a58663c835bf7078d9932fc28605fbf5110644a7c2c",
+      "bytes": 131
+    },
+    {
+      "name": "Makefile",
+      "sha256": "3ed9c5864da9e94c8da8029691fa059837b6b6ba78ccf3b437d0e35cde485082",
+      "bytes": 86
+    },
+    {
+      "name": "Makefile_2",
+      "sha256": "3ed9c5864da9e94c8da8029691fa059837b6b6ba78ccf3b437d0e35cde485082",
+      "bytes": 86
+    },
+    {
+      "name": "PREREG.md",
+      "sha256": "17c615610c6e7f032f3a2bd6ac7a8f4e9d4fb32aeb1a72230c4db83c669499af",
+      "bytes": 852
+    },
+    {
+      "name": "README.md",
+      "sha256": "dc98e6a87703534c82826f341f6cc44117491b749ef667b4a6d84b6233952ba1",
+      "bytes": 3713
+    },
+    {
+      "name": "README_2.md",
+      "sha256": "dc98e6a87703534c82826f341f6cc44117491b749ef667b4a6d84b6233952ba1",
+      "bytes": 3713
+    },
+    {
+      "name": "README_HUMBLE.md",
+      "sha256": "5af8ae56ccf946d3e094b472aac9e5fce057e69e607acdbe32ad9b574d3b8369",
+      "bytes": 1942
+    },
+    {
+      "name": "README_MASTER_ALL_IN_ONE.md",
+      "sha256": "54e5b02edc019821c5ddc251251e34111c32c4b3dd35e485e802b476e1ccb16e",
+      "bytes": 1149
+    },
+    {
+      "name": "README_MASTER_FUSION.md",
+      "sha256": "bc7f6a4b62f163e9db40c226e9cd3293cbec0e865b8afabcb1e9eb04d2dc9775",
+      "bytes": 2008
+    },
+    {
+      "name": "README_MINI_v2.md",
+      "sha256": "240812e3dec2e6364404d6822621693f5572d4adcb1284603f3d42cf3ef21b1b",
+      "bytes": 499
+    },
+    {
+      "name": "README_MINI_v2_2.md",
+      "sha256": "240812e3dec2e6364404d6822621693f5572d4adcb1284603f3d42cf3ef21b1b",
+      "bytes": 499
+    },
+    {
+      "name": "ROADMAP.md",
+      "sha256": "a173eaaa7afa636570b60585faa7cb7912abd790aaf173c2a70500625ed778c1",
+      "bytes": 478
+    },
+    {
+      "name": "benchmarks.py",
+      "sha256": "7fe416fb50be5ee1c75c0369a038713e15efd25d8e047c779185ab0852181708",
+      "bytes": 2312
+    },
+    {
+      "name": "benchmarks_2.py",
+      "sha256": "7fe416fb50be5ee1c75c0369a038713e15efd25d8e047c779185ab0852181708",
+      "bytes": 2312
+    },
+    {
+      "name": "ci.yml",
+      "sha256": "329faf9f82f3c5ea4a3767688b4fd42a14f865990f9316f889244bc51375e914",
+      "bytes": 162
+    },
+    {
+      "name": "ci_2.yml",
+      "sha256": "329faf9f82f3c5ea4a3767688b4fd42a14f865990f9316f889244bc51375e914",
+      "bytes": 162
+    },
+    {
+      "name": "delta_table.csv",
+      "sha256": "d89dd2060e432ae3285a8d71ee4ad835a7831f8394f3c51904da1875ff3f382b",
+      "bytes": 632
+    },
+    {
+      "name": "delta_table_2.csv",
+      "sha256": "d89dd2060e432ae3285a8d71ee4ad835a7831f8394f3c51904da1875ff3f382b",
+      "bytes": 632
+    },
+    {
+      "name": "glyphnet.py",
+      "sha256": "068c26f2a121c93ec6442afc4bc2d43ba6489231311d85df8777752a1da9a573",
+      "bytes": 363
+    },
+    {
+      "name": "glyphnet_2.py",
+      "sha256": "068c26f2a121c93ec6442afc4bc2d43ba6489231311d85df8777752a1da9a573",
+      "bytes": 363
+    },
+    {
+      "name": "kpis.csv",
+      "sha256": "22dac7503c420dd6b22d2745fd7eb1bd0286375c8178959960fc29553f650202",
+      "bytes": 804
+    },
+    {
+      "name": "kpis_2.csv",
+      "sha256": "22dac7503c420dd6b22d2745fd7eb1bd0286375c8178959960fc29553f650202",
+      "bytes": 804
+    },
+    {
+      "name": "metrics_template.json",
+      "sha256": "53446b60c31a679eff0dc11873e4d69cfc22db0d0d6a13699fc32e643de9b276",
+      "bytes": 275
+    },
+    {
+      "name": "metrics_template_2.json",
+      "sha256": "53446b60c31a679eff0dc11873e4d69cfc22db0d0d6a13699fc32e643de9b276",
+      "bytes": 275
+    },
+    {
+      "name": "metrics_v2_output.json",
+      "sha256": "35600b4901cef78a1a7a28a0b41a83c08dbbe7ea20db826b81ef1ca5947e5b13",
+      "bytes": 922
+    },
+    {
+      "name": "metrics_v2_output_2.json",
+      "sha256": "35600b4901cef78a1a7a28a0b41a83c08dbbe7ea20db826b81ef1ca5947e5b13",
+      "bytes": 922
+    },
+    {
+      "name": "polyresonator.py",
+      "sha256": "317ae96545ac390a6aad18b7cab439aa0a90f7a7712854a481b29acecc338a87",
+      "bytes": 741
+    },
+    {
+      "name": "polyresonator_2.py",
+      "sha256": "317ae96545ac390a6aad18b7cab439aa0a90f7a7712854a481b29acecc338a87",
+      "bytes": 741
+    },
+    {
+      "name": "run_all.py",
+      "sha256": "423c5dccaaa977231cb232bcdf6f48b9aab1b8df883231c3cbb095bbd8682a4b",
+      "bytes": 4429
+    },
+    {
+      "name": "run_all_2.py",
+      "sha256": "423c5dccaaa977231cb232bcdf6f48b9aab1b8df883231c3cbb095bbd8682a4b",
+      "bytes": 4429
+    },
+    {
+      "name": "run_all_humble.py",
+      "sha256": "ea99aed4ee395463b66d33e32c91bc05b9deef9047b81a338c81a179c1fd0617",
+      "bytes": 6371
+    },
+    {
+      "name": "sbom_cyclonedx.json",
+      "sha256": "8d5d6f38bec9f38398e62f2b2b46e24edf65f78876a8ab62d001e5189c0ecaad",
+      "bytes": 876
+    },
+    {
+      "name": "sbom_cyclonedx_2.json",
+      "sha256": "8d5d6f38bec9f38398e62f2b2b46e24edf65f78876a8ab62d001e5189c0ecaad",
+      "bytes": 876
+    },
+    {
+      "name": "zdm_memory.py",
+      "sha256": "672d08efb62d886974c068b953ec852f9c30ae04b6a8a203b68574e794038827",
+      "bytes": 1127
+    },
+    {
+      "name": "zdm_memory_2.py",
+      "sha256": "672d08efb62d886974c068b953ec852f9c30ae04b6a8a203b68574e794038827",
+      "bytes": 1127
+    },
+    {
+      "name": "evidence/.keep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ]
+}

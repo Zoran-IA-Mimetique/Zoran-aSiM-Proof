@@ -1,0 +1,120 @@
+{
+  "generated": "2025-09-15T20:09:57.591794Z",
+  "files": [
+    {
+      "name": "AI_ACT_mapping.md",
+      "sha256": "59346bce057cadcae5fd7651754b885c69b79939a36f050014901bd9b5c2fd5f",
+      "bytes": 1245
+    },
+    {
+      "name": "C2PA_manifest.json",
+      "sha256": "0dcc6f243a3640ad0e27d87866653ba5b831d51e7d2c2dfa36d1b0eaac58010a",
+      "bytes": 2090
+    },
+    {
+      "name": "CITATION.cff",
+      "sha256": "a1426338588b31177e18b8074f18c7a26c6031449f3604b0b4bc018a4ff8d0b3",
+      "bytes": 255
+    },
+    {
+      "name": "CODE_OF_CONDUCT.md",
+      "sha256": "c528fe180402c1c7c8eabcd6b36581642826dfd1d0ca7197f9d3dee689d559b9",
+      "bytes": 123
+    },
+    {
+      "name": "CONTRIBUTING.md",
+      "sha256": "333de7e7234f3a05f1d41de4de8b452c0677f246a22398af170212920782c33f",
+      "bytes": 182
+    },
+    {
+      "name": "DEFS.md",
+      "sha256": "2a5fd782bde1c378403c24b75127ec7c5f21548e018cb7b64dabcd1ffa05aa0a",
+      "bytes": 845
+    },
+    {
+      "name": "DeltaM113_guard.py",
+      "sha256": "b93a65de96051cd74ca10f7a925d3ccf244332ee120165beb25ce57352fb2e97",
+      "bytes": 814
+    },
+    {
+      "name": "LICENSE",
+      "sha256": "d8681c826e77219c68b95a58663c835bf7078d9932fc28605fbf5110644a7c2c",
+      "bytes": 131
+    },
+    {
+      "name": "Makefile",
+      "sha256": "3ed9c5864da9e94c8da8029691fa059837b6b6ba78ccf3b437d0e35cde485082",
+      "bytes": 86
+    },
+    {
+      "name": "README.md",
+      "sha256": "dc98e6a87703534c82826f341f6cc44117491b749ef667b4a6d84b6233952ba1",
+      "bytes": 3713
+    },
+    {
+      "name": "README_MASTER_ALL_IN_ONE.md",
+      "sha256": "54e5b02edc019821c5ddc251251e34111c32c4b3dd35e485e802b476e1ccb16e",
+      "bytes": 1149
+    },
+    {
+      "name": "README_MINI_v2.md",
+      "sha256": "240812e3dec2e6364404d6822621693f5572d4adcb1284603f3d42cf3ef21b1b",
+      "bytes": 499
+    },
+    {
+      "name": "benchmarks.py",
+      "sha256": "7fe416fb50be5ee1c75c0369a038713e15efd25d8e047c779185ab0852181708",
+      "bytes": 2312
+    },
+    {
+      "name": "ci.yml",
+      "sha256": "329faf9f82f3c5ea4a3767688b4fd42a14f865990f9316f889244bc51375e914",
+      "bytes": 162
+    },
+    {
+      "name": "delta_table.csv",
+      "sha256": "d89dd2060e432ae3285a8d71ee4ad835a7831f8394f3c51904da1875ff3f382b",
+      "bytes": 632
+    },
+    {
+      "name": "glyphnet.py",
+      "sha256": "068c26f2a121c93ec6442afc4bc2d43ba6489231311d85df8777752a1da9a573",
+      "bytes": 363
+    },
+    {
+      "name": "kpis.csv",
+      "sha256": "22dac7503c420dd6b22d2745fd7eb1bd0286375c8178959960fc29553f650202",
+      "bytes": 804
+    },
+    {
+      "name": "metrics_template.json",
+      "sha256": "53446b60c31a679eff0dc11873e4d69cfc22db0d0d6a13699fc32e643de9b276",
+      "bytes": 275
+    },
+    {
+      "name": "metrics_v2_output.json",
+      "sha256": "35600b4901cef78a1a7a28a0b41a83c08dbbe7ea20db826b81ef1ca5947e5b13",
+      "bytes": 922
+    },
+    {
+      "name": "polyresonator.py",
+      "sha256": "317ae96545ac390a6aad18b7cab439aa0a90f7a7712854a481b29acecc338a87",
+      "bytes": 741
+    },
+    {
+      "name": "run_all.py",
+      "sha256": "423c5dccaaa977231cb232bcdf6f48b9aab1b8df883231c3cbb095bbd8682a4b",
+      "bytes": 4429
+    },
+    {
+      "name": "sbom_cyclonedx.json",
+      "sha256": "8d5d6f38bec9f38398e62f2b2b46e24edf65f78876a8ab62d001e5189c0ecaad",
+      "bytes": 876
+    },
+    {
+      "name": "zdm_memory.py",
+      "sha256": "672d08efb62d886974c068b953ec852f9c30ae04b6a8a203b68574e794038827",
+      "bytes": 1127
+    }
+  ]
+}

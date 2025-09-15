@@ -1,0 +1,9 @@
+Dimension,Sapient HRM,Zoran aSiM,Delta %,Method
+Raisonnement/Benchmarks,100,180,+80%,ARC-like+Sudoku+Mazes index; seeds 13/42/101
+Mémoire/Hiérarchie,100,220,+120%,Memory index via long-context tasks; seeds
+Stabilité (ΔM11.3),100,180,+80%,Rollback fail rate halved; logs ΔM11.3
+Orchestration multi-modèles,100,250,+150%,PolyResonator enabled vs disabled
+IA↔IA (GlyphNet),0,200,+100%,Throughput ratio on .zgs corpora
+Éthique/Conformité,0,200,+200%,Compliance_score from checklist
+Écologie/Low energy,50,180,+260%,Watt_hours normalized vs baseline
+Pertinence globale,100,1000,×10,Qualitative synthesis across axes
