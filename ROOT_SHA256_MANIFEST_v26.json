@@ -1,0 +1,45 @@
+{
+  "generated": "2025-09-15T23:11:25.528987Z",
+  "files": [
+    {
+      "name": "AUDIT_LOG_TEMPLATE.json",
+      "sha256": "0204ba82c0d775e48b9de4c0ac88b0e49c1fd439a26521aa45e8bee891c2dce3",
+      "bytes": 442
+    },
+    {
+      "name": "ETHICS_REVIEW_TEMPLATE.md",
+      "sha256": "dbf192e66f6499424b7fdf1b82dbd4fae56aa0464881c65a6cfb8d05d920ded9",
+      "bytes": 395
+    },
+    {
+      "name": "FAQ_AUDIT.md",
+      "sha256": "206b50e0ded5fe3e3759bb0a7eb8928c53ad37f7bf98754da056b443f23fdff5",
+      "bytes": 457
+    },
+    {
+      "name": "GLOSSARY.md",
+      "sha256": "d3bcd5434c7308bafe3b0b1fdbd4790c1d50d016b052fcca3494ea57ea56bcb7",
+      "bytes": 430
+    },
+    {
+      "name": "README_v26.md",
+      "sha256": "a8326ea533e34c2ae2c27603a8d0394e90f2778e758d633df41db1b4e535e535",
+      "bytes": 608
+    },
+    {
+      "name": "SCIENTIFIC_METRICS_TEMPLATE.csv",
+      "sha256": "4ceca1bef073b74739014ce2aa591c4396d1bfc55142aa1ea3bc5ef256d3e830",
+      "bytes": 191
+    },
+    {
+      "name": "SECURITY_CHECKLIST.md",
+      "sha256": "bfc860f18e71df984dac7fcddc5dfdfb525d8673f5d298f45477787c1d851744",
+      "bytes": 272
+    },
+    {
+      "name": "VALIDATION_FLOW.md",
+      "sha256": "1f8e93c05439d87814bf26063989f31d27dbf359a5fbdeec3a30081d5e393b18",
+      "bytes": 522
+    }
+  ]
+}
