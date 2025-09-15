@@ -1,0 +1,30 @@
+name: injector_total_ci
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  injector-total:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps (jsonschema optional)
+        run: |
+          python -m pip install --upgrade pip
+          pip install jsonschema || true
+      - name: Run injector_total tests
+        env:
+          ZORAN_SIGN_KEY: zoran_demo_key
+        run: |
+          if [ -f injector_total.py ]; then python injector_total.py; fi
+          if [ -f injector_total_test.py ]; then python injector_total_test.py; fi
+      - name: Collect artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: injector-total-artifacts
+          path: |
+            injector_total_log_*.json
+            log_a.json
+            log_b.json
+            log_thr.json
+          if-no-files-found: warn

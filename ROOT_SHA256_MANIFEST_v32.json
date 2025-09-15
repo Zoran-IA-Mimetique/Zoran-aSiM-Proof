@@ -1,0 +1,30 @@
+{
+  "generated": "2025-09-15T23:32:00.424394Z",
+  "files": [
+    {
+      "name": "CI_BADGE_SNIPPET_TOTAL.md",
+      "sha256": "5b0cc186f71520e55d078872dac0ddf1d8a8eb65a4a4b81ff964d856efdd1b7e",
+      "bytes": 175
+    },
+    {
+      "name": "GITHUB_WORKFLOW_injector_total.yml",
+      "sha256": "067f10d79a1b3d938dda11bb366f22a1856371967b8d0aa070d87c963b37579a",
+      "bytes": 953
+    },
+    {
+      "name": "SELF_CHECK_CI.md",
+      "sha256": "f60acc6cdb88048345cbc505545aee69353d385724c490fed5c585a68a2478ec",
+      "bytes": 293
+    },
+    {
+      "name": "run_ci_local.sh",
+      "sha256": "e81e40126e9249113a8b81fc50edcf57259f8f67eff922b265816cbe4bb739aa",
+      "bytes": 211
+    },
+    {
+      "name": "test_all.py",
+      "sha256": "9d908d6f7940c6841105fd1ec5fe2a5d1fa450fcf167d81874f97a1e58a133cf",
+      "bytes": 784
+    }
+  ]
+}

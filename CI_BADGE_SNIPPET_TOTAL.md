@@ -1,0 +1,1 @@
+[![CI: injector_total](https://img.shields.io/github/actions/workflow/status/OWNER/REPO/GITHUB_WORKFLOW_injector_total.yml?branch=main)](https://github.com/OWNER/REPO/actions)
