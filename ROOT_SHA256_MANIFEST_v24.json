@@ -1,0 +1,30 @@
+{
+  "generated": "2025-09-15T23:06:18.909482Z",
+  "files": [
+    {
+      "name": "MIMETIC_REPORT_TEMPLATE.md",
+      "sha256": "9708dacf560251edf295d938938fa26ffe5a3ade66700ef5d8e9bd4c567c8b77",
+      "bytes": 584
+    },
+    {
+      "name": "PROTOCOLE_MIMETISME.md",
+      "sha256": "f669f518950e5bab8beb7b13e2e06dc80a9c4aa5eee1ba924a9fae0180e6da28",
+      "bytes": 980
+    },
+    {
+      "name": "README_v24.md",
+      "sha256": "c4f35d9167c7a64891e6062b89faf3008f045d91af954336cf08b80bef1928a4",
+      "bytes": 320
+    },
+    {
+      "name": "mimetic_analyzer.py",
+      "sha256": "0b12204810b4ce7183b6e08423f474c9024f33a1b7a7b8641e2ebb9ae5f2e7cd",
+      "bytes": 1427
+    },
+    {
+      "name": "mimetic_experiment.py",
+      "sha256": "fd8df7add16e6cb417afdcc489dabf1fb43bf6ab384f9f0a586a558b453323bd",
+      "bytes": 1281
+    }
+  ]
+}
