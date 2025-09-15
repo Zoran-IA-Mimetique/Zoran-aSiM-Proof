@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "created": "2025-09-15T20:21:25.136457Z",
+    "note": "Reference output (humble runner, compliance=0.0)"
+  },
+  "reasoning": {
+    "baseline": 83.3,
+    "zoran": 91.6,
+    "n": 72,
+    "energy_proxy": 1.05
+  },
+  "stability": {
+    "baseline": 0.3,
+    "zoran": 0.18
+  },
+  "glyphnet": {
+    "ratio": 1.2,
+    "note": "mixed non-repetitive corpus"
+  },
+  "compliance": {
+    "score": 0.0,
+    "requires_files": {
+      "risk_management": "ai_act_risk_register.md",
+      "data_governance": "data_governance_policy.md",
+      "technical_robustness": "technical_robustness_report.md",
+      "transparency": "transparency_model_card.md",
+      "human_oversight": "human_oversight_procedure.md",
+      "accuracy_stats": "accuracy_stats_report.md",
+      "cybersecurity": "sbom_and_security_review.md",
+      "environmental_impact": "energy_impact_assessment.md"
+    }
+  },
+  "pertinence_composite": null
+}
