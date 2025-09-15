@@ -1,3 +1,11 @@
+# Zoran HUMBLE ONLY — Factual Run Report
+Date: 2025-09-15T20:34:44.780566Z
+
+Runner: run_all_humble.py (CPU)
+Seed: 13 (fixed in code)
+
+## Raw Output (metrics_humble.json)
+```
 {
   "meta": {
     "created": 1757968484.7670178,
@@ -32,3 +40,9 @@
   },
   "pertinence_composite": null
 }
+```
+
+Notes:
+- energy_proxy = (t_z / t_base) — proxy only, not a wattmeter.
+- compliance.score = 0.0 (no evidence files present), by design.
+- pertinence_composite = None (disabled).
