@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "created": 1757975069.116446,
+    "stem": {
+      "name": "stem_injector",
+      "glyph": "⟦STEM:injector⋄ΔM11.3:guard⋄ZDM:dual⋄IA2IA:glyphnet⟧",
+      "policy": {
+        "zero_claim": true,
+        "evidence_first": true
+      }
+    }
+  },
+  "steps": [
+    {
+      "role": "audit",
+      "prompt": "Act as an ethical auditor. Check claims vs evidence and output ERRATA candidates.",
+      "score": 0.677,
+      "notes": "audit specialized from STEM; context_len=24"
+    },
+    {
+      "role": "summary",
+      "prompt": "Act as a scientific summarizer. Produce IMRaD-style summary with limitations.",
+      "score": 0.686,
+      "notes": "summary specialized from STEM; context_len=24"
+    },
+    {
+      "role": "bench",
+      "prompt": "Act as a protocol designer. Propose reproducible steps, seeds, metrics and ablations.",
+      "score": 0.718,
+      "notes": "bench specialized from STEM; context_len=24"
+    }
+  ]
+}

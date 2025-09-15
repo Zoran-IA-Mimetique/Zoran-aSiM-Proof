@@ -1,0 +1,8 @@
+{
+  "written": "injector_logs_example.json",
+  "roles": [
+    "audit",
+    "summary",
+    "bench"
+  ]
+}
