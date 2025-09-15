@@ -1,0 +1,95 @@
+{
+  "generated": "2025-09-15T23:36:36.549250Z",
+  "files": [
+    {
+      "name": "CI_BADGE_SNIPPET_TOTAL.md",
+      "sha256": "5b0cc186f71520e55d078872dac0ddf1d8a8eb65a4a4b81ff964d856efdd1b7e",
+      "bytes": 175
+    },
+    {
+      "name": "DATA_SOURCES_TEMPLATE.csv",
+      "sha256": "1b5dc32f10781e8952e53b7e21b86a28e6943b3d61d34da7a9d4f7ece3a078f2",
+      "bytes": 52
+    },
+    {
+      "name": "ERRATA_GLOBAL.md",
+      "sha256": "a6ed96538a7aa4da2ee0b31f01f77ccb7e2c85ee31145d118d47d620cf46d55f",
+      "bytes": 21
+    },
+    {
+      "name": "EURO5_CHECKLIST.md",
+      "sha256": "23294ed73c90bf64b819c4af13c0076af07fbfe4a7d18120dc8afb4114e04ba0",
+      "bytes": 24
+    },
+    {
+      "name": "EURO5_PROFILE.md",
+      "sha256": "3a4491b72c5e12f9792b9fa155a2eb55e240dfb3d586a5b560b2931dc882606a",
+      "bytes": 32
+    },
+    {
+      "name": "GITHUB_WORKFLOW_injector_total.yml",
+      "sha256": "f345dae68da3e1b1c2f62a4cbde95dd5743ec4b5c9971bd7a76f3dfe1b0439fb",
+      "bytes": 705
+    },
+    {
+      "name": "INJECTOR_TOTAL_SPEC.md",
+      "sha256": "67b2e3576429e6f6fb7df89c3807f9fced4f4263a119b5ab32887bcc0f3bedc7",
+      "bytes": 346
+    },
+    {
+      "name": "README_MASTER.md",
+      "sha256": "4dca00534f85ccfa98ed1fec67c3a16555acefd83798612a8b9cbb97dd480e0b",
+      "bytes": 1106
+    },
+    {
+      "name": "analyze_multi_ia.py",
+      "sha256": "c0a616a51ef0b699da0bf8ebdf57b65c25d8b6a117114144b87a8a0ac6c5221b",
+      "bytes": 56
+    },
+    {
+      "name": "bench_glyphnet_vs_codecs.py",
+      "sha256": "6b9c6de2db2f4c8f6221439850404b381e9813ab3636c60a433ed00f52f6c5a1",
+      "bytes": 56
+    },
+    {
+      "name": "injector_total.py",
+      "sha256": "514d13107afa97025f17787c7e770fa966fa137ab5a190706a1acd53fcf4e754",
+      "bytes": 2504
+    },
+    {
+      "name": "injector_total_schema.json",
+      "sha256": "b63a493afacf05a86c7f4b1173f9a5c699d98891e8e1deee1ac073229241d03d",
+      "bytes": 525
+    },
+    {
+      "name": "injector_total_test.py",
+      "sha256": "bb51e409aaed7261921621b1a8b4b437634b8a7e45ea1c9bf1e5d3509ace55a2",
+      "bytes": 615
+    },
+    {
+      "name": "mimetic_analyzer.py",
+      "sha256": "daaacfb95a825ff0b529cdaba98fb80fc49e79ca510d036dace95003a7354350",
+      "bytes": 56
+    },
+    {
+      "name": "mimetic_experiment.py",
+      "sha256": "daaacfb95a825ff0b529cdaba98fb80fc49e79ca510d036dace95003a7354350",
+      "bytes": 56
+    },
+    {
+      "name": "multi_ia_demo.py",
+      "sha256": "6b9c6de2db2f4c8f6221439850404b381e9813ab3636c60a433ed00f52f6c5a1",
+      "bytes": 56
+    },
+    {
+      "name": "run_ci_local.sh",
+      "sha256": "429ff1fa988db25ffc425fbfd4eb1bf1469e8b5fa5d3f1aa89c6863276a05a71",
+      "bytes": 147
+    },
+    {
+      "name": "test_all.py",
+      "sha256": "83aa5d20ff7450f4b60113cb0c01835c78946461706c7b1e2422453889e824aa",
+      "bytes": 74
+    }
+  ]
+}

@@ -12,98 +12,22 @@
   ],
   "properties": {
     "meta": {
-      "type": "object",
-      "required": [
-        "created_iso",
-        "seed",
-        "version"
-      ],
-      "properties": {
-        "created_iso": {
-          "type": "string"
-        },
-        "seed": {
-          "type": "integer"
-        },
-        "version": {
-          "type": "string"
-        }
-      }
+      "type": "object"
     },
     "input": {
-      "type": "object",
-      "required": [
-        "role",
-        "context_len",
-        "content_len"
-      ],
-      "properties": {
-        "role": {
-          "type": "string"
-        },
-        "context_len": {
-          "type": "integer"
-        },
-        "content_len": {
-          "type": "integer"
-        }
-      }
+      "type": "object"
     },
     "security": {
-      "type": "object",
-      "required": [
-        "safe",
-        "reasons"
-      ],
-      "properties": {
-        "safe": {
-          "type": "boolean"
-        },
-        "reasons": {
-          "type": "array"
-        }
-      }
+      "type": "object"
     },
     "relevance": {
-      "type": "object",
-      "required": [
-        "quality",
-        "coherence",
-        "utility",
-        "objectivity"
-      ],
-      "properties": {
-        "quality": {
-          "type": "number"
-        },
-        "coherence": {
-          "type": "number"
-        },
-        "utility": {
-          "type": "number"
-        },
-        "objectivity": {
-          "type": "number"
-        }
-      }
+      "type": "object"
     },
     "role": {
       "type": "object"
     },
     "decision": {
-      "type": "object",
-      "required": [
-        "accepted",
-        "reasons"
-      ],
-      "properties": {
-        "accepted": {
-          "type": "boolean"
-        },
-        "reasons": {
-          "type": "array"
-        }
-      }
+      "type": "object"
     },
     "signature": {
       "type": "string"
