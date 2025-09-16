@@ -1,0 +1,24 @@
+term,category
+ASN,regulatory
+INB,regulatory
+DAC,regulatory
+criticité,safety
+confinement,safety
+radioprotection,safety
+RCC-G,code
+RCC-M,code
+RCC-E,code
+RSE-M,code
+C2PA,traceability
+Merkle,traceability
+eIDAS,traceability
+AI Act,regulatory
+ISO 42001,regulatory
+REDLOCK,risk
+ΔM11.3,risk
+BLACKSWAN,risk
+AEGIS,security
+ZDM,architecture
+KPIs,governance
+PoE,governance
+NUCLEAR_STORAGE,domain

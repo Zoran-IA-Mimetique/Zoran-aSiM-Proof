@@ -1,5 +1,53 @@
 {
-  "c2pa": "v1",
-  "created": "2025-09-15T21:06:57.351052Z",
-  "assets": []
+  "c2pa": {
+    "version": "draft-0",
+    "note": "Non-signed provenance manifest for reproducibility. No cryptographic signature.",
+    "created": "2025-09-16",
+    "assets": [
+      {
+        "path": "LICENSE",
+        "sha256": "10dd510f97638eb8f5aebecf976ddedab2a6a1255c8ebe1a1b1423b45897c5e0"
+      },
+      {
+        "path": "README.md",
+        "sha256": "a535fd959be27991d8f181fb36a8facfea88aaf2f01fec425739cc28fbc58c07"
+      },
+      {
+        "path": "WHITEPAPER.md",
+        "sha256": "d33d5f2d567ee4fa3c0f92c46623ee80fae4ef96f50d7733e83926b474c63872"
+      },
+      {
+        "path": "environment_example.md",
+        "sha256": "bade3c0f0c2fec150bf7ff5cc6f30213326b04456b9232fd446b626758a32ba0"
+      },
+      {
+        "path": "eval_injector_delta.py",
+        "sha256": "a441aa519c6cb255d21fd9fc50a8ff8f1d896d29f6cfd7d9d215b8d7cff220dd"
+      },
+      {
+        "path": "eval_rag_delta.py",
+        "sha256": "2453c26954eb7b857d84db41f5310a90f03a3571ced5a06601d227ac0ad4fd37"
+      },
+      {
+        "path": "injector_rag.md",
+        "sha256": "5b6778657229f70509bb8277f00a6fdb2f486e2321e9ecca6ee66dfb85f576b4"
+      },
+      {
+        "path": "memory_policy.json",
+        "sha256": "015005e048764391fdbca80faa6886fc3a92adde48c8b918a32b1c564a301544"
+      },
+      {
+        "path": "rag_policy.yaml",
+        "sha256": "bee47bfedb8a49a97034ee119b0cbf7f376aae859f81ed812dd830805bae88b4"
+      },
+      {
+        "path": "scoring_guidelines.md",
+        "sha256": "92716d5ede29b4d8a2485a8870b418b1920cf0bd7a719ba59f673477ce5b677b"
+      },
+      {
+        "path": "terms_nc_list.csv",
+        "sha256": "86bbe7d1538cebb412df38cfe1a0b2352e663dba1bfb4213eb69671c972e9b91"
+      }
+    ]
+  }
 }

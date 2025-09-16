@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "allow_write": [
+    "glossary",
+    "decisions",
+    "cited_doc_ids"
+  ],
+  "deny_write": [
+    "PII",
+    "secrets",
+    "operational_details"
+  ],
+  "redact_rules": [
+    {
+      "pattern": "\\b[Nn]om[:\\s]+[A-Z][a-z]+\\b",
+      "replace": "NOM_REDACT"
+    },
+    {
+      "pattern": "\\bID[:\\s]+[A-Za-z0-9\\-]+\\b",
+      "replace": "ID_REDACT"
+    }
+  ],
+  "retention_days": 30,
+  "role_based_access": {
+    "QHSE": [
+      "glossary",
+      "decisions"
+    ],
+    "BE": [
+      "glossary"
+    ],
+    "MOE": [
+      "glossary",
+      "decisions",
+      "cited_doc_ids"
+    ],
+    "default": [
+      "glossary"
+    ]
+  }
+}

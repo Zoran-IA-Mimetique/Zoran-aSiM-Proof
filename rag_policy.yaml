@@ -1,0 +1,35 @@
+version: 1
+retrieval:
+  allow_domains:
+    - asn.fr
+    - afcen.org
+    - legifrance.gouv.fr
+    - eur-lex.europa.eu
+    - iso.org
+  k_top: 5
+  rerank: true
+  min_score: 0.65
+  time_window_years: 15
+  blacklist:
+    - "forum"
+    - "reddit"
+    - "wikia"
+output:
+  require_citations: true
+  citation_tag: "[CITE:%d]"
+  refuse_if_no_coverage: true
+memory:
+  write:
+    - "glossary"
+    - "decisions"
+    - "cited_doc_ids"
+  forget:
+    - "PII"
+    - "secrets"
+    - "operational_details"
+  redact:
+    - "names"
+    - "exact_ids"
+compliance:
+  ai_act_principles: true
+  security_safety_separation: true
