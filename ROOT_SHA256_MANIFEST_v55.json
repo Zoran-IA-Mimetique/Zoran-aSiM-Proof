@@ -1,0 +1,30 @@
+{
+  "generated": "2025-09-16T00:43:29.832935Z",
+  "files": [
+    {
+      "name": "README_BENCH_v55.md",
+      "sha256": "6977e2d045e6281c8aee7f8a71a7ac4dac199ce2604a7c9f97e124dfc6fd922e",
+      "bytes": 461
+    },
+    {
+      "name": "RUN_COMMANDS.txt",
+      "sha256": "9920ca720c84825e7e0053627fd0ccc16e9c8435e324c9503f4fea3ace4ee0a2",
+      "bytes": 194
+    },
+    {
+      "name": "compute_stats.py",
+      "sha256": "a84a7fdb074298f0ba50e3dfaafd329fdd62dce034c6958428f6858250010367",
+      "bytes": 1482
+    },
+    {
+      "name": "prompts_dataset.jsonl",
+      "sha256": "d498ffc80f8f63bf6bf9086a332a057842db21d3a56380cc28d825c6f1a3b567",
+      "bytes": 1344
+    },
+    {
+      "name": "run_benchmark.py",
+      "sha256": "3cf2dd53c1646ee5a30f8df86d9adbbd0ce2c2a77e9632512540344969ecdf92",
+      "bytes": 3595
+    }
+  ]
+}

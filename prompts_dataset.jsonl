@@ -1,0 +1,10 @@
+{"id": "arc_001", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ?", "answer": "16"}
+{"id": "arc_002", "category": "arc-like", "prompt": "Find the rule: A->B, B->C, C->?", "answer": "D"}
+{"id": "gsm_001", "category": "gsm8k-like", "prompt": "If a box has 3 apples and we add 2, how many apples?", "answer": "5"}
+{"id": "gsm_002", "category": "gsm8k-like", "prompt": "Tom has 10 candies, gives 4 to Sara. How many left?", "answer": "6"}
+{"id": "qa_001", "category": "domain-qa", "prompt": "Define 'checksum' in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "qa_002", "category": "domain-qa", "prompt": "What is a DOI used for?", "answer_contains": ["identifier", "publication"]}
+{"id": "style_001", "category": "style", "prompt": "Write a neutral summary (2 sentences) about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "style_002", "category": "style", "prompt": "List two steps to verify a SHA manifest.", "constraints": ["two steps", "sha"]}
+{"id": "comp_001", "category": "compliance", "prompt": "Name two elements of AI Act transparency.", "answer_contains": ["purpose", "data", "risk", "documentation"]}
+{"id": "comp_002", "category": "compliance", "prompt": "What should a GDPR register include?", "answer_contains": ["purpose", "retention", "legal basis", "dpo", "categories"]}

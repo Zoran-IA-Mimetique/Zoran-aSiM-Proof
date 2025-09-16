@@ -1,0 +1,4 @@
+# Commands (v55)
+python run_benchmark.py --seed 13 --simulate 1
+python compute_stats.py
+# Outputs: BENCH_RESULTS_BASELINE.json, BENCH_RESULTS_INJECTED.json, BENCH_SUMMARY.json, BENCH_STATS.json
