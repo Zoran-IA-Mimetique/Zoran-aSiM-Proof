@@ -1,5 +1,7 @@
 # Zoran aSiM — Master (Flat)
-
+[![injector_total_full](https://github.com/Zoran-IA-Mimetique/Zoran-aSiM-Proof/actions/workflows/injector_total_full.yml/badge.svg)](https://github.com/Zoran-IA-Mimetique/Zoran-aSiM-Proof/actions/workflows/injector_total_full.yml)
+[![injector_relevance](https://github.com/Zoran-IA-Mimetique/Zoran-aSiM-Proof/actions/workflows/injector_relevance.yml/badge.svg)](https://github.com/Zoran-IA-Mimetique/Zoran-aSiM-Proof/actions/workflows/injector_relevance.yml)
+[![semcrypto](https://github.com/Zoran-IA-Mimetique/Zoran-aSiM-Proof/actions/workflows/semcrypto.yml/badge.svg)](https://github.com/Zoran-IA-Mimetique/Zoran-aSiM-Proof/actions/workflows/semcrypto.yml)
 [![CI: injector_total](https://github.com/Zoran-IA-Mimetique/Zoran-aSiM-Proof/actions/workflows/injector_total_full.yml/badge.svg?branch=main)](https://github.com/Zoran-IA-Mimetique/Zoran-aSiM-Proof/actions/workflows/injector_total_full.yml)
 [![CI: relevance](https://github.com/Zoran-IA-Mimetique/Zoran-aSiM-Proof/actions/workflows/injector_relevance.yml/badge.svg?branch=main)](https://github.com/Zoran-IA-Mimetique/Zoran-aSiM-Proof/actions/workflows/injector_relevance.yml)
 [![CI: semcrypto](https://github.com/Zoran-IA-Mimetique/Zoran-aSiM-Proof/actions/workflows/semcrypto.yml/badge.svg?branch=main)](https://github.com/Zoran-IA-Mimetique/Zoran-aSiM-Proof/actions/workflows/semcrypto.yml)
