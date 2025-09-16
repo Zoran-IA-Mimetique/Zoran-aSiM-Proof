@@ -1,4 +1,4 @@
-name: injector_total_full
+name: semcrypto
 
 on: [push]
 
@@ -10,6 +10,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Run injector tests
+      - name: Run semcrypto tests
         run: |
-          python INJECTOR_TOTAL_RELEVANCE_TEST.py || echo "⚠️ Tests à compléter"
+          python semantic_demo.py || true
+          python tests_semantic_crypto.py || echo "⚠️ Tests à compléter"

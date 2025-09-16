@@ -1,4 +1,4 @@
-name: injector_total_full
+name: injector_relevance
 
 on: [push]
 
@@ -10,6 +10,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Run injector tests
+      - name: Run relevance tests
         run: |
-          python INJECTOR_TOTAL_RELEVANCE_TEST.py || echo "⚠️ Tests à compléter"
+          python injector_relevance_test.py || echo "⚠️ Tests à compléter"
