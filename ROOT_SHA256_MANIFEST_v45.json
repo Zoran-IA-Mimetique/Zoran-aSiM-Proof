@@ -1,0 +1,25 @@
+{
+  "generated": "2025-09-16T00:20:46.855231Z",
+  "files": [
+    {
+      "name": "GITHUB_WORKFLOW_injector_total_full.yml",
+      "sha256": "65492ea571e9c6dd46a16af17e2d0c81f136d1b591948277cd7c485c26deb0ef",
+      "bytes": 712
+    },
+    {
+      "name": "INJECTOR_TOTAL_RELEVANCE_TEST.py",
+      "sha256": "19a591ce982450a1a633b508615b0bef9b6d932bae8fe306ab7bc753b1f8cfb2",
+      "bytes": 1275
+    },
+    {
+      "name": "README_v45.md",
+      "sha256": "6fb983dad04ca9d5565b28130ca634ffe40850fb236aa2cbf842650b9e44ade0",
+      "bytes": 486
+    },
+    {
+      "name": "injector_total_full.py",
+      "sha256": "4985a463dbb215b98feea1600bcad39d492734981c33bb6fc5db702fcbc02e1b",
+      "bytes": 4211
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "generated": "2025-09-16T00:13:33.163668Z",
+  "files": [
+    {
+      "name": "CRYPTO_POLICY_CLIENTS.md",
+      "sha256": "c57f1f96a71aa8956eb9107483dd17eac93ecf5ff32c2706fd40bde49ed60aa7",
+      "bytes": 358
+    },
+    {
+      "name": "FAQ_V42.md",
+      "sha256": "d596ec2561b3207ce5f9200af8898c7217e25fa01ba3a3ab3bce3fbc843c2b3d",
+      "bytes": 376
+    },
+    {
+      "name": "NODEGEN_EXPERIMENT.py",
+      "sha256": "e74e1cdc73dd57ea4a400c161c628b55026c47b3d2be835e43debfa1413bb4aa",
+      "bytes": 2645
+    },
+    {
+      "name": "NODEGEN_REPORT_TEMPLATE.md",
+      "sha256": "35ee209ebdf7c5b24088acae23dbcaaa7afcdbfc0f72db3b22fff82390c92ac4",
+      "bytes": 266
+    },
+    {
+      "name": "PROPAGATION_REPORT_TEMPLATE.md",
+      "sha256": "3d1a7b347343f1cd73398267f65154040325c80d89cdda3ca7a4ba0ea81bcfdf",
+      "bytes": 274
+    },
+    {
+      "name": "PROPAGATION_SIMULATOR.py",
+      "sha256": "2c9a855936ad478e75d006916bfd53eac64a21bfc52e3d8216b5998daaf65aa7",
+      "bytes": 1219
+    },
+    {
+      "name": "PUBLISHING_CHECKLIST.md",
+      "sha256": "08ca4db94e7ff09204bceccd1a112639f4a1e1942854e3b963d18ce89a02aada",
+      "bytes": 305
+    },
+    {
+      "name": "README_v42.md",
+      "sha256": "10f11d6ee0ea0f5a4dcf7fbd635bd5789e400b8171fc1f5935aae3f41f13c13a",
+      "bytes": 300
+    }
+  ]
+}

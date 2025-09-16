@@ -1,0 +1,55 @@
+{
+  "generated": "2025-09-16T00:18:43.634670Z",
+  "files": [
+    {
+      "name": "GITHUB_WORKFLOW_injector_relevance.yml",
+      "sha256": "67923539f44598311240fe9910dcb1166640f0716d96e1bbb027824792b1bdb2",
+      "bytes": 448
+    },
+    {
+      "name": "GLYPHNET_BENCH_RUN.md",
+      "sha256": "cb2de3f417c4e39fc51b71616419afc54f203f78263f517b5fc0530fde6d65ed",
+      "bytes": 336
+    },
+    {
+      "name": "README_v44.md",
+      "sha256": "fd39f6ae0c06c4b5ee7a2083c9f6b5741b279e9e89a468eaf566e73864f2ad49",
+      "bytes": 486
+    },
+    {
+      "name": "SEMCRYPTO_INTEGRATION.md",
+      "sha256": "9123a6330d7adef81e987672c590b2d28c13e008607e7c09e8bf7b57e090d52e",
+      "bytes": 307
+    },
+    {
+      "name": "corpus_readme.md",
+      "sha256": "ad20d941ce070d756392155833456e835bdd0ac899a0f43f53812efdf8371c21",
+      "bytes": 70
+    },
+    {
+      "name": "corpus_text1.txt",
+      "sha256": "ac148cb345b89a1579782d5ce08c84c6fb228953b9331c00bfc94fbcb26d8e4d",
+      "bytes": 1900
+    },
+    {
+      "name": "corpus_text2.txt",
+      "sha256": "b55b0743a33f32b5dee298872e60b6b4415a0578fe3fd3c4adf8dbca3e772725",
+      "bytes": 1710
+    },
+    {
+      "name": "corpus_text3.txt",
+      "sha256": "ea9d2259b149a49456df6332e09afc70afe6f7b555f81a856fd447ece5c0d611",
+      "bytes": 840
+    },
+    {
+      "name": "injector_relevance.py",
+      "sha256": "4ca34bb73e8146b4cc218e895a54e4dd59e1071a1696b5e9f3494d29a948e781",
+      "bytes": 2653
+    },
+    {
+      "name": "injector_relevance_test.py",
+      "sha256": "5604509ca7a3c626c0a018b40171fa10e5230edcb6358b8c427dc7a9ba5abcb4",
+      "bytes": 1029
+    }
+  ]
+}
