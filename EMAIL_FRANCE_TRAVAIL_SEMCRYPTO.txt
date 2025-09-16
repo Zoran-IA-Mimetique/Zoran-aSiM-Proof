@@ -1,0 +1,18 @@
+Objet : Livraison — Cryptage sémantique (provenance) + preuves (v37/v38)
+
+Madame, Monsieur,
+
+Nous vous livrons la démonstration **end‑to‑end** du **cryptage sémantique** (watermark lexical) propre à France Travail :
+- Génération d’un **texte marqué** (lisible humainement) avec une **clé client** que vous contrôlez.
+- **Vérification** avec la bonne clé (taux d’accord élevé) vs une clé erronée (taux proche du hasard).
+- **Preuves** : `verification_report.json`, `semantic_demo_log.json` (SHA), `FT_semantic_crypto_report.json`.
+
+Une CI optionnelle (GitHub Actions) peut exécuter la démo et **publier automatiquement les artefacts** (fichiers et rapports).
+
+⚠️ Il s’agit d’un **watermark de provenance** (identification d’origine), pas d’un chiffrement de confidentialité. Pour la confidentialité, nous recommandons un chiffrement côté client (KMS/AES).
+
+Nous restons à votre disposition pour planifier un audit indépendant si vous le souhaitez.
+
+Cordialement,
+Frédéric Tabary — Zoran aSiM
+Date : 2025-09-15T23:57:25.224921Z

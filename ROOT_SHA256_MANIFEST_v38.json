@@ -1,0 +1,25 @@
+{
+  "generated": "2025-09-15T23:57:25.224921Z",
+  "files": [
+    {
+      "name": "EMAIL_FRANCE_TRAVAIL_SEMCRYPTO.txt",
+      "sha256": "169cdc30392eaa6ffd871d3e6191076008a443e464e33c7965fbda60ecde6acf",
+      "bytes": 1075
+    },
+    {
+      "name": "GITHUB_WORKFLOW_semcrypto.yml",
+      "sha256": "ae7b4a7c31657e3b6e3337c44cf1dc1fda029fc35e6d590e34c0764f2859f018",
+      "bytes": 998
+    },
+    {
+      "name": "PR_BODY_SEMCRYPTO.md",
+      "sha256": "176f6d4ab5a70ae6dba35b2436540f1a72d484711f07704017fb983bb367ba51",
+      "bytes": 918
+    },
+    {
+      "name": "README_v38_CI.md",
+      "sha256": "147b2b4fc73b91d1203e8e405ca8e0680038a1f1713ca08cae084effa2978a6b",
+      "bytes": 487
+    }
+  ]
+}
