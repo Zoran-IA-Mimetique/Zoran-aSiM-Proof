@@ -1,0 +1,13 @@
+name: slsa_provenance (FLAT)
+on: [push, workflow_dispatch]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build + SBOM (placeholder)
+        run: echo '{"bomFormat":"CycloneDX","specVersion":"1.6","components":[]}' > cyclonedx.json
+      - name: Sign bundle (placeholder)
+        run: echo "cosign sign-blob results.tgz --bundle cosign.bundle"
+      - name: Rekor upload (placeholder)
+        run: echo "rekor-cli upload --rekor_server https://rekor.sigstore.dev --artifact results.tgz --public-key cosign.pub --signature cosign.sig"

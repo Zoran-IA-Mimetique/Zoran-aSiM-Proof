@@ -1,0 +1,17 @@
+{
+  "title": "Example Zoran aSiM Report Manifest (FLAT)",
+  "assertions": [
+    {
+      "type": "build",
+      "tool": "slsa",
+      "provenance": "./slsa_provenance.yml"
+    },
+    {
+      "type": "signature",
+      "scheme": "sigstore-cosign",
+      "bundle": "./cosign.bundle"
+    }
+  ],
+  "hash": "sha256:<to-be-filled>",
+  "created": "2025-09-16"
+}

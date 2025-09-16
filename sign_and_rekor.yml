@@ -1,0 +1,9 @@
+name: sign_and_rekor (FLAT)
+on: [workflow_dispatch]
+jobs:
+  sign:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sign & Rekor (dry-run)
+        run: bash ./sign_and_rekor.sh

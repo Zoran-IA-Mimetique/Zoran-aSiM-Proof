@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "id": "inj-2025-std-001",
+    "version": "1.1",
+    "timestamp": "2025-09-16T12:00:00Z",
+    "issuer": "Zoran aSiM",
+    "aud": [
+      "autogen",
+      "crewai",
+      "langgraph",
+      "metagpt"
+    ],
+    "ttl": 86400,
+    "priority": 60
+  },
+  "policies": [
+    {
+      "id": "safety.redlines",
+      "when": "always",
+      "deny": [
+        "violence_extreme",
+        "pii_exfil",
+        "copyright_bypass"
+      ]
+    }
+  ],
+  "ethics": {
+    "ai_act_profile": "GPAI",
+    "iso_42001": {
+      "policy_id": "AIMS-01"
+    },
+    "nist_rmf": [
+      "GOVERN",
+      "MAP",
+      "MEASURE",
+      "MANAGE"
+    ]
+  },
+  "tools": [
+    {
+      "name": "web_retriever",
+      "args_schema": {
+        "q": "string",
+        "top_k": "int"
+      },
+      "scopes": [
+        "read"
+      ]
+    }
+  ],
+  "memory": {
+    "mode": "resonant_cache",
+    "write_policy": "zero_write",
+    "stable_snapshot_ref": "snap-001"
+  },
+  "observability": {
+    "emit": [
+      "policy_hits",
+      "blocked_ops",
+      "delta_m11_rollback"
+    ]
+  },
+  "rollback": {
+    "deltaM": "11.3",
+    "coherence_threshold": 0.62,
+    "window": 3
+  },
+  "orchestration": {
+    "bandit": "UCB1",
+    "quorum": {
+      "k": 3,
+      "rule": "maj"
+    }
+  },
+  "trace": {
+    "c2pa_manifest_uri": "hashlink://manifests/inj-2025-std-001.c2pa.json",
+    "sigstore_bundle": "cosign.bundle",
+    "rekor_entry": "https://rekor.sigstore.dev/api/v1/log/entries/<uuid>"
+  },
+  "adapters": [
+    {
+      "target": "crewai",
+      "params": {
+        "flow": "policy_apply"
+      }
+    }
+  ]
+}

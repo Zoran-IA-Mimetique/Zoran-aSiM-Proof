@@ -1,0 +1,271 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zoran.asim/specs/injector-std.schema.json",
+  "title": "Zoran Injector STD",
+  "type": "object",
+  "required": [
+    "meta",
+    "policies",
+    "observability",
+    "trace"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "id",
+        "version",
+        "timestamp",
+        "issuer",
+        "ttl",
+        "priority"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "issuer": {
+          "type": "string"
+        },
+        "aud": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ttl": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "priority": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    },
+    "policies": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/policy"
+      }
+    },
+    "ethics": {
+      "type": "object",
+      "properties": {
+        "ai_act_profile": {
+          "enum": [
+            "GPAI",
+            "Non-GPAI",
+            "HighRisk"
+          ]
+        },
+        "iso_42001": {
+          "type": "object"
+        },
+        "nist_rmf": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "GOVERN",
+              "MAP",
+              "MEASURE",
+              "MANAGE"
+            ]
+          }
+        }
+      }
+    },
+    "tools": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/tool"
+      }
+    },
+    "memory": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "enum": [
+            "hardcore",
+            "resonant_cache"
+          ]
+        },
+        "write_policy": {
+          "enum": [
+            "zero_write",
+            "append",
+            "replace"
+          ]
+        },
+        "stable_snapshot_ref": {
+          "type": "string"
+        }
+      }
+    },
+    "observability": {
+      "type": "object",
+      "required": [
+        "emit"
+      ],
+      "properties": {
+        "emit": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "metrics": {
+          "type": "object",
+          "properties": {
+            "coherence_threshold": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "latency_p95_target_ms": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        }
+      }
+    },
+    "rollback": {
+      "type": "object",
+      "properties": {
+        "deltaM": {
+          "const": "11.3"
+        },
+        "coherence_threshold": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "window": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "orchestration": {
+      "type": "object",
+      "properties": {
+        "bandit": {
+          "enum": [
+            "UCB1",
+            "TS"
+          ]
+        },
+        "quorum": {
+          "type": "object",
+          "properties": {
+            "k": {
+              "type": "integer"
+            },
+            "rule": {
+              "enum": [
+                "maj",
+                "consensus"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "trace": {
+      "type": "object",
+      "required": [
+        "c2pa_manifest_uri"
+      ],
+      "properties": {
+        "c2pa_manifest_uri": {
+          "type": "string"
+        },
+        "sigstore_bundle": {
+          "type": "string"
+        },
+        "rekor_entry": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "policy": {
+      "type": "object",
+      "required": [
+        "id"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "when": {
+          "type": "string"
+        },
+        "allow": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "deny": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "rbac": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "pii": {
+          "type": "object",
+          "properties": {
+            "mode": {
+              "enum": [
+                "block",
+                "redact",
+                "allow"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "tool": {
+      "type": "object",
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "args_schema": {
+          "type": "object"
+        },
+        "scopes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "safety_budget": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}
