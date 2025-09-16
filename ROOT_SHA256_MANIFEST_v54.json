@@ -1,0 +1,25 @@
+{
+  "generated": "2025-09-16T00:40:41.709695Z",
+  "files": [
+    {
+      "name": "BENEFITS_FRANCE_TRAVAIL.md",
+      "sha256": "34120d8b0066045b7e010aebe7569cad20dec01096bb4da19fade967c90eca19",
+      "bytes": 704
+    },
+    {
+      "name": "CLIENT_PRESENTATION_SLIDES.md",
+      "sha256": "a95b38f63045324b61786212e0c92a08553a80c46a32559b351438c8fd88c1a1",
+      "bytes": 1162
+    },
+    {
+      "name": "README_v54.md",
+      "sha256": "b8f55ead1bfee32838d1d350bfb706eb1a1ffb86210b44da8053aa78e6ab38c4",
+      "bytes": 582
+    },
+    {
+      "name": "RISKS_AND_LIMITATIONS.md",
+      "sha256": "36840b6f4bb16497c69b06c8c41723e45ccac83e80085724c7919821978d9efd",
+      "bytes": 1009
+    }
+  ]
+}
