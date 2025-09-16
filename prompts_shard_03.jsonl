@@ -1,0 +1,100 @@
+{"id": "arc_200", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 3)", "answer": "8"}
+{"id": "gsm_201", "category": "gsm8k-like", "prompt": "If a bag has 4 apples and we add 6, how many apples?", "answer": "10"}
+{"id": "qa_202", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_203", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_204", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_205", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 2)", "answer": "4"}
+{"id": "gsm_206", "category": "gsm8k-like", "prompt": "If a bag has 9 apples and we add 4, how many apples?", "answer": "13"}
+{"id": "qa_207", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_208", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_209", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_210", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 1)", "answer": "2"}
+{"id": "gsm_211", "category": "gsm8k-like", "prompt": "If a bag has 5 apples and we add 2, how many apples?", "answer": "7"}
+{"id": "qa_212", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_213", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_214", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_215", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 6)", "answer": "64"}
+{"id": "gsm_216", "category": "gsm8k-like", "prompt": "If a bag has 1 apples and we add 7, how many apples?", "answer": "8"}
+{"id": "qa_217", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_218", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_219", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_220", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 5)", "answer": "32"}
+{"id": "gsm_221", "category": "gsm8k-like", "prompt": "If a bag has 6 apples and we add 5, how many apples?", "answer": "11"}
+{"id": "qa_222", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_223", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_224", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_225", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 4)", "answer": "16"}
+{"id": "gsm_226", "category": "gsm8k-like", "prompt": "If a bag has 2 apples and we add 3, how many apples?", "answer": "5"}
+{"id": "qa_227", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_228", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_229", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_230", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 3)", "answer": "8"}
+{"id": "gsm_231", "category": "gsm8k-like", "prompt": "If a bag has 7 apples and we add 1, how many apples?", "answer": "8"}
+{"id": "qa_232", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_233", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_234", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_235", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 2)", "answer": "4"}
+{"id": "gsm_236", "category": "gsm8k-like", "prompt": "If a bag has 3 apples and we add 6, how many apples?", "answer": "9"}
+{"id": "qa_237", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_238", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_239", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_240", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 1)", "answer": "2"}
+{"id": "gsm_241", "category": "gsm8k-like", "prompt": "If a bag has 8 apples and we add 4, how many apples?", "answer": "12"}
+{"id": "qa_242", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_243", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_244", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_245", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 6)", "answer": "64"}
+{"id": "gsm_246", "category": "gsm8k-like", "prompt": "If a bag has 4 apples and we add 2, how many apples?", "answer": "6"}
+{"id": "qa_247", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_248", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_249", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_250", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 5)", "answer": "32"}
+{"id": "gsm_251", "category": "gsm8k-like", "prompt": "If a bag has 9 apples and we add 7, how many apples?", "answer": "16"}
+{"id": "qa_252", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_253", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_254", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_255", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 4)", "answer": "16"}
+{"id": "gsm_256", "category": "gsm8k-like", "prompt": "If a bag has 5 apples and we add 5, how many apples?", "answer": "10"}
+{"id": "qa_257", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_258", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_259", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_260", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 3)", "answer": "8"}
+{"id": "gsm_261", "category": "gsm8k-like", "prompt": "If a bag has 1 apples and we add 3, how many apples?", "answer": "4"}
+{"id": "qa_262", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_263", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_264", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_265", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 2)", "answer": "4"}
+{"id": "gsm_266", "category": "gsm8k-like", "prompt": "If a bag has 6 apples and we add 1, how many apples?", "answer": "7"}
+{"id": "qa_267", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_268", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_269", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_270", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 1)", "answer": "2"}
+{"id": "gsm_271", "category": "gsm8k-like", "prompt": "If a bag has 2 apples and we add 6, how many apples?", "answer": "8"}
+{"id": "qa_272", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_273", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_274", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_275", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 6)", "answer": "64"}
+{"id": "gsm_276", "category": "gsm8k-like", "prompt": "If a bag has 7 apples and we add 4, how many apples?", "answer": "11"}
+{"id": "qa_277", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_278", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_279", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_280", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 5)", "answer": "32"}
+{"id": "gsm_281", "category": "gsm8k-like", "prompt": "If a bag has 3 apples and we add 2, how many apples?", "answer": "5"}
+{"id": "qa_282", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_283", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_284", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_285", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 4)", "answer": "16"}
+{"id": "gsm_286", "category": "gsm8k-like", "prompt": "If a bag has 8 apples and we add 7, how many apples?", "answer": "15"}
+{"id": "qa_287", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_288", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_289", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_290", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 3)", "answer": "8"}
+{"id": "gsm_291", "category": "gsm8k-like", "prompt": "If a bag has 4 apples and we add 5, how many apples?", "answer": "9"}
+{"id": "qa_292", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_293", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_294", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}
+{"id": "arc_295", "category": "arc-like", "prompt": "Complete the sequence: 2, 4, 8, ... (term 2)", "answer": "4"}
+{"id": "gsm_296", "category": "gsm8k-like", "prompt": "If a bag has 9 apples and we add 3, how many apples?", "answer": "12"}
+{"id": "qa_297", "category": "domain-qa", "prompt": "Define checksum in one sentence.", "answer_contains": ["hash", "integrity"]}
+{"id": "style_298", "category": "style", "prompt": "Write a neutral two-sentence summary about audit logs.", "constraints": ["neutral", "two sentences"]}
+{"id": "comp_299", "category": "compliance", "prompt": "Name two AI Act transparency elements.", "answer_contains": ["purpose", "documentation", "risk"]}

@@ -1,0 +1,45 @@
+{
+  "generated": "2025-09-16T00:46:27.289231Z",
+  "files": [
+    {
+      "name": "BENCH_REPORT_v56.md",
+      "sha256": "178e7ca97854942cb6099999bdb561e2ebe93fc31a4c31a35e8cd1ab90199544",
+      "bytes": 630
+    },
+    {
+      "name": "README_v56.md",
+      "sha256": "dbf55fc209ef7254a2b7f814b5726603feaf68d4fe0d40117a5d86370e61c5a7",
+      "bytes": 487
+    },
+    {
+      "name": "SEEDS_RUNS_PLAN.md",
+      "sha256": "4a1d0be2cebbd03ddf8924c4cfd1c9c3b289ad050977934da9b97855421059d9",
+      "bytes": 242
+    },
+    {
+      "name": "merge_results.py",
+      "sha256": "26a66acf4fd1c0ca6c74f06d86416588fe1f0263d632bf54b22448a5cdf350aa",
+      "bytes": 1632
+    },
+    {
+      "name": "prompts_shard_01.jsonl",
+      "sha256": "79715390f95efaa2bb998785c91af7e6a43b98b2eb313b4fe15ba9db3b3436d4",
+      "bytes": 13578
+    },
+    {
+      "name": "prompts_shard_02.jsonl",
+      "sha256": "3fcf50258f521519adcffcc3c1ba6d1021c616d2720764f5b8788074020cde3b",
+      "bytes": 13579
+    },
+    {
+      "name": "prompts_shard_03.jsonl",
+      "sha256": "613e1bfc8805c82ce3c6cc4363b5b959da1fc9490c08bc3d57b7241e6a19dc17",
+      "bytes": 13577
+    },
+    {
+      "name": "run_benchmark_shard.py",
+      "sha256": "2c3b1673d3f343c22677d4a82199aef17de3e48b309f00001a71f555bd69a392",
+      "bytes": 2714
+    }
+  ]
+}
