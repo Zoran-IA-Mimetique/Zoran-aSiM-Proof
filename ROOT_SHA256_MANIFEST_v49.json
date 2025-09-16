@@ -1,0 +1,30 @@
+{
+  "generated": "2025-09-16T00:31:53.641679Z",
+  "files": [
+    {
+      "name": "AUDIT_LOGS_MASTER.md",
+      "sha256": "c8ad2bcbc0afd59cc81e4e4f736e6b19db285bfd3dc3d5153e8d1bafd98b5a66",
+      "bytes": 397
+    },
+    {
+      "name": "BENCH_RESULTS_PUBLIC_TEMPLATE.md",
+      "sha256": "79b26e785a3865e2b006bed6fb0ec931c5fbc7904781e020e39755420992d173",
+      "bytes": 526
+    },
+    {
+      "name": "PRESS_RELEASE_TEMPLATE.md",
+      "sha256": "95ef17b9b194c5f1ce6baaf096036b180b167aed576d728ae8f6490bbb9557ab",
+      "bytes": 973
+    },
+    {
+      "name": "README_v49.md",
+      "sha256": "89a773f062b617b50334e4565df0cdfb253e11b222c1062f1d7982ac655e8d15",
+      "bytes": 374
+    },
+    {
+      "name": "SOCIAL_POSTS_TEMPLATES.md",
+      "sha256": "c53bf3fadc7da6d3fecf7d9cffb26a12bd3cfa3d9d186d4bdec62d361219b231",
+      "bytes": 695
+    }
+  ]
+}

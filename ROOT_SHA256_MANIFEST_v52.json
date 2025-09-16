@@ -1,0 +1,30 @@
+{
+  "generated": "2025-09-16T00:36:17.714534Z",
+  "files": [
+    {
+      "name": "BENCH_RESULTS_CLIENT_TEMPLATE.md",
+      "sha256": "2755ed78d072c956ca874843f30c3c40fd1ade48bc837a3a68b2e84e6a28b8eb",
+      "bytes": 582
+    },
+    {
+      "name": "CHECKLIST_CLIENT_DELIVERY.md",
+      "sha256": "b0cb67b75c43e0dd6435fe6e0f4646c6a27c645e817c05f24e64dd7d150a147f",
+      "bytes": 418
+    },
+    {
+      "name": "DOSSIER_CLIENT_USECASES.md",
+      "sha256": "f7e6a1fb8566df6cda499a1cb5c85f4a9500cc8a9251beba35213d5c468426a4",
+      "bytes": 1019
+    },
+    {
+      "name": "PR_FRANCE_TRAVAIL.md",
+      "sha256": "1cc9eb2a9646db12c96432f6ceec629b4bd2fbdb04ba6aceb943f54bbd99eb89",
+      "bytes": 896
+    },
+    {
+      "name": "README_v52.md",
+      "sha256": "dde75b4c5651c95f20ea7e0f9d11fca17d365d2f3632d347c0723abfabe82c3c",
+      "bytes": 401
+    }
+  ]
+}

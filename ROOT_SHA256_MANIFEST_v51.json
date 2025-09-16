@@ -1,0 +1,30 @@
+{
+  "generated": "2025-09-16T00:34:54.427975Z",
+  "files": [
+    {
+      "name": "BENCH_CLIENT_PLAN.md",
+      "sha256": "712c14fa0e46d9cc31d4523a393fc65c28a370f86a4ad1a370fb02e0da005162",
+      "bytes": 807
+    },
+    {
+      "name": "DOSSIER_CLIENT_FRANCE_TRAVAIL.md",
+      "sha256": "86bc1a0d4662f37549a188d3267f2ddb7df501b513ca565918de94ed5c5c3ed0",
+      "bytes": 1023
+    },
+    {
+      "name": "FAQ_FRANCE_TRAVAIL.md",
+      "sha256": "bee388226c21c42e65dfaca4f95e6186e8c0abecb98bacd1b63bef38e5dd9644",
+      "bytes": 945
+    },
+    {
+      "name": "PITCH_V51.md",
+      "sha256": "f2ea0e4e64af911b2ad703cbd0dd2cb7cf4ad3efe04928a7fcc2d7a47e0d2ef9",
+      "bytes": 991
+    },
+    {
+      "name": "README_v51.md",
+      "sha256": "2b190e8c9c35d3106b65ef996cf556e13bb2e1faf30483aa2354e498d88b688d",
+      "bytes": 370
+    }
+  ]
+}
