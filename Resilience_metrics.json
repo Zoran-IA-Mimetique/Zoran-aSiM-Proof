@@ -1,0 +1,4 @@
+{
+  "error": "failed to run p2 metrics",
+  "detail": "No module named 'telemetry'"
+}
