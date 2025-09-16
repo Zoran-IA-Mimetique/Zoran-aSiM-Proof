@@ -1,0 +1,15 @@
+Objet : Livraison finale Zoran aSiM — Injecteur TOTAL + Traçabilité (v46)
+
+Madame, Monsieur,
+
+Nous vous livrons la version **MASTER RELEASE (v46)** du pack Zoran aSiM, contenant :
+- **Injecteur TOTAL** (sécurité + pertinence + rôle + traçabilité, déterministe et signé),
+- Workflows CI prêts (tests + artefacts),
+- Démonstrations bench/mimétique/cryptage sémantique (exécutables localement),
+- Gouvernance, conformité (EURO‑5), Zero‑Claim & SHA manifests.
+
+Nous restons disponibles pour organiser un **audit indépendant** et planifier l’exécution de **benchmarks publics**.
+
+Cordialement,
+Frédéric Tabary — Zoran aSiM
+Date : 2025-09-16T00:24:00.102685Z

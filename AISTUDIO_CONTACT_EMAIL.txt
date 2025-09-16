@@ -1,0 +1,20 @@
+Objet : Demande d’évaluation indépendante — Zoran aSiM (Master + Semcrypto)
+
+Bonjour AE Studio,
+
+Nous vous soumettons notre dépôt GitHub Zoran aSiM pour une **évaluation indépendante** (injecteur TOTAL, bench GlyphNet, cryptage sémantique, non-dégénération & propagation).
+
+Lien : [insérer lien dépôt public]
+
+Vous trouverez ci-joints : 
+- `AISTUDIO_MASTER_REQUEST.md` (contexte & objectifs), 
+- SOW, confidentialité, et demandes spécifiques (injecteur, glyphnet, semcrypto, nodegen/propagation).
+
+Politique : **Zero‑Claim** (aucun chiffre public sans protocole et audit tiers).
+
+Pouvez‑vous nous proposer un **SOW** avec planning, budget, et méthodologie ?  
+Nous sommes disponibles pour une réunion de cadrage.
+
+Merci et à très vite,  
+Frédéric Tabary — Zoran aSiM  
+Date : 2025-09-16T00:26:47.297165Z

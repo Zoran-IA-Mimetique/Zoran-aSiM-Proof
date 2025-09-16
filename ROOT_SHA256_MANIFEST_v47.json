@@ -1,0 +1,55 @@
+{
+  "generated": "2025-09-16T00:26:47.297165Z",
+  "files": [
+    {
+      "name": "AISTUDIO_CONFIDENTIALITY.md",
+      "sha256": "0df2f8919517d98badd798364ca1324fdf9aa9e0309ced4aab4812e6f543f611",
+      "bytes": 388
+    },
+    {
+      "name": "AISTUDIO_CONTACT_EMAIL.txt",
+      "sha256": "62678c94b799fd88c961e4f3ae58a28307a6dcb18b4db1d9fc0e14e864313100",
+      "bytes": 835
+    },
+    {
+      "name": "AISTUDIO_MASTER_REQUEST.md",
+      "sha256": "f4174a629c14159c4a152c94bcacfae41ea6291d5cae854629c035991cc123fe",
+      "bytes": 1906
+    },
+    {
+      "name": "AISTUDIO_SOW.md",
+      "sha256": "d67f99f305e3b24c829ce93e46aff2d9c3fb619f7d9fd8d2d21163f4fd03d9ac",
+      "bytes": 588
+    },
+    {
+      "name": "HUBS_SURVEY_TWIA_FILLED.md",
+      "sha256": "de482a9360972e5ada3e3871744e764a98a5d44609c7f3604689532b8c798c59",
+      "bytes": 361
+    },
+    {
+      "name": "README_v47.md",
+      "sha256": "1a576b350dd4bd991eb670734edfb905cbac7201de52342f11a09d0dd18c83b5",
+      "bytes": 600
+    },
+    {
+      "name": "REQUEST_GLYPHNET_BENCH.md",
+      "sha256": "03ba5eed7c4677fcbf6f79823ca77e550bf3e3924609d97c7edcabf21b080461",
+      "bytes": 767
+    },
+    {
+      "name": "REQUEST_INJECTOR_RELEVANCE.md",
+      "sha256": "dde62f527abfcea0445118a3c0b58c77cf245e6620642d00152ee1950ea1e49b",
+      "bytes": 885
+    },
+    {
+      "name": "REQUEST_NODEGEN_PROPAGATION.md",
+      "sha256": "2d389188d7c4db62ee7b25326a445343ad777e4d4ca77fe8f9d55e982766fc9f",
+      "bytes": 578
+    },
+    {
+      "name": "REQUEST_SEMCRYPTO_AUDIT.md",
+      "sha256": "72ba380a186f2cce31866a3be936fb8a56e597664a70e82ff0c4557ccffaae0a",
+      "bytes": 663
+    }
+  ]
+}

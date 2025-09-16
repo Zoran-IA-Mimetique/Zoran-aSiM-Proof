@@ -1,0 +1,50 @@
+{
+  "generated": "2025-09-16T00:24:00.102685Z",
+  "files": [
+    {
+      "name": "BADGE_SNIPPETS.md",
+      "sha256": "4b2c49d41616564a58df32a4ac064ff6abbfa4511e9ce03f9390a96785c08bb9",
+      "bytes": 627
+    },
+    {
+      "name": "CHECKLIST_LIVRAISON.md",
+      "sha256": "e15e0950cb7c38533f429c9737287263f10f226fa5317b63b83adaec2e09bc67",
+      "bytes": 551
+    },
+    {
+      "name": "EMAIL_CLIENT_FINAL.txt",
+      "sha256": "04589707f18a72e6fa7bb0389c187efe4c01e2f2cbd8d8ea35fc2d281fdb65f1",
+      "bytes": 682
+    },
+    {
+      "name": "INSTRUCTIONS_GITHUB.md",
+      "sha256": "78f4a7aeca9617e8040175236faefc36a15b2fac57065d7bbd787986406ecd31",
+      "bytes": 300
+    },
+    {
+      "name": "INSTRUCTIONS_ZENODO.md",
+      "sha256": "4c0fc83dfe2377858798b3c6756f88eb829daf11780dec2ff42e1c1ecdfac078",
+      "bytes": 362
+    },
+    {
+      "name": "PR_BODY_MASTER.md",
+      "sha256": "ff978c042e8b418356f7eb4c29467f6d2a3a3e5961e9150d2e39559b3726e6a4",
+      "bytes": 639
+    },
+    {
+      "name": "README_MASTER_RELEASE.md",
+      "sha256": "dcd5b7963b3c9f678d8df00df07fbcd5ce4585e1d3f5492124516ab225624ab4",
+      "bytes": 761
+    },
+    {
+      "name": "RUN_ORDER.md",
+      "sha256": "981001afb7e20e2f0b4e6b77b39f00d5ee893f14f26dec056ed6ff83d371e51d",
+      "bytes": 303
+    },
+    {
+      "name": "make_all_reports.py",
+      "sha256": "e8f8617f234a22bb86ceca050ccd47db6480e8ba25db209ef00dc453bb067e5d",
+      "bytes": 790
+    }
+  ]
+}
