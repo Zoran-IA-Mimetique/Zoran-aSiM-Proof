@@ -1,0 +1,20 @@
+{
+  "generated": "2025-09-16T00:04:40.602488Z",
+  "files": [
+    {
+      "name": "HUBS_IA_TWIA_SURVEY.md",
+      "sha256": "97c0b58af4cb21a92d566ce8a82f95a55a64835700029d16c18d2526ac8cf315",
+      "bytes": 745
+    },
+    {
+      "name": "README_v39.md",
+      "sha256": "295076a65fd9526b0f9c62d2ba0ee54c7ed3966b7fe579fd682429f14b83a160",
+      "bytes": 264
+    },
+    {
+      "name": "REQUEST_AESTUDIO.md",
+      "sha256": "810ebfd59e8d1dc550c63472e8a0d15a25b1790283b2348cbff6805d005bcb1c",
+      "bytes": 1248
+    }
+  ]
+}
