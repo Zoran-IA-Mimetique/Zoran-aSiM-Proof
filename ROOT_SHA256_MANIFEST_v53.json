@@ -1,0 +1,25 @@
+{
+  "generated": "2025-09-16T00:38:48.331953Z",
+  "files": [
+    {
+      "name": "DELIVERY_EMAIL_TEMPLATE.txt",
+      "sha256": "fe587eedc7f02d09af2edf72fed5b7bda0e5c2d999a498f82be086ddd9205108",
+      "bytes": 519
+    },
+    {
+      "name": "MEETING_PREP_NOTES.md",
+      "sha256": "6b9ad0aa0599fc8f26e37e6611a4a386f9969f1d275339a6da9a554f511200fa",
+      "bytes": 682
+    },
+    {
+      "name": "README_v53.md",
+      "sha256": "8fe4cc59a7a4bdc8047ce98d4b11e14e8be7b67a416f31703fdd1d1502cf1186",
+      "bytes": 285
+    },
+    {
+      "name": "ROADMAP_FRANCE_TRAVAIL.md",
+      "sha256": "3316bfda3d115d948051acfdf9cc4be5a6ec7e65a908410e649c7d47af764d75",
+      "bytes": 847
+    }
+  ]
+}
