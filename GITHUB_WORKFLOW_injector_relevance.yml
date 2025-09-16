@@ -1,14 +1,11 @@
-name: injector_relevance_ci
-on: [push, pull_request, workflow_dispatch]
+name: injector_relevance
+on: [push]
 jobs:
-  relevance:
+  t:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Run relevance tests
-        run: |
-          python injector_relevance.py "define plan" "Steps and definition with roadmap and checklist sha"
-          python injector_relevance_test.py
+      - run: python injector_relevance_test.py

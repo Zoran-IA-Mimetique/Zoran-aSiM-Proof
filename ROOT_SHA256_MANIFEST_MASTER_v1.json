@@ -1,0 +1,140 @@
+{
+  "generated": "2025-09-16T01:00:30.982964Z",
+  "files": [
+    {
+      "name": "GITHUB_WORKFLOW_injector_relevance.yml",
+      "sha256": "dd69c6dcd8232085c4fb0a670bee5d8ace3ca4078f944eca4b734021c6f67499",
+      "bytes": 251
+    },
+    {
+      "name": "GITHUB_WORKFLOW_injector_total_full.yml",
+      "sha256": "2666b015d729ce368695e6fc980cb81f02ca1877d3ecc7e464feac347ce24c04",
+      "bytes": 258
+    },
+    {
+      "name": "GITHUB_WORKFLOW_semcrypto.yml",
+      "sha256": "330ea38ec2885799a845c877fdd1fdf79e09c1c68fbf62a7b4a2b815937712c9",
+      "bytes": 294
+    },
+    {
+      "name": "GLYPHNET_BENCH_RUN.md",
+      "sha256": "cd83f88fec3ee520e3da027e531c23aac65ba52566a8b080a735a7c6f970de65",
+      "bytes": 72
+    },
+    {
+      "name": "INJECTOR_TOTAL_RELEVANCE_TEST.py",
+      "sha256": "ecbf0211d7d90654180f7f7aa02b9dcce5ff12771f023efdc68e137405b43850",
+      "bytes": 444
+    },
+    {
+      "name": "README.md",
+      "sha256": "c317b533c58e647d06b56f1bbbe30589301da7c347b76d19469752d164a73746",
+      "bytes": 2843
+    },
+    {
+      "name": "README_AUDIT_RUN_v57.md",
+      "sha256": "6014c5a4c0c820de07b5d57cba56010ec27e2106374ce496f2c0729486418118",
+      "bytes": 81
+    },
+    {
+      "name": "bench_glyphnet_vs_codecs.py",
+      "sha256": "bcc05f2daec61953240af8079f26f81ef4ef7d24273b320674d4ec58cb7be2be",
+      "bytes": 950
+    },
+    {
+      "name": "corpus_text1.txt",
+      "sha256": "ac148cb345b89a1579782d5ce08c84c6fb228953b9331c00bfc94fbcb26d8e4d",
+      "bytes": 1900
+    },
+    {
+      "name": "corpus_text2.txt",
+      "sha256": "b55b0743a33f32b5dee298872e60b6b4415a0578fe3fd3c4adf8dbca3e772725",
+      "bytes": 1710
+    },
+    {
+      "name": "corpus_text3.txt",
+      "sha256": "ea9d2259b149a49456df6332e09afc70afe6f7b555f81a856fd447ece5c0d611",
+      "bytes": 840
+    },
+    {
+      "name": "glyphnet_codec.py",
+      "sha256": "7a0c763825a5b27cf3702299d7b57e8768b45cdd34849f76e17a7bd46c785f9b",
+      "bytes": 322
+    },
+    {
+      "name": "injector_relevance.py",
+      "sha256": "622839508160d6b688338deeb4636fabe43c7a4880b4074776c637e77690e95c",
+      "bytes": 1535
+    },
+    {
+      "name": "injector_relevance_test.py",
+      "sha256": "b4b3177a712ca631b20117a5aa3d17d5a83eacf92a27ff98512227218926aaf4",
+      "bytes": 331
+    },
+    {
+      "name": "injector_total_full.py",
+      "sha256": "d6cc65375ff2b7bd737e6adce8d46e2c5b2a73ad3b7969ceeb9fe14423d02c1f",
+      "bytes": 2619
+    },
+    {
+      "name": "make_audit_archive.py",
+      "sha256": "36634d50c029f121fbf8e17aa4e47b6ce415e37d16dfbbc60e965637d07548d8",
+      "bytes": 68
+    },
+    {
+      "name": "merge_results.py",
+      "sha256": "2255fcb7bc3440d486ef1b9553a3767f129105403eddc0e5c181bbfcd7396fa2",
+      "bytes": 838
+    },
+    {
+      "name": "prompts_shard_01.jsonl",
+      "sha256": "7bb1ba3726f94a9594dd5950096ac0c5f02335368d05fde79346bca69a83647d",
+      "bytes": 80
+    },
+    {
+      "name": "prompts_shard_02.jsonl",
+      "sha256": "c73398d436ed2176aab312e642a98c397f21942d3dbb436812991009036cabbd",
+      "bytes": 78
+    },
+    {
+      "name": "prompts_shard_03.jsonl",
+      "sha256": "0ecce9a34a7011771318183945fbda70de7e376c42eb55562798fc8609f06d41",
+      "bytes": 115
+    },
+    {
+      "name": "run_benchmark_shard.py",
+      "sha256": "334ed8bd40ec3aa3d94a32cf3d32b6f9ddee51b97157b5161790c551a0335bc9",
+      "bytes": 761
+    },
+    {
+      "name": "seed_matrix_runner.py",
+      "sha256": "8e3ad0cc634af15b98ee19bb519d65d736b2118cc1f35d0a587e7aa54b8f7859",
+      "bytes": 87
+    },
+    {
+      "name": "semantic_crypto_v37.py",
+      "sha256": "20ded360c6f330b54c31e4497dc07d428fe548922385a1264dea4caa2af0fe35",
+      "bytes": 1551
+    },
+    {
+      "name": "semantic_demo.py",
+      "sha256": "51cafdcc161257cca383f51d9a8747ffafec268c21fa2dd707758955b2b537a5",
+      "bytes": 495
+    },
+    {
+      "name": "tests_glyphnet.py",
+      "sha256": "9dffaff21aaf37f13b05558623ea988c4e503870cd3c781e88ec49569d10a215",
+      "bytes": 205
+    },
+    {
+      "name": "tests_semantic_crypto.py",
+      "sha256": "5188c79178dbf6b5b2aa40e524e15e98fd7174c029f697667d9ce4d0ecb5aacd",
+      "bytes": 272
+    },
+    {
+      "name": "verify_semantic_crypto.py",
+      "sha256": "4dee227dccade76ec1693e50127bccd330b219773e54884d9a34c2ba7d67249f",
+      "bytes": 186
+    }
+  ]
+}

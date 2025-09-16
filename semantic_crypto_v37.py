@@ -1,70 +1,36 @@
-# semantic_crypto_v37.py — lexical watermark (HMAC-based), self-contained
-import re, hmac, hashlib
-
-PAIRS = [
-    ("start","begin"), ("end","finish"), ("big","large"), ("small","little"),
-    ("use","utilize"), ("help","assist"), ("show","demonstrate"), ("need","require"),
-    ("try","attempt"), ("get","obtain"), ("make","create"), ("part","component"),
-    ("idea","concept"), ("goal","objective"), ("safe","secure"), ("right","correct"),
-    ("test","examination"), ("work","operate"), ("fast","rapid"), ("slow","gradual")
-]
-
-WORD_RE = re.compile(r"\b\w+\b")
-
-def _bits_from_key(key: bytes, text: str, nbits: int):
-    data = hmac.new(key, text.encode('utf-8'), hashlib.sha256).digest()
-    out_bits = []
-    buf = data
-    while len(out_bits) < nbits:
-        for byte in buf:
+import re,hmac,hashlib
+PAIRS=[("start","begin"),("end","finish"),("big","large"),("small","little")]
+WORD_RE=re.compile(r"\b\w+\b")
+def _bits(key,text,nbits):
+    data=hmac.new(key,text.encode(),hashlib.sha256).digest(); out=[]
+    while len(out)<nbits:
+        for byte in data:
             for i in range(8):
-                out_bits.append((byte >> i) & 1)
-                if len(out_bits) >= nbits:
-                    break
-            if len(out_bits) >= nbits:
-                break
-        buf = hashlib.sha256(buf).digest()
-    return out_bits[:nbits]
-
-def embed(text: str, key: str):
-    key_b = key.encode('utf-8')
-    tokens = WORD_RE.findall(text)
-    lower = [t.lower() for t in tokens]
-    positions = []
+                out.append((byte>>i)&1); 
+                if len(out)>=nbits: break
+            if len(out)>=nbits: break
+        data=hashlib.sha256(data).digest()
+    return out[:nbits]
+def embed(text,key):
+    keyb=key.encode(); tokens=WORD_RE.findall(text); lower=[t.lower() for t in tokens]
+    pos=[]; 
     for i,t in enumerate(lower):
         for pi,(w0,w1) in enumerate(PAIRS):
-            if t==w0 or t==w1:
-                positions.append((i,pi))
-                break
-    nbits = len(positions)
-    bits = _bits_from_key(key_b, text, nbits)
-    out = tokens[:]
-    applied=0
-    for (idx,pi),bit in zip(positions,bits):
-        w0,w1 = PAIRS[pi]
-        orig = out[idx]
-        des = w0 if bit==0 else w1
-        out[idx] = des.capitalize() if orig and orig[0].isupper() else des
-        applied+=1
-    # Reconstruct text by replacing sequential word matches
+            if t==w0 or t==w1: pos.append((i,pi)); break
+    bits=_bits(keyb,text,len(pos)); out=tokens[:]
+    for (i,pi),b in zip(pos,bits):
+        w0,w1=PAIRS[pi]; orig=out[i]; des=w0 if b==0 else w1; out[i]=des.capitalize() if orig and orig[0].isupper() else des
     i=0
-    def repl(m):
+    def repl(m): 
         nonlocal i
-        val = out[i]; i+=1; return val
-    new_text = WORD_RE.sub(repl, text)
-    return new_text, {"candidates":nbits,"applied":applied}
-
-def detect(text: str, key: str):
-    key_b = key.encode('utf-8')
-    tokens = WORD_RE.findall(text)
-    lower=[t.lower() for t in tokens]
-    obs_bits=[]
-    for t in lower:
+        r=out[i]; i+=1; return r
+    import re as _re
+    return _re.sub(WORD_RE,repl,text), {"candidates":len(pos),"applied":len(pos)}
+def detect(text,key):
+    keyb=key.encode(); tokens=WORD_RE.findall(text.lower()); obs=[]
+    for t in tokens:
         for w0,w1 in PAIRS:
-            if t==w0: obs_bits.append(0); break
-            if t==w1: obs_bits.append(1); break
-    nbits = len(obs_bits)
-    exp_bits = _bits_from_key(key_b, text, nbits)
-    matches = sum(1 for o,e in zip(obs_bits,exp_bits) if o==e)
-    rate = (matches/nbits) if nbits>0 else 0.0
-    return {"observed_bits": nbits, "matches": matches, "rate": rate}
+            if t==w0: obs.append(0); break
+            if t==w1: obs.append(1); break
+    exp=_bits(keyb,text,len(obs)); matches=sum(1 for o,e in zip(obs,exp) if o==e)
+    return {"observed_bits":len(obs),"matches":matches,"rate": (matches/len(obs) if obs else 0.0)}

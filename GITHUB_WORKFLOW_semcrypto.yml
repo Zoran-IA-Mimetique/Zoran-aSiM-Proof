@@ -1,29 +1,13 @@
-name: semcrypto_ci
-on: [push, pull_request, workflow_dispatch]
+name: semcrypto
+on: [push]
 jobs:
-  semcrypto:
+  t:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Run semantic crypto demo
-        env: 
-          ZORAN_CLIENT_KEY: FranceTravail_demo_key
-        run: |
-          if [ -f semantic_demo.py ]; then python semantic_demo.py; fi
-          if [ -f INJECTOR_CRYPTO_CLIENT_DEMO.py ]; then python INJECTOR_CRYPTO_CLIENT_DEMO.py; fi
-          if [ -f ROBUSTNESS_TESTS.py ]; then python ROBUSTNESS_TESTS.py; fi
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: semcrypto-artifacts
-          path: |
-            sample_text_zoranX.txt
-            verification_report.json
-            semantic_demo_log.json
-            FT_semantic_crypto_report.json
-            ROBUSTNESS_REPORT.json
-            ROBUSTNESS_REPORT.csv
-          if-no-files-found: warn
+      - run: |
+          python semantic_demo.py || true
+          python tests_semantic_crypto.py

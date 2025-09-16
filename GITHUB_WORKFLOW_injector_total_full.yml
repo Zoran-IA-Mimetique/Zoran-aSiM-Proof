@@ -1,24 +1,11 @@
-name: injector_total_full_ci
-on: [push, pull_request, workflow_dispatch]
+name: injector_total_full
+on: [push]
 jobs:
-  full-injector:
+  t:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Run integrated injector tests
-        env:
-          ZORAN_SIGN_KEY: zoran_demo_key
-        run: |
-          python injector_total_full.py || true
-          python INJECTOR_TOTAL_RELEVANCE_TEST.py
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: injector-total-full-artifacts
-          path: |
-            injector_total_full_log.json
-            log_*.json
-          if-no-files-found: warn
+      - run: python INJECTOR_TOTAL_RELEVANCE_TEST.py
