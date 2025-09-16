@@ -1,0 +1,35 @@
+{
+  "generated": "2025-09-16T00:09:06.143086Z",
+  "files": [
+    {
+      "name": "CHECKLIST_V41.md",
+      "sha256": "8c665a16044885d7dca1e31e7e4ea84f9cf8cb56f7bd1c50030eca40ac90b8d0",
+      "bytes": 326
+    },
+    {
+      "name": "CRYPTAGE_COMPARISON.md",
+      "sha256": "a9f365501b6b7f39811a80d8d009d7ecab4349282bd14954390eef7cd474c43b",
+      "bytes": 846
+    },
+    {
+      "name": "NON_DEGENERATION_PLAN.md",
+      "sha256": "a2492e5ada241194f2720acd7e13993906f3c8626ad77d7ee263f7a921a5f30d",
+      "bytes": 1135
+    },
+    {
+      "name": "PROPAGATION_METRICS.md",
+      "sha256": "49e78116f30a6bd171d0df8e982416275c933be65fa1fa3a77c1218f90b4b5fa",
+      "bytes": 679
+    },
+    {
+      "name": "PUBLISHING_PATH.md",
+      "sha256": "e99884500a5b20f23bdaa7edfb0a649feb16807546f7a7eb6cdf84774c7e1c44",
+      "bytes": 486
+    },
+    {
+      "name": "README_v41.md",
+      "sha256": "1a3a99846699d60d0f2c4d9e0aa8791d0564ae2abf83c07d9721955edab3f482",
+      "bytes": 401
+    }
+  ]
+}
