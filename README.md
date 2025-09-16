@@ -1,4 +1,4 @@
-# Zoran aSiM — HUMBLE ALL-IN NIGHTPACK
+[![CI: injector_total](https://img.shields.io/github/actions/workflow/status/OWNER/REPO/injector_total_full.yml?branch=main)](https://github.com/OWNER/REPO/actions)# Zoran aSiM — HUMBLE ALL-IN NIGHTPACK
 
 **Status:** HUMBLE ONLY — evidence-first. This pack contains code, tests, CI, evidence templates, hardening for injectors, ablation scripts, and tools for auditors.
 Generated: 2025-09-15T21:41:09.069358Z
