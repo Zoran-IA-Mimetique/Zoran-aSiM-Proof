@@ -1,0 +1,20 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "ZORAN_openbench",
+      "version": "1.0"
+    },
+    "timestamp": "2025-09-17T13:45:01.074792+00:00"
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "Python stdlib",
+      "version": "3.x"
+    }
+  ]
+}

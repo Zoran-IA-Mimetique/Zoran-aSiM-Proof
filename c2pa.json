@@ -1,0 +1,21 @@
+{
+  "c2pa": "simulated",
+  "assertions": [
+    {
+      "label": "stds.schema.org/SoftwareSourceCode",
+      "value": {
+        "name": "ZORAN_openbench pipeline",
+        "version": "1.0"
+      }
+    },
+    {
+      "label": "org.openbenchmark/dataset",
+      "value": {
+        "name": "MimeticQA-Hard",
+        "count": 15
+      }
+    }
+  ],
+  "agent": "GPT-5 Thinking",
+  "timestamp_utc": "2025-09-17T13:45:01.074792+00:00"
+}

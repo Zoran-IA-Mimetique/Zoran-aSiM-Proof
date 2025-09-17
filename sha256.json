@@ -1,0 +1,7 @@
+{
+  "dataset.jsonl": "11975e93f7ae4095eb69753a5037dfdaead7bbe89f88ad248d97c2137c68e60a",
+  "baseline_responses.jsonl": "6bdf6734e3149cefe7eeadfcebf846adfb20a34ffcce5a2c2977cc4e9f9c2a3a",
+  "zoran_v4_responses.jsonl": "b150ff15a23831f502d082db64a0b0f4b1865c8025164d013983424b2f793863",
+  "evaluation.json": "77c03cf0b4db65e11f7fdb7fa98f4bdd12484cf019e43c778fa646d5b0487cbe",
+  "stats.json": "aaf0161d9a8e3ed72952fbaf05a65acf7d5d4a3b4b03985d14b4cf675d1fa5b8"
+}

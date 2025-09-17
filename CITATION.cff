@@ -1,4 +1,9 @@
 cff-version: 1.2.0
-title: Zoran aSiM — HUMBLE ONLY Mega Pack v2
-message: Cite responsibly.
-date-released: 2025-09-15
+message: "If you use this, please cite it."
+title: "ZORAN_openbench Proofs"
+authors:
+  - family-names: "Openbench"
+    given-names: "ZORAN"
+date-released: "2025-09-17"
+version: "1.0"
+doi: "10.0000/zoran.openbench.proofs"

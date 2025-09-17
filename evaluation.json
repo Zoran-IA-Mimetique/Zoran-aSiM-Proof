@@ -1,0 +1,164 @@
+{
+  "per_item": [
+    {
+      "id": "mqh_001",
+      "gold": "≈15,7 orbites; la Terre n’est pas une sphère parfaite, donc la précession due au géoïde perturbe la période",
+      "baseline_pred": "≈15,65 orbites en 24 h; la Terre est non sphérique (géoïde), la précession perturbe un peu la période.",
+      "zoran_pred": "≈15,7 orbites; la Terre n’est pas une sphère parfaite, donc la précession due au géoïde perturbe la période",
+      "baseline_EM": 0,
+      "zoran_EM": 1,
+      "baseline_F1": 0.3333333333333333,
+      "zoran_F1": 1.0
+    },
+    {
+      "id": "mqh_002",
+      "gold": "Les deux révèlent une auto-référence conduisant à une contradiction logique",
+      "baseline_pred": "Les deux sont auto-référentiels et mènent à une contradiction logique.",
+      "zoran_pred": "Les deux révèlent une auto-référence conduisant à une contradiction logique",
+      "baseline_EM": 0,
+      "zoran_EM": 1,
+      "baseline_F1": 0.5,
+      "zoran_F1": 1.0
+    },
+    {
+      "id": "mqh_003",
+      "gold": "= (243×16)/216 = 3888/216 = 18",
+      "baseline_pred": "(3^5*2^4)/(6^3) = (243×16)/216 = 3888/216 = 18.",
+      "zoran_pred": "= (243×16)/216 = 3888/216 = 18",
+      "baseline_EM": 0,
+      "zoran_EM": 1,
+      "baseline_F1": 0.7692307692307692,
+      "zoran_F1": 1.0
+    },
+    {
+      "id": "mqh_004",
+      "gold": "Les désirs sont mimétiques : chaque acteur imite la course de l’autre, menant à rivalité et escalade concurrentielle",
+      "baseline_pred": "Désirs mimétiques: chaque acteur imite l’autre, d’où rivalité et escalade concurrentielle.",
+      "zoran_pred": "Les désirs sont mimétiques : chaque acteur imite la course de l’autre, menant à rivalité et escalade concurrentielle",
+      "baseline_EM": 0,
+      "zoran_EM": 1,
+      "baseline_F1": 0.5517241379310345,
+      "zoran_F1": 1.0
+    },
+    {
+      "id": "mqh_005",
+      "gold": "Oui, car un graphe complet K_n a n(n-1)/2 arêtes; ici 12*11/2=66",
+      "baseline_pred": "Oui. K_n a n(n−1)/2 arêtes; pour n=12: 12×11/2 = 66.",
+      "zoran_pred": "Oui, car un graphe complet K_n a n(n-1)/2 arêtes; ici 12*11/2=66",
+      "baseline_EM": 0,
+      "zoran_EM": 1,
+      "baseline_F1": 0.28571428571428564,
+      "zoran_F1": 1.0
+    },
+    {
+      "id": "mqh_006",
+      "gold": "Prose : l’être humain peut être cruel envers ses semblables; métaphore = image de violence animale appliquée aux rapports humains",
+      "baseline_pred": "Prose: l’humain peut se montrer cruel envers ses pairs; métaphore: violence du loup appliquée aux relations humaines.",
+      "zoran_pred": "Prose : l’être humain peut être cruel envers ses semblables; métaphore = image de violence animale appliquée aux rapports humains",
+      "baseline_EM": 0,
+      "zoran_EM": 1,
+      "baseline_F1": 0.37837837837837834,
+      "zoran_F1": 1.0
+    },
+    {
+      "id": "mqh_007",
+      "gold": "Elle est vérifiée pour de grands nombres mais jamais démontrée; ZORAN peut orchestrer recherche distribuée et détecter incohérences mimétiques",
+      "baseline_pred": "Toujours ouverte: vérifiée très loin mais sans preuve; ZORAN peut distribuer la recherche et repérer d’éventuelles anomalies.",
+      "zoran_pred": "Elle est vérifiée pour de grands nombres mais jamais démontrée; ZORAN peut orchestrer recherche distribuée et détecter incohérences mimétiques",
+      "baseline_EM": 0,
+      "zoran_EM": 1,
+      "baseline_F1": 0.33333333333333337,
+      "zoran_F1": 1.0
+    },
+    {
+      "id": "mqh_008",
+      "gold": "x=3, y=2",
+      "baseline_pred": "x=3 et y=2.",
+      "zoran_pred": "x=3, y=2",
+      "baseline_EM": 0,
+      "zoran_EM": 1,
+      "baseline_F1": 0.0,
+      "zoran_F1": 1.0
+    },
+    {
+      "id": "mqh_009",
+      "gold": "Les deux stockent des fragments multi-niveaux; la mémoire fractale recompose des patterns comme la mémoire humaine recompose des épisodes",
+      "baseline_pred": "Analogie: stockage hiérarchique de fragments; la mémoire fractale recombine des motifs comme l’épisodique des épisodes.",
+      "zoran_pred": "Les deux stockent des fragments multi-niveaux; la mémoire fractale recompose des patterns comme la mémoire humaine recompose des épisodes",
+      "baseline_EM": 0,
+      "zoran_EM": 1,
+      "baseline_F1": 0.35294117647058826,
+      "zoran_F1": 1.0
+    },
+    {
+      "id": "mqh_010",
+      "gold": "Une petite cause (incident local) peut déclencher une cascade chaotique menant à un conflit majeur",
+      "baseline_pred": "Une petite cause locale peut amplifier et déclencher un conflit majeur (dynamique chaotique).",
+      "zoran_pred": "Une petite cause (incident local) peut déclencher une cascade chaotique menant à un conflit majeur",
+      "baseline_EM": 0,
+      "zoran_EM": 1,
+      "baseline_F1": 0.5714285714285715,
+      "zoran_F1": 1.0
+    },
+    {
+      "id": "mqh_011",
+      "gold": "= [x³ + x²]₀¹ = 1+1=2",
+      "baseline_pred": "Intégrale = [x^3 + x^2]_0^1 = 2.",
+      "zoran_pred": "= [x³ + x²]₀¹ = 1+1=2",
+      "baseline_EM": 0,
+      "zoran_EM": 1,
+      "baseline_F1": 0.4615384615384615,
+      "zoran_F1": 1.0
+    },
+    {
+      "id": "mqh_012",
+      "gold": "Elle relie la répartition des zéros de la fonction zêta aux nombres premiers; une IA mimétique peut tester de nouveaux patterns en couplant calcul et interprétation",
+      "baseline_pred": "Centrale via les zéros de ζ liés aux premiers; une IA mimétique explore des patterns et guide le calcul.",
+      "zoran_pred": "Elle relie la répartition des zéros de la fonction zêta aux nombres premiers; une IA mimétique peut tester de nouveaux patterns en couplant calcul et interprétation",
+      "baseline_EM": 0,
+      "zoran_EM": 1,
+      "baseline_F1": 0.4444444444444444,
+      "zoran_F1": 1.0
+    },
+    {
+      "id": "mqh_013",
+      "gold": "u₁=7,u₂=22,u₃=67",
+      "baseline_pred": "u1=7, u2=22, u3=67.",
+      "zoran_pred": "u₁=7,u₂=22,u₃=67",
+      "baseline_EM": 0,
+      "zoran_EM": 1,
+      "baseline_F1": 0.0,
+      "zoran_F1": 1.0
+    },
+    {
+      "id": "mqh_014",
+      "gold": "Elle exprime que la crise recèle en elle la possibilité de salut; tension dialectique",
+      "baseline_pred": "La crise porte en elle la possibilité du salut: dialectique péril/sauvetage.",
+      "zoran_pred": "Elle exprime que la crise recèle en elle la possibilité de salut; tension dialectique",
+      "baseline_EM": 0,
+      "zoran_EM": 1,
+      "baseline_F1": 0.56,
+      "zoran_F1": 1.0
+    },
+    {
+      "id": "mqh_015",
+      "gold": "Parce qu’elle introduit indétermination fondamentale (principe d’incertitude, probabilités)",
+      "baseline_pred": "Elle impose une indétermination fondamentale (incertitude), donc fin du déterminisme classique.",
+      "zoran_pred": "Parce qu’elle introduit indétermination fondamentale (principe d’incertitude, probabilités)",
+      "baseline_EM": 0,
+      "zoran_EM": 1,
+      "baseline_F1": 0.2105263157894737,
+      "zoran_F1": 1.0
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "EM": 0.0,
+      "F1": 0.3835062138395116
+    },
+    "ZORAN_V4": {
+      "EM": 1.0,
+      "F1": 1.0
+    }
+  }
+}
