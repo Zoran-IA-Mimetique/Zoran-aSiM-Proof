@@ -1,4 +1,3 @@
-Creative-Ethic BY v1.0 — Open Reuse with Ethical Attribution
-Author: Frédéric Tabary — Institut🦋 IA Inc.
-Conditions: Reuse, adapt, distribute, but maintain ethical coherence et cite source.
-Based on: CC-BY-4.0
+Creative‑Ethic BY v1.0
+(c) 2025 Frédéric Tabary — Institut🦋 IA Inc.
+Usage autorisé avec attribution, respect éthique et traçabilité C2PA/EthicChain/ProofChain.
