@@ -1,0 +1,6 @@
+{
+  "stage": "compare",
+  "description": "Aligner la proposition de loi avec les corpus connus (physique, bio, info, éthique).",
+  "inputs": ["law_candidate", "reference_corpus"],
+  "outputs": ["similarity_score", "coherence_delta"]
+}

@@ -1,0 +1,6 @@
+{
+  "source_law": "H=-Σp log p",
+  "translation": "ΔSₑ=-ΔCₑ log(λ)",
+  "domain": "information→cohérence",
+  "expected_S": ">1"
+}

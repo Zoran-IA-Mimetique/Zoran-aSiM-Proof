@@ -1,0 +1,6 @@
+{
+  "stage": "reformulate",
+  "description": "Créer des isomorphes de la loi candidate pour tester sa stabilité.",
+  "methods": ["différentiel", "statistique", "algorithmique"],
+  "output": "law_isomorphs"
+}

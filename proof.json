@@ -1,0 +1,6 @@
+{
+  "stage": "proof",
+  "description": "Relier les preuves empiriques, logiques, éthiques et symboliques avec le modèle C2PA/ProofChain.",
+  "methods": ["C2PA", "SHA512i", "EthicChain"],
+  "output": "proof_validated"
+}

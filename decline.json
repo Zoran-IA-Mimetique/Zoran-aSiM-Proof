@@ -1,0 +1,6 @@
+{
+  "stage": "decline",
+  "description": "Décliner la loi dans différents domaines d’application.",
+  "domains": ["biologie", "énergie", "cognition", "économie régénérative"],
+  "output": "domain_specific_laws"
+}

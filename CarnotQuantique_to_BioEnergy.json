@@ -1,0 +1,6 @@
+{
+  "source_law": "η=1-Tc/Th",
+  "translation": "ηZQ=ηCarnot+(ΨΛ_c·ΔC_ethic)",
+  "domain": "thermo→bioénergie",
+  "expected_S": ">1"
+}

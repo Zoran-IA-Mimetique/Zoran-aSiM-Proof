@@ -1,0 +1,16 @@
+{
+  "name": "UNIVERSAL_LAW_ENGINE",
+  "version": "Ω7.x",
+  "description": "Moteur à génération de lois fondamentales basé sur l’équation S = (β·ΔCₑ)/λ > 1 ⇒ regen.",
+  "author": "Frédéric Tabary — Institut🦋 IA Inc.",
+  "equation": "S = (β·ΔCₑ)/λ",
+  "criteria": "S > 1 ⇒ regen",
+  "modules": ["compare", "reformulate", "decline", "proof"],
+  "dependencies": {
+    "C2PA": true,
+    "SHA512i": true,
+    "EthicChain": true
+  },
+  "license": "Creative-Ethic BY v1.0",
+  "doi": "10.5281/zenodo.17502010"
+}

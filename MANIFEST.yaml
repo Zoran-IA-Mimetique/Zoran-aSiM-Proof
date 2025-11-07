@@ -1,0 +1,22 @@
+name: UNIVERSAL_LAW_ENGINE
+version: Ω7.x
+doi_ref: 10.5281/zenodo.17502010
+authors:
+  - name: Frédéric Tabary
+    affiliation: Institut🦋 IA Inc.
+license: Creative-Ethic BY v1.0
+artifacts:
+  - README.md
+  - UNIVERSAL_LAW_ENGINE.json
+  - CODEX_LAWS.json
+  - compare.json
+  - reformulate.json
+  - decline.json
+  - proof.json
+  - E_equals_mc2_to_S_duality.json
+  - Shannon_to_ΔSε.json
+  - CarnotQuantique_to_BioEnergy.json
+  - C2PA_claim.json
+  - SHA512i.log
+reproducibility:
+  seeds: [13, 42, 101]

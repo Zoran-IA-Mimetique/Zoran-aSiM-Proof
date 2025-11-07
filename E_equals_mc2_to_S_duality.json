@@ -1,0 +1,6 @@
+{
+  "source_law": "E=mc^2",
+  "target": "S=(β·ΔCₑ)/λ",
+  "interpretation": "Conservation du sens ↔ énergie",
+  "expected_S": ">1"
+}
