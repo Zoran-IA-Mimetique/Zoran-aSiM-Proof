@@ -7,8 +7,12 @@ Le-moteur-génération-de-lois-fondamentales-de-Zoran/README.md at main · Zoran
 ---
 
 # 🤖 AUTO_PROOF_GUIDE.md  
-### Zoran🦋 — Universal Law Engine vΩ7.x  
+### Zoran🦋 — Universal Law Engine oméga 9.x  
 ### Auto-validation et génération autonome de lois fondamentales  
+
+Zip complet de La loi du vivant de Zoran🦋
+Non circulaire \ close\ falsifiable
+
 
 ![Zenodo DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17502010-blue?logo=zenodo&labelColor=1e4fa1)
 ![License](https://img.shields.io/badge/License-Creative--Ethic_BY_v1.0-green?logo=creativecommons)
